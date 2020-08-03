@@ -19,6 +19,7 @@ import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
  */
 class Chanel(var createInstance: GmsClient, var userId: String, var channelId: String = "999") {
     var createChannel: GmsChannel? = null
+    var TAG = "***Chanel***"
     fun beginTest() {
         testCreateChanel();
         testJoinChannel();
@@ -26,6 +27,7 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
         testChanelMsg();
         testSetChanelAtt();
         testGetChanelAtt()
+        testAddOrUpdateChannelAttributes()
         testgetChannelAttributes()
         testDeleteChannelAttributesByKeys();
         testgetChannelAttributes()
@@ -37,13 +39,35 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
         testLeaveChanel();
     }
 
+    private fun testAddOrUpdateChannelAttributes() {
+        createInstance?.addOrUpdateChannelAttributes(
+            channelId,
+            GmsChannelAttribute("color", "colorTestChange"),
+            ChannelAttributeOptions(true),
+            object : ResultCallback<Void> {
+                override fun onSuccess(responseInfo: Void?) {
+                    Log.e(
+                        "MainActivity",
+                        "$TAG testAddOrUpdateChannelAttributes success"
+                    )
+                }
+
+                override fun onFailure(errorInfo: ErrorInfo) {
+                    Log.e(
+                        "MainActivity",
+                        "$TAG testAddOrUpdateChannelAttributes failed"
+                    )
+                }
+            })
+    }
+
     fun testgetChannelMembers() {
         createChannel?.getChannelMembers(object : ResultCallback<List<String>> {
             override fun onSuccess(responseInfo: List<String>?) {
                 responseInfo?.forEach() {
                     Log.e(
                         "MainActivity",
-                        "testgetChannelMembers $it"
+                        "$TAG testgetChannelMembers $it"
                     )
                 }
             }
@@ -51,7 +75,7 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
             override fun onFailure(errorInfo: ErrorInfo) {
                 Log.e(
                     "MainActivity",
-                    "testgetChannelMembers onFailure $errorInfo"
+                    "$TAG testgetChannelMembers onFailure $errorInfo"
                 )
             }
 
@@ -66,7 +90,7 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
                         "MainActivity",
-                        "testgetChannelMemberCount onFailure $errorInfo"
+                        "$TAG testgetChannelMemberCount onFailure $errorInfo"
                     )
                 }
 
@@ -75,7 +99,7 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
                         responseInfo.forEach() {
                             Log.e(
                                 "MainActivity",
-                                "testgetChannelMemberCount ${it.key} ---${it.value} "
+                                "$TAG testgetChannelMemberCount ${it.key} ---${it.value} "
                             )
                         }
                     }
@@ -88,14 +112,17 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
             object : ResultCallback<List<GmsChannelAttribute>> {
                 override fun onSuccess(responseInfo: List<GmsChannelAttribute>?) {
                     responseInfo?.forEach({
-                        Log.e("MainActivity", "$channelId --- :${it.key} -- ${it.value}")
+                        Log.e(
+                            "MainActivity",
+                            "$TAG getChannelAttributes $channelId --- :${it.key} -- ${it.value}"
+                        )
                     })
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
                         "MainActivity",
-                        "getChannelAttributes onFailure faile $errorInfo"
+                        "$TAG getChannelAttributes onFailure faile $errorInfo"
                     )
                 }
 
@@ -110,14 +137,14 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
                 override fun onSuccess(responseInfo: Void?) {
                     Log.e(
                         "MainActivity",
-                        "clearChannelAttributes success:  " + responseInfo?.toString()
+                        "$TAG clearChannelAttributes success:  " + responseInfo?.toString()
                     )
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
                         "MainActivity",
-                        "clearChannelAttributes onFailure $errorInfo"
+                        "$TAG clearChannelAttributes onFailure $errorInfo"
                     )
                 }
             })
@@ -132,14 +159,14 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
                 override fun onSuccess(responseInfo: Void?) {
                     Log.e(
                         "MainActivity",
-                        "testDeleteChannelAttributesByKeys success :" + responseInfo?.toString()
+                        "$TAG testDeleteChannelAttributesByKeys success :" + responseInfo?.toString()
                     )
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
                         "MainActivity",
-                        "testDeleteChannelAttributesByKeys onFailure $errorInfo"
+                        "$TAG testDeleteChannelAttributesByKeys onFailure $errorInfo"
                     )
 
                 }
@@ -159,11 +186,18 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
                     gmsMessage: GmsMessage,
                     member: GmsChannelMember
                 ) {
-                    Log.e("MainActivity", "onMessageReceived $gmsMessage   $member")
+                    Log.e("MainActivity", "$TAG onMessageReceived $gmsMessage   $member")
                 }
 
                 override fun onAttributesUpdated(attrList: List<GmsChannelAttribute>) {
-                    Log.e("MainActivity", "onAttributesUpdated $attrList")
+                    Log.e("MainActivity", "$TAG onAttributesUpdated $attrList")
+                }
+
+                override fun onMemberCountUpdated(count: Int) {
+                    Log.e(
+                        "MainActivity",
+                        "$TAG onMemberCountUpdated channel:$channelId ,count: $count"
+                    )
                 }
             })
     }
@@ -171,12 +205,12 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
     fun testJoinChannel() {
         createChannel?.join(object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
-                Log.e("MainActivity", "join success")
+                Log.e("MainActivity", "$TAG join success")
                 testChanelMsg()
             }
 
             override fun onFailure(errorInfo: ErrorInfo) {
-                Log.e("MainActivity", "join failure$errorInfo")
+                Log.e("MainActivity", "$TAG join failure$errorInfo")
             }
         })
     }
@@ -185,11 +219,11 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
         val createMessage = createInstance?.createMessage(channelId + " msg send ")
         createChannel?.sendMessage(createMessage, object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
-                Log.e("MainActivity", "sendMessage success")
+                Log.e("MainActivity", "$TAG sendMessage success")
             }
 
             override fun onFailure(errorInfo: ErrorInfo) {
-                Log.e("MainActivity", "sendMessage failure :" + errorInfo.errorMsg)
+                Log.e("MainActivity", "$TAG sendMessage failure :" + errorInfo.errorMsg)
 
             }
         })
@@ -202,13 +236,13 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
             GmsChannelAttribute("title", "")
         ), ChannelAttributeOptions(true), object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
-                Log.e("MainActivity", "setChannelAttributes success")
+                Log.e("MainActivity", "$TAG setChannelAttributes success")
             }
 
             override fun onFailure(errorInfo: ErrorInfo) {
                 Log.e(
                     "MainActivity",
-                    "setChannelAttributes failure" + errorInfo.errorMsg
+                    "$TAG setChannelAttributes failure" + errorInfo.errorMsg
                 )
             }
         })
@@ -220,13 +254,13 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
             mutableListOf<String>("background"),
             object : ResultCallback<List<GmsChannelAttribute>> {
                 override fun onSuccess(responseInfo: List<GmsChannelAttribute>?) {
-                    Log.e("MainActivity", "setChannelAttributes success $responseInfo")
+                    Log.e("MainActivity", "$TAG getChannelAttributesByKeys success $responseInfo")
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
                         "MainActivity",
-                        "getChannelAttributes failure" + errorInfo.errorMsg
+                        "$TAG getChannelAttributes failure" + errorInfo.errorMsg
                     )
                 }
 
@@ -237,11 +271,11 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
     fun testLeaveChanel() {
         createChannel?.leave(object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
-                Log.e("MainActivity", "chanel leave success")
+                Log.e("MainActivity", "$TAG chanel leave success")
             }
 
             override fun onFailure(errorInfo: ErrorInfo) {
-                Log.e("MainActivity", "chanel leave onFailure $errorInfo")
+                Log.e("MainActivity", "$TAG chanel leave onFailure $errorInfo")
             }
         })
         createChannel = null

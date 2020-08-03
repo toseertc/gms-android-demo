@@ -17,7 +17,7 @@ class LocalUser(var createInstance: GmsClient, var userId: String) {
     val TAG = LocalUser::class.java.name
     fun beginTest() {
         testSetLocalAtt()
-        testGetAtt()
+        testgetUserAttributes()
         testaddOrUpdateLocalUserAttributes()
         testdeleteLocalUserAttributesByKeys()
         testgetUserAttributes()
@@ -157,22 +157,6 @@ class LocalUser(var createInstance: GmsClient, var userId: String) {
                     )
                 }
 
-            })
-    }
-
-    fun testGetAtt() {
-        createInstance?.getUserAttributes(userId!!,
-            object : ResultCallback<List<GmsAttribute>> {
-                override fun onSuccess(responseInfo: List<GmsAttribute>?) {
-                    Log.e(TAG, "getUserAttributes success $responseInfo")
-                }
-
-                override fun onFailure(errorInfo: ErrorInfo) {
-                    Log.e(
-                        TAG,
-                        "getUserAttributes failure" + errorInfo.errorMsg
-                    )
-                }
             })
     }
 }

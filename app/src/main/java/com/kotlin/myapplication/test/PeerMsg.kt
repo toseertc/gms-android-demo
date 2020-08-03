@@ -2,6 +2,7 @@ package com.duobeiyun.generamessagedemo.test
 
 import android.util.Log
 import com.duobeiyun.generamessagesdk.ErrorInfo
+import com.duobeiyun.generamessagesdk.PeerSubscriptionOption
 import com.duobeiyun.generamessagesdk.ResultCallback
 import com.duobeiyun.generamessagesdk.client.GmsClient
 import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
@@ -14,7 +15,7 @@ import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
  */
 
 class PeerMsg(var createInstance: GmsClient, var userId: String) {
-    val TAG = "PeerMsg"
+    val TAG = "***PeerMsg----"
     fun beginTest() {
         testqueryPeersOnlineStatus()
         testsubscribePeersOnlineStatus()
@@ -25,18 +26,18 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
 
     fun testqueryPeersBySubscriptionOption() {
         createInstance?.queryPeersBySubscriptionOption(
-            0,
+            PeerSubscriptionOption.ONLINE,
             object : ResultCallback<java.util.Set<String>> {
                 override fun onSuccess(responseInfo: java.util.Set<String>?) {
-                    Log.e("$TAG MainActivity", "testqueryPeersBySubscriptionOption begin ")
+                    Log.e("$TAG", "testqueryPeersBySubscriptionOption begin ")
                     responseInfo?.forEach() {
-                        Log.e("$TAG MainActivity", "testqueryPeersBySubscriptionOption $it ")
+                        Log.e("$TAG ", "testqueryPeersBySubscriptionOption $it ")
                     }
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
-                        "$TAG MainActivity",
+                        "$TAG ",
                         "testqueryPeersBySubscriptionOption failed ${errorInfo} "
                     )
                 }
@@ -45,7 +46,7 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
     }
 
     fun testsendMessageToPeer() {
-        var targetUid = userId
+        var targetUid = "1111"
         var text = "发送给222"
         createInstance?.sendMessageToPeer(
             GmsMessage(
@@ -54,11 +55,11 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
                 isOfflineMessage = true
             ), object : ResultCallback<Void> {
                 override fun onSuccess(responseInfo: Void?) {
-                    Log.e("$TAG MainActivity", "sendMessageToPeer success $responseInfo")
+                    Log.e("$TAG ", "sendMessageToPeer success $responseInfo")
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
-                    Log.e("$TAG MainActivity", "sendMessageToPeer faid ${errorInfo}")
+                    Log.e("$TAG ", "sendMessageToPeer faid ${errorInfo}")
                 }
 
             })
@@ -72,14 +73,14 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
             object : ResultCallback<Void> {
                 override fun onSuccess(responseInfo: Void?) {
                     Log.e(
-                        "$TAG MainActivity",
+                        "$TAG ",
                         "testunsubscribePeersOnlineStatus success $responseInfo"
                     )
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
-                        "$TAG MainActivity",
+                        "$TAG ",
                         "testunsubscribePeersOnlineStatus faild ${errorInfo}"
                     )
                 }
@@ -93,17 +94,18 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
         set.add("2")
         set.add("3")
         set.add("4")
+        set.add("1111")
         createInstance?.subscribePeersOnlineStatus(
             set,
             object : ResultCallback<Void> {
                 override fun onSuccess(responseInfo: Void?) {
-                    Log.e("$TAG MainActivity", "queryPeersOnlineStatus success $responseInfo")
+                    Log.e("$TAG ", "testsubscribePeersOnlineStatus success $responseInfo")
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
-                        "$TAG MainActivity",
-                        "queryPeersOnlineStatus failure" + errorInfo.errorMsg
+                        "$TAG ",
+                        "testsubscribePeersOnlineStatus failure" + errorInfo.errorMsg
                     )
                 }
 
@@ -115,15 +117,16 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
         set.add("2")
         set.add("3")
         set.add("4")
+        set.add("1111")
         createInstance?.queryPeersOnlineStatus(set,
             object : ResultCallback<Map<String, Boolean>> {
                 override fun onSuccess(responseInfo: Map<String, Boolean>?) {
-                    Log.e("$TAG MainActivity", "queryPeersOnlineStatus success $responseInfo")
+                    Log.e("$TAG ", "queryPeersOnlineStatus success $responseInfo")
                 }
 
                 override fun onFailure(errorInfo: ErrorInfo) {
                     Log.e(
-                        "$TAG MainActivity",
+                        "$TAG ",
                         "queryPeersOnlineStatus failure" + errorInfo.errorMsg
                     )
                 }

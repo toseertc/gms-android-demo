@@ -5,7 +5,9 @@ import android.util.Log
 import com.duobeiyun.generamessagedemo.test.invitee.Invitee
 import com.duobeiyun.generamessagesdk.ErrorInfo
 import com.duobeiyun.generamessagesdk.ResultCallback
+import com.duobeiyun.generamessagesdk.bean.LoginParams
 import com.duobeiyun.generamessagesdk.client.GmsClient
+import com.duobeiyun.generamessagesdk.utils.TokenUtils
 
 /*
  * Author: cqr
@@ -26,8 +28,15 @@ fun main() {
 }
 
 class TestManager(var createInstance: GmsClient, var userId: String, var context: Context) {
+    val TEST_APPID = "1824a0bff47e4f47bdce956c5e9025ad";
+    val TEST_APPKEY = "24f5595baa8645fd947051e75ffcdcc4";
+    var token: String? = null
+    var timestamp: Long? = null
     private fun testLogin() {
-        createInstance?.login(userId!!,
+        timestamp = System.currentTimeMillis();
+        token = TokenUtils.createToke(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
+
+        createInstance?.login(LoginParams(token!!, userId!!, timestamp!!),
             object : ResultCallback<Void> {
                 override fun onSuccess(responseInfo: Void?) {
                     Log.e("MainActivity", "login success")

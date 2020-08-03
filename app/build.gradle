@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     signingConfigs {
         debug {
-            storeFile file('D:\\demo\\DB_GMS_AAR_Demo\\keystories.jks')
+            storeFile file('D:\\demo\\DB_GMS_AAR_Demo\\gms-android-demo\\keystories.jks')
             storePassword 'gmsduobei'
             keyAlias 'gmsduobei'
             keyPassword 'gmsduobei'
@@ -46,13 +46,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
-    implementation (name:
-            'release_generamessagesdk_1.0_69_20200721172428_bc0976eb4381b4f3f9e2e24fd01974bd257acaf3'
-            ,ext:'aar')
-    implementation('io.socket:socket.io-client:1.0.0') {
+    implementation('com.duobeiyun.generamessagesdk:gmssdk:0.8') {
         // excluding org.json which is provided by Android
         exclude group: 'org.json', module: 'json'
     }
-    implementation 'com.google.code.gson:gson:2.6.2'
 }
