@@ -27,8 +27,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     var createChannel999: GmsChannel? = null
     var createChannel111: GmsChannel? = null
     var userId: String? = null
-    val TEST_APPID = "1824a0bff47e4f47bdce956c5e9025ad";
-    val TEST_APPKEY = "24f5595baa8645fd947051e75ffcdcc4";
+    //从官网获取，或者直接找相关人员
+    val TEST_APPID = "";
+    val TEST_APPKEY = "";
     var testManger: TestManager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

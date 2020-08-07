@@ -351,10 +351,10 @@ androidx.core.hardware.fingerprint.FingerprintManagerCompat$AuthenticationCallba
 androidx.core.os.BundleKt
 okhttp3.OkHttpClient:
     public okhttp3.Cache cache()
-com.google.gson.internal.LinkedHashTreeMap$Node
 androidx.core.view.accessibility.AccessibilityViewCommand$MoveWindowArguments:
     public int getX()
     public int getY()
+com.google.gson.internal.LinkedHashTreeMap$Node
 androidx.core.app.ActivityCompat$SharedElementCallback21Impl
 kotlin.collections.ArraysKt___ArraysKt$withIndex$4
 androidx.core.util.LongSparseArrayKt
@@ -514,6 +514,7 @@ androidx.core.R$layout
 okhttp3.internal.cache.DiskLruCache
 androidx.lifecycle.Transformations$2
 kotlin.BuilderInference
+kotlin.jdk7.AutoCloseableKt
 kotlin.LazyKt__LazyKt
 kotlin.HashCodeKt
 androidx.core.os.EnvironmentCompat
@@ -535,8 +536,8 @@ kotlin.coroutines.experimental.jvm.internal.CoroutineImpl
 kotlin.sequences.SequencesKt___SequencesKt$asIterable$$inlined$Iterable$1
 kotlin.SafePublicationLazyImpl$Companion
 kotlin.properties.ObservableProperty
-kotlin.jvm.internal.StringCompanionObject
 androidx.core.util.RangeKt$toClosedRange$1
+kotlin.jvm.internal.StringCompanionObject
 androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatApi25Impl
 androidx.loader.content.ModernAsyncTask$4
 kotlin.collections.MapsKt__MapsJVMKt:
@@ -560,6 +561,12 @@ androidx.appcompat.resources.R$string
 kotlin.jvm.internal.markers.KMutableCollection
 com.duobeiyun.generamessagedemo.test.TestManager:
     private final void testLogout()
+    public final java.lang.String getTEST_APPID()
+    public final java.lang.String getTEST_APPKEY()
+    public final java.lang.String getToken()
+    public final void setToken(java.lang.String)
+    public final java.lang.Long getTimestamp()
+    public final void setTimestamp(java.lang.Long)
     public final com.duobeiyun.generamessagedemo.test.Chanel getChanel()
     public final void setChanel(com.duobeiyun.generamessagedemo.test.Chanel)
     public final com.duobeiyun.generamessagedemo.test.LocalUser getLocalAttr()
@@ -2876,8 +2883,8 @@ androidx.fragment.app.Fragment$SavedState$1
 androidx.customview.R$string
 androidx.core.graphics.PointKt
 androidx.appcompat.app.ActionBarDrawerToggleHoneycomb
-androidx.core.util.SparseBooleanArrayKt
 androidx.core.net.UriKt
+androidx.core.util.SparseBooleanArrayKt
 androidx.core.widget.TextViewKt$addTextChangedListener$textWatcher$1
 androidx.core.animation.AnimatorKt$addListener$3
 okhttp3.package-info
@@ -3073,16 +3080,12 @@ com.google.gson.Gson$2:
 com.google.gson.internal.bind.JsonTreeWriter:
     public com.google.gson.stream.JsonWriter value(double)
 com.kotlin.myapplication.MainActivity:
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
     public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
     public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel999()
     public final void setCreateChannel999(com.duobeiyun.generamessagesdk.channel.GmsChannel)
     public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel111()
     public final void setCreateChannel111(com.duobeiyun.generamessagesdk.channel.GmsChannel)
-    public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
-    public final java.lang.String getTEST_APPID()
-    public final java.lang.String getTEST_APPKEY()
     public final com.duobeiyun.generamessagedemo.test.TestManager getTestManger()
     public final void setTestManger(com.duobeiyun.generamessagedemo.test.TestManager)
     public void _$_clearFindViewByIdCache()
@@ -3177,8 +3180,8 @@ androidx.core.app.ActivityCompat$1
 kotlin.ranges.UIntRange$Companion
 kotlin.sequences.SequencesKt___SequencesKt$minus$2
 okio.DeflaterSink
-androidx.appcompat.widget.AbsActionBarView$1
 androidx.appcompat.app.ActionBar$NavigationMode
+androidx.appcompat.widget.AbsActionBarView$1
 androidx.appcompat.view.menu.MenuPopupHelper:
     public void <init>(android.content.Context,androidx.appcompat.view.menu.MenuBuilder)
     public void <init>(android.content.Context,androidx.appcompat.view.menu.MenuBuilder,android.view.View)
@@ -3451,8 +3454,8 @@ kotlin.collections.CollectionsKt__IterablesKt:
     public static final kotlin.Pair unzip(java.lang.Iterable)
     public void <init>()
 androidx.core.provider.FontsContractCompat$4
-kotlin.text.Regex$findAll$2
 kotlin.io.ExceptionsKt
+kotlin.text.Regex$findAll$2
 androidx.core.text.HtmlCompat
 androidx.core.view.accessibility.AccessibilityRecordCompat:
     public void <init>(java.lang.Object)
@@ -3631,6 +3634,7 @@ kotlin.jvm.internal.EnumCompanionObject
 androidx.vectordrawable.graphics.drawable.VectorDrawableCommon:
     protected void onBoundsChange(android.graphics.Rect)
 androidx.viewpager.widget.ViewPager
+kotlin.internal.jdk7.JDK7PlatformImplementations
 androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper:
     private static final java.lang.String TAG
     private static final int DEFAULT_AUTO_SIZE_MIN_TEXT_SIZE_IN_SP
@@ -3689,6 +3693,8 @@ kotlin.jvm.functions.Function1
 kotlin.reflect.KClass$DefaultImpls
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat
 kotlin.jvm.internal.FloatCompanionObject
+androidx.core.view.ViewPropertyAnimatorListenerAdapter:
+    public void onAnimationEnd(android.view.View)
 com.google.gson.internal.bind.TypeAdapters$27:
     private static final java.lang.String YEAR
     private static final java.lang.String MONTH
@@ -3696,8 +3702,6 @@ com.google.gson.internal.bind.TypeAdapters$27:
     private static final java.lang.String HOUR_OF_DAY
     private static final java.lang.String MINUTE
     private static final java.lang.String SECOND
-androidx.core.view.ViewPropertyAnimatorListenerAdapter:
-    public void onAnimationEnd(android.view.View)
 androidx.constraintlayout.widget.R
 androidx.core.graphics.BlendModeUtils
 kotlin.experimental.ExperimentalTypeInference
@@ -3757,8 +3761,8 @@ androidx.appcompat.widget.ActivityChooserView$ActivityChooserViewAdapter
 kotlin.collections.unsigned.UArraysKt___UArraysKt
 androidx.appcompat.graphics.drawable.DrawerArrowDrawable
 kotlin.sequences.DropWhileSequence
-com.google.gson.JsonSerializer
 androidx.core.app.NotificationCompat$CarExtender$UnreadConversation$Builder
+com.google.gson.JsonSerializer
 kotlin.time.TimeSource$Companion
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2
 androidx.core.graphics.drawable.DrawableKt
@@ -3793,6 +3797,7 @@ org.intellij.lang.annotations.JdkConstants$FontStyle
 androidx.core.graphics.ImageDecoderKt$decodeDrawable$1
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$8
 androidx.loader.R
+androidx.viewpager.widget.ViewPager$DecorView
 com.google.gson.Gson:
     public com.google.gson.JsonElement toJsonTree(java.lang.Object)
     public com.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
@@ -3808,7 +3813,6 @@ com.google.gson.Gson:
     static final boolean DEFAULT_COMPLEX_MAP_KEYS
     static final boolean DEFAULT_SPECIALIZE_FLOAT_VALUES
     private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
-androidx.viewpager.widget.ViewPager$DecorView
 androidx.appcompat.resources.R$drawable:
     private void <init>()
 kotlin.collections.AbstractMap
@@ -4046,12 +4050,12 @@ androidx.core.graphics.TypefaceCompatApi28Impl:
     private static final java.lang.String DEFAULT_FAMILY
 kotlin.math.MathKt
 androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags
+androidx.core.provider.FontsContractCompat$FontRequestCallback$FontRequestFailReason
 androidx.loader.app.LoaderManagerImpl$LoaderInfo:
     void <init>(int,android.os.Bundle,androidx.loader.content.Loader,androidx.loader.content.Loader)
     androidx.loader.content.Loader setCallback(androidx.lifecycle.LifecycleOwner,androidx.loader.app.LoaderManager$LoaderCallbacks)
     boolean isCallbackWaitingForData()
     public void onLoadComplete(androidx.loader.content.Loader,java.lang.Object)
-androidx.core.provider.FontsContractCompat$FontRequestCallback$FontRequestFailReason
 kotlin.internal.LowPriorityInOverloadResolution
 kotlin.ExceptionsKt
 kotlin.coroutines.CoroutineContext$plus$1
@@ -4973,7 +4977,6 @@ kotlin.jvm.internal.markers.KMutableListIterator
 kotlin.coroutines.experimental.migration.CoroutinesMigrationKt
 kotlin.ParameterName
 kotlin.collections.CollectionsKt__IteratorsJVMKt$iterator$1
-kotlin.contracts.ContractBuilder$DefaultImpls
 androidx.core.view.ViewParentCompat:
     private void <init>()
     public static boolean requestSendAccessibilityEvent(android.view.ViewParent,android.view.View,android.view.accessibility.AccessibilityEvent)
@@ -4987,6 +4990,7 @@ androidx.core.view.ViewParentCompat:
     private static int[] getTempNestedScrollConsumed()
     private static final java.lang.String TAG
     private static int[] sTempNestedScrollConsumed
+kotlin.contracts.ContractBuilder$DefaultImpls
 androidx.activity.R$styleable
 kotlin.jvm.functions.Function4
 androidx.core.widget.PopupWindowCompat:
@@ -5270,8 +5274,8 @@ kotlin.collections.Grouping
 kotlin.text.CharDirectionality
 androidx.savedstate.R
 androidx.annotation.GuardedBy
-kotlin.ranges.ULongProgressionIterator
 kotlin.jvm.KotlinReflectionNotSupportedError
+kotlin.ranges.ULongProgressionIterator
 androidx.core.R$integer
 kotlin.jvm.JvmSuppressWildcards
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$6
@@ -5813,6 +5817,7 @@ androidx.core.content.res.ColorStateListInflaterCompat:
 com.kotlin.myapplication.R$styleable
 kotlin.collections.ShortIterator
 androidx.core.text.TextDirectionHeuristicsCompat$AnyStrong
+org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
 com.google.gson.JsonArray:
     com.google.gson.JsonArray deepCopy()
     public void add(java.lang.Boolean)
@@ -5839,7 +5844,6 @@ com.google.gson.JsonArray:
     public short getAsShort()
     public boolean getAsBoolean()
     synthetic bridge com.google.gson.JsonElement deepCopy()
-org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
 kotlin.coroutines.experimental.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$buildContinuationByInvokeCall$continuation$1
 kotlin.PreconditionsKt
 kotlin.coroutines.CombinedContext
@@ -6417,8 +6421,8 @@ androidx.appcompat.widget.ActionBarContainer:
     public void <init>(android.content.Context)
 kotlin.collections.AbstractList$IteratorImpl
 androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImpl
-kotlin.comparisons.NaturalOrderComparator
 androidx.annotation.LongDef
+kotlin.comparisons.NaturalOrderComparator
 kotlin.collections.AbstractMutableList
 kotlin.PreconditionsKt__AssertionsJVMKt
 androidx.core.app.ServiceCompat
@@ -6903,8 +6907,8 @@ androidx.appcompat.app.AppCompatDialog:
     public void <init>(android.content.Context)
     protected void <init>(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
     public androidx.appcompat.app.ActionBar getSupportActionBar()
-kotlin.coroutines.jvm.internal.ModuleNameRetriever$Cache
 androidx.constraintlayout.solver.LinearSystem
+kotlin.coroutines.jvm.internal.ModuleNameRetriever$Cache
 kotlin.jvm.functions.Function6
 androidx.core.view.animation.PathInterpolatorApi14
 kotlin.jvm.JvmPackageName
@@ -7162,6 +7166,7 @@ androidx.core.view.GravityCompat:
 com.duobeiyun.generamessagedemo.test.Chanel:
     public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel()
     public final void setCreateChannel(com.duobeiyun.generamessagesdk.channel.GmsChannel)
+    public final void setTAG(java.lang.String)
     public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
     public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
     public final java.lang.String getUserId()
@@ -7183,6 +7188,7 @@ kotlin.coroutines.experimental.CoroutineContext$Element$DefaultImpls
 kotlin.random.Random$Companion
 kotlin.properties.ReadOnlyProperty
 kotlin.jvm.internal.ClassBasedDeclarationContainer
+androidx.core.app.NotificationManagerCompat$NotifyTask
 io.socket.parser.Parser:
     public static final int CONNECT
     public static final int DISCONNECT
@@ -7192,10 +7198,9 @@ io.socket.parser.Parser:
     public static final int BINARY_EVENT
     public static final int BINARY_ACK
     public static final int protocol
-androidx.core.app.NotificationManagerCompat$NotifyTask
 kotlin.jvm.internal.Ref$BooleanRef
-kotlin.sequences.SequencesKt__SequencesKt$flatten$1
 androidx.constraintlayout.widget.Guideline
+kotlin.sequences.SequencesKt__SequencesKt$flatten$1
 androidx.core.view.NestedScrollingParent:
     public abstract int getNestedScrollAxes()
 androidx.fragment.app.ListFragment
@@ -7252,8 +7257,8 @@ okhttp3.Request$Builder:
     public okhttp3.Request$Builder patch(okhttp3.RequestBody)
     public okhttp3.Request$Builder tag(java.lang.Object)
 kotlin.collections.UArraysKt
-kotlin.jvm.internal.SpreadBuilder
 androidx.constraintlayout.solver.widgets.Guideline
+kotlin.jvm.internal.SpreadBuilder
 kotlin.UByte
 kotlin.annotation.Repeatable
 androidx.viewpager.widget.ViewPager$MyAccessibilityDelegate
@@ -7832,6 +7837,7 @@ androidx.fragment.app.FragmentManagerImpl$FragmentTag:
     public static final int Fragment_name
     public static final int Fragment_tag
 androidx.vectordrawable.animated.R$string
+androidx.core.os.CancellationSignal
 com.google.gson.JsonElement:
     abstract com.google.gson.JsonElement deepCopy()
     public com.google.gson.JsonNull getAsJsonNull()
@@ -7848,9 +7854,8 @@ com.google.gson.JsonElement:
     public java.math.BigDecimal getAsBigDecimal()
     public java.math.BigInteger getAsBigInteger()
     public short getAsShort()
-androidx.core.os.CancellationSignal
-com.google.gson.GsonBuilder
 androidx.core.app.NotificationCompat$BadgeIconType
+com.google.gson.GsonBuilder
 org.jetbrains.annotations.NotNull
 androidx.appcompat.widget.Toolbar$LayoutParams:
     public void <init>(int,int,int)
@@ -8256,8 +8261,8 @@ androidx.appcompat.view.menu.BaseMenuPresenter:
 androidx.annotation.ColorLong
 androidx.appcompat.widget.FitWindowsFrameLayout:
     public void <init>(android.content.Context)
-kotlin.Result
 kotlin.KotlinVersion
+kotlin.Result
 okhttp3.internal.platform.Platform:
     public java.lang.String getPrefix()
     public static final int INFO
@@ -8626,14 +8631,14 @@ io.socket.client.Manager$9:
     public final synthetic io.socket.client.Manager this$0
 io.socket.engineio.client.transports.PollingXHR$Request$1:
     public final synthetic io.socket.engineio.client.transports.PollingXHR$Request this$0
+com.duobeiyun.generamessagedemo.test.PeerMsg:
+    public java.lang.String userId
 io.socket.client.Manager$1$5:
     public final synthetic io.socket.client.Manager$1 this$1
 androidx.core.graphics.TypefaceCompatBaseImpl$1:
     public final synthetic androidx.core.graphics.TypefaceCompatBaseImpl this$0
 io.socket.engineio.client.Socket$19:
     public final synthetic io.socket.engineio.client.Socket this$0
-a.a.a.f.i:
-    public okhttp3.Request b
 com.google.gson.internal.LinkedTreeMap$EntrySet$1:
     public final synthetic com.google.gson.internal.LinkedTreeMap$EntrySet this$1
 io.socket.engineio.client.transports.WebSocket$1:
