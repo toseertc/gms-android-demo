@@ -25,7 +25,7 @@ class Inviter(var createInstance: GmsClient, var userId: String, var context: Co
     val testInitee = "1111"
     fun beginTest() {
         //发送方
-        manager = createInstance.getRtmCallManager()
+        manager = createInstance.getGmsCallManager()
         setTestListener();
         testcreate();
         if (invitation == null) {

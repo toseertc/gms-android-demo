@@ -22,7 +22,7 @@ class Invitee(var context: Context, var instance: GmsClient) {
     private var Tag = "Invite 接收方----------"
     private var index = 0
     fun beginTest() {
-        manager = instance?.getRtmCallManager()
+        manager = instance?.getGmsCallManager()
         setTestListener();
     }
 
