@@ -20,6 +20,7 @@ import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
 import com.duobeiyun.generamessagesdk.user.GmsAttribute
 import com.duobeiyun.generamessagesdk.utils.TokenUtils
 import kotlinx.android.synthetic.main.activity_main.*
+import java.nio.ByteBuffer
 import java.util.Set
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -28,8 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     var createChannel111: GmsChannel? = null
     var userId: String? = null
     //从官网获取，或者直接找相关人员
-    val TEST_APPID = "";
-    val TEST_APPKEY = "";
+    val TEST_APPID = "bdf948509405411592b481681c3b8975";
+    val TEST_APPKEY = "d631e27974b64fae8e6c1e29fc2a16e4";
     var testManger: TestManager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -274,7 +275,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         })
 
         createInstance?.createMessage();
-        createInstance?.createMessage(arrayOf<Byte>(0))
+        val size=10
+        var buffer=ByteBuffer.allocate(size)
+
+        createInstance?.createMessage(buffer)
     }
 
     private fun setChannelAttributes(channelId: String) {
