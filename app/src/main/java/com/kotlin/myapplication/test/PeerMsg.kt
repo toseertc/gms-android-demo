@@ -49,11 +49,11 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
         var targetUid = "1111"
         var text = "发送给222"
         createInstance?.sendMessageToPeer(
+            targetUid,
             GmsMessage(
                 text,
-                targetUserId = targetUid,
                 isOfflineMessage = true
-            ), object : ResultCallback<Void> {
+            ), resultCallback = object : ResultCallback<Void> {
                 override fun onSuccess(responseInfo: Void?) {
                     Log.e("$TAG ", "sendMessageToPeer success $responseInfo")
                 }
