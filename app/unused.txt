@@ -559,7 +559,7 @@ androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStat
 androidx.core.widget.TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$1
 androidx.appcompat.resources.R$string
 kotlin.jvm.internal.markers.KMutableCollection
-com.duobeiyun.generamessagedemo.test.TestManager:
+com.rz.gmsdemo.test.TestManager:
     private final void testLogout()
     public final java.lang.String getTEST_APPID()
     public final java.lang.String getTEST_APPKEY()
@@ -567,19 +567,19 @@ com.duobeiyun.generamessagedemo.test.TestManager:
     public final void setToken(java.lang.String)
     public final java.lang.Long getTimestamp()
     public final void setTimestamp(java.lang.Long)
-    public final com.duobeiyun.generamessagedemo.test.Chanel getChanel()
-    public final void setChanel(com.duobeiyun.generamessagedemo.test.Chanel)
-    public final com.duobeiyun.generamessagedemo.test.LocalUser getLocalAttr()
-    public final void setLocalAttr(com.duobeiyun.generamessagedemo.test.LocalUser)
-    public final com.duobeiyun.generamessagedemo.test.PeerMsg getPeerMsg()
-    public final void setPeerMsg(com.duobeiyun.generamessagedemo.test.PeerMsg)
-    public final com.duobeiyun.generamessagedemo.test.Inviter getInviter()
-    public final void setInviter(com.duobeiyun.generamessagedemo.test.Inviter)
-    public final com.duobeiyun.generamessagedemo.test.invitee.Invitee getInvitee()
-    public final void setInvitee(com.duobeiyun.generamessagedemo.test.invitee.Invitee)
+    public final com.rz.gmsdemo.test.Chanel getChanel()
+    public final void setChanel(com.rz.gmsdemo.test.Chanel)
+    public final com.rz.gmsdemo.test.LocalUser getLocalAttr()
+    public final void setLocalAttr(com.rz.gmsdemo.test.LocalUser)
+    public final com.rz.gmsdemo.test.PeerMsg getPeerMsg()
+    public final void setPeerMsg(com.rz.gmsdemo.test.PeerMsg)
+    public final com.rz.gmsdemo.test.Inviter getInviter()
+    public final void setInviter(com.rz.gmsdemo.test.Inviter)
+    public final com.rz.gmsdemo.test.invitee.Invitee getInvitee()
+    public final void setInvitee(com.rz.gmsdemo.test.invitee.Invitee)
     public final boolean getTestAsInviter()
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+    public final com.rz.gms.client.GMSClient getCreateInstance()
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
     public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
     public final android.content.Context getContext()
@@ -845,7 +845,7 @@ androidx.appcompat.graphics.drawable.DrawableContainer:
     private static final boolean DEBUG
     private static final java.lang.String TAG
     private static final boolean DEFAULT_DITHER
-com.duobeiyun.generamessagedemo.test.TestManager$initAllTest$1
+com.rz.gmsdemo.test.TestManager$initAllTest$1
 androidx.fragment.R$color
 androidx.constraintlayout.solver.widgets.Snapshot
 androidx.appcompat.widget.ThemedSpinnerAdapter$Helper
@@ -1030,9 +1030,9 @@ androidx.arch.core.executor.ArchTaskExecutor:
     public static java.util.concurrent.Executor getIOThreadExecutor()
     public void setDelegate(androidx.arch.core.executor.TaskExecutor)
 androidx.annotation.InspectableProperty
-com.duobeiyun.generamessagedemo.test.LocalUser:
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+com.rz.gmsdemo.test.LocalUser:
+    public final com.rz.gms.client.GMSClient getCreateInstance()
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
     public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
 kotlin.io.OnErrorAction
@@ -3080,14 +3080,14 @@ com.google.gson.Gson$2:
 com.google.gson.internal.bind.JsonTreeWriter:
     public com.google.gson.stream.JsonWriter value(double)
 com.kotlin.myapplication.MainActivity:
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
-    public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel999()
-    public final void setCreateChannel999(com.duobeiyun.generamessagesdk.channel.GmsChannel)
-    public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel111()
-    public final void setCreateChannel111(com.duobeiyun.generamessagesdk.channel.GmsChannel)
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
+    public final com.rz.gms.channel.GMSChannel getCreateChannel999()
+    public final void setCreateChannel999(com.rz.gms.channel.GMSChannel)
+    public final com.rz.gms.channel.GMSChannel getCreateChannel111()
+    public final void setCreateChannel111(com.rz.gms.channel.GMSChannel)
     public final void setUserId(java.lang.String)
-    public final com.duobeiyun.generamessagedemo.test.TestManager getTestManger()
-    public final void setTestManger(com.duobeiyun.generamessagedemo.test.TestManager)
+    public final com.rz.gmsdemo.test.TestManager getTestManger()
+    public final void setTestManger(com.rz.gmsdemo.test.TestManager)
     public void _$_clearFindViewByIdCache()
 androidx.core.graphics.RegionKt
 kotlin.sequences.USequencesKt
@@ -3396,12 +3396,12 @@ okhttp3.internal.io.FileSystem$1
 kotlin.io.FileSystemException
 kotlin.jvm.internal.ByteCompanionObject
 kotlin.random.PlatformRandomKt
-com.duobeiyun.generamessagedemo.test.invitee.Invitee:
-    public static final synthetic void access$setTag$p(com.duobeiyun.generamessagedemo.test.invitee.Invitee,java.lang.String)
+com.rz.gmsdemo.test.invitee.Invitee:
+    public static final synthetic void access$setTag$p(com.rz.gmsdemo.test.invitee.Invitee,java.lang.String)
     public final android.content.Context getContext()
     public final void setContext(android.content.Context)
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getInstance()
-    public final void setInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+    public final com.rz.gms.client.GMSClient getInstance()
+    public final void setInstance(com.rz.gms.client.GMSClient)
 kotlin.text.TypeAliasesKt
 androidx.vectordrawable.R$id
 androidx.core.database.sqlite.SQLiteDatabaseKt
@@ -3556,9 +3556,9 @@ kotlin.jvm.internal.FunctionBase:
     public abstract int getArity()
 androidx.appcompat.graphics.drawable.DrawerArrowDrawable$ArrowDirection
 okhttp3.internal.cache.DiskLruCache$2
-com.duobeiyun.generamessagedemo.test.PeerMsg:
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+com.rz.gmsdemo.test.PeerMsg:
+    public final com.rz.gms.client.GMSClient getCreateInstance()
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
     public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
 androidx.core.util.SparseArrayKt$keyIterator$1
@@ -4567,7 +4567,7 @@ androidx.core.content.res.FontResourcesParserCompat:
     public static final int FETCH_STRATEGY_ASYNC
     public static final int INFINITE_TIMEOUT_VALUE
     private static final int DEFAULT_TIMEOUT_MILLIS
-com.duobeiyun.generamessagedemo.test.TestManager$testLogout$1
+com.rz.gmsdemo.test.TestManager$testLogout$1
 kotlin.time.AbstractLongTimeSource$LongTimeMark
 androidx.fragment.app.FragmentActivity$HostCallbacks:
     public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int)
@@ -5430,7 +5430,7 @@ androidx.fragment.app.DialogFragment
 androidx.appcompat.R$styleable:
     private void <init>()
 okhttp3.Cookie$Builder
-com.duobeiyun.generamessagedemo.test.TestManagerKt
+com.rz.gmsdemo.test.TestManagerKt
 androidx.appcompat.app.AlertController:
     public void setButtonPanelLayoutHint(int)
     public android.widget.Button getButton(int)
@@ -5972,16 +5972,16 @@ androidx.core.widget.ScrollerCompat
 androidx.core.provider.FontsContractCompat$4$7
 kotlin.text.MatchResult$Destructured
 androidx.core.view.MenuKt$iterator$1
-com.duobeiyun.generamessagedemo.test.Inviter:
-    public static synthetic void testRefuse$default(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation,int,java.lang.Object)
-    public static synthetic void testAccept$default(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation,int,java.lang.Object)
-    public static synthetic void testSend$default(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation,int,java.lang.Object)
-    public static final synthetic void access$setManager$p(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.InvitationManager)
-    public static final synthetic void access$setTag$p(com.duobeiyun.generamessagedemo.test.Inviter,java.lang.String)
-    public static final synthetic void access$setInvitation$p(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation)
+com.rz.gmsdemo.test.Inviter:
+    public static synthetic void testRefuse$default(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation,int,java.lang.Object)
+    public static synthetic void testAccept$default(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation,int,java.lang.Object)
+    public static synthetic void testSend$default(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation,int,java.lang.Object)
+    public static final synthetic void access$setManager$p(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.InvitationManager)
+    public static final synthetic void access$setTag$p(com.rz.gmsdemo.test.Inviter,java.lang.String)
+    public static final synthetic void access$setInvitation$p(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation)
     public final java.lang.String getTestInitee()
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+    public final com.rz.gms.client.GMSClient getCreateInstance()
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
     public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
     public final android.content.Context getContext()
@@ -6217,16 +6217,16 @@ okhttp3.Call:
     public abstract boolean isExecuted()
     public abstract boolean isCanceled()
     public abstract okhttp3.Call clone()
-com.duobeiyun.generamessagedemo.test.WifiTest:
-    public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel()
-    public final void setCreateChannel(com.duobeiyun.generamessagesdk.channel.GmsChannel)
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+com.rz.gmsdemo.test.WifiTest:
+    public final com.rz.gms.channel.GMSChannel getCreateChannel()
+    public final void setCreateChannel(com.rz.gms.channel.GMSChannel)
+    public final com.rz.gms.client.GMSClient getCreateInstance()
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
     public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
     public final java.lang.String getChannelId()
     public final void setChannelId(java.lang.String)
-    private com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel
+    private com.rz.gms.channel.GMSChannel createChannel
 org.jetbrains.annotations.Nullable
 kotlin.text.StringsKt__StringsKt$splitToSequence$1
 kotlin.coroutines.jvm.internal.CompletedContinuation
@@ -7163,12 +7163,12 @@ androidx.core.view.GravityCompat:
     public static final int START
     public static final int END
     public static final int RELATIVE_HORIZONTAL_GRAVITY_MASK
-com.duobeiyun.generamessagedemo.test.Chanel:
-    public final com.duobeiyun.generamessagesdk.channel.GmsChannel getCreateChannel()
-    public final void setCreateChannel(com.duobeiyun.generamessagesdk.channel.GmsChannel)
+com.rz.gmsdemo.test.Chanel:
+    public final com.rz.gms.channel.GMSChannel getCreateChannel()
+    public final void setCreateChannel(com.rz.gms.channel.GMSChannel)
     public final void setTAG(java.lang.String)
-    public final com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance()
-    public final void setCreateInstance(com.duobeiyun.generamessagesdk.client.GmsClient)
+    public final com.rz.gms.client.GMSClient getCreateInstance()
+    public final void setCreateInstance(com.rz.gms.client.GMSClient)
     public final java.lang.String getUserId()
     public final void setUserId(java.lang.String)
     public final void setChannelId(java.lang.String)
@@ -8619,7 +8619,7 @@ androidx.appcompat.widget.ActionMenuPresenter$OverflowMenuButton$1:
     public final synthetic androidx.appcompat.widget.ActionMenuPresenter val$this$0
 io.socket.engineio.client.Socket$12:
     public final synthetic io.socket.engineio.client.Socket this$0
-com.duobeiyun.generamessagedemo.test.invitee.Invitee:
+com.rz.gmsdemo.test.invitee.Invitee:
     public android.content.Context context
 io.socket.engineio.client.Socket$2$1:
     public final synthetic io.socket.engineio.client.Socket$2 this$1
@@ -8631,7 +8631,7 @@ io.socket.client.Manager$9:
     public final synthetic io.socket.client.Manager this$0
 io.socket.engineio.client.transports.PollingXHR$Request$1:
     public final synthetic io.socket.engineio.client.transports.PollingXHR$Request this$0
-com.duobeiyun.generamessagedemo.test.PeerMsg:
+com.rz.gmsdemo.test.PeerMsg:
     public java.lang.String userId
 io.socket.client.Manager$1$5:
     public final synthetic io.socket.client.Manager$1 this$1
@@ -8806,7 +8806,7 @@ okhttp3.internal.http.HttpHeaders:
 kotlin.collections.MapsKt
 androidx.fragment.app.FragmentTransitionImpl$2:
     public final synthetic androidx.fragment.app.FragmentTransitionImpl this$0
-com.duobeiyun.generamessagedemo.test.Inviter:
+com.rz.gmsdemo.test.Inviter:
     public android.content.Context context
 io.socket.client.Manager$1$4:
     public final synthetic io.socket.client.Manager$1 this$1
@@ -8819,8 +8819,8 @@ androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat:
     public java.util.ArrayList mAnimationCallbacks
 io.socket.engineio.client.Socket$20$2:
     public final synthetic io.socket.engineio.client.Socket$20 this$1
-com.duobeiyun.generamessagedemo.test.WifiTest:
-    public com.duobeiyun.generamessagesdk.client.GmsClient createInstance
+com.rz.gmsdemo.test.WifiTest:
+    public com.rz.gms.client.GMSClient createInstance
     public java.lang.String userId
     public java.lang.String channelId
 kotlin.collections.ArraysKt
@@ -8860,7 +8860,7 @@ okhttp3.MediaType:
 io.socket.engineio.client.transports.Polling$5:
     public final synthetic io.socket.engineio.client.transports.Polling this$0
 kotlin.ranges.RangesKt
-com.duobeiyun.generamessagedemo.test.Chanel:
+com.rz.gmsdemo.test.Chanel:
     public java.lang.String userId
 androidx.arch.core.executor.DefaultTaskExecutor:
     public void executeOnDiskIO(java.lang.Runnable)

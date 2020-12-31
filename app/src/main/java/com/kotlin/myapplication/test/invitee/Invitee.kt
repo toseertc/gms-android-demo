@@ -1,14 +1,14 @@
-package com.duobeiyun.generamessagedemo.test.invitee
+package com.rz.gmsdemo.test.invitee
 
 import android.content.Context
 import android.util.Log
-import com.duobeiyun.generamessagesdk.ErrorInfo
-import com.duobeiyun.generamessagesdk.ResultCallback
-import com.duobeiyun.generamessagesdk.client.GmsClient
-import com.duobeiyun.generamessagesdk.invite.GmsInvitationEventListener
-import com.duobeiyun.generamessagesdk.invite.Invitation
-import com.duobeiyun.generamessagesdk.invite.InvitationFailureReason
-import com.duobeiyun.generamessagesdk.invite.InvitationManager
+import com.rz.gms.ErrorInfo
+import com.rz.gms.ResultCallback
+import com.rz.gms.client.GMSClient
+import com.rz.gms.invite.GMSInvitationEventListener
+import com.rz.gms.invite.Invitation
+import com.rz.gms.invite.InvitationFailureReason
+import com.rz.gms.invite.InvitationManager
 
 /*
  * Author: cqr
@@ -17,12 +17,12 @@ import com.duobeiyun.generamessagesdk.invite.InvitationManager
  * Changes (from 2020/6/22)
  */
 
-class Invitee(var context: Context, var instance: GmsClient) {
+class Invitee(var context: Context, var instance: GMSClient) {
     private var manager: InvitationManager? = null
     private var Tag = "Invite 接收方----------"
     private var index = 0
     fun beginTest() {
-        manager = instance?.getGmsCallManager()
+        manager = instance?.getGMSCallManager()
         setTestListener();
     }
 
@@ -82,7 +82,7 @@ class Invitee(var context: Context, var instance: GmsClient) {
     }
 
     fun setTestListener() {
-        manager?.setEventListener(object : GmsInvitationEventListener {
+        manager?.setEventListener(object : GMSInvitationEventListener {
             override fun onFailure(invitation: Invitation, reason: InvitationFailureReason) {
                 log(invitation, "onFailure")
                 Log.e(

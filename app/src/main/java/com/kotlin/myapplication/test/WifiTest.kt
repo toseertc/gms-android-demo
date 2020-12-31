@@ -1,7 +1,7 @@
-package com.duobeiyun.generamessagedemo.test
+package com.rz.gmsdemo.test
 
-import com.duobeiyun.generamessagesdk.channel.GmsChannel
-import com.duobeiyun.generamessagesdk.client.GmsClient
+import com.rz.gms.channel.GMSChannel
+import com.rz.gms.client.GMSClient
 
 /*
  * Author: cqr
@@ -10,8 +10,8 @@ import com.duobeiyun.generamessagesdk.client.GmsClient
  * Changes (from 2020/6/28)
  */
 
-class WifiTest(var createInstance: GmsClient, var userId: String, var channelId: String = "999") {
-    var createChannel: GmsChannel? = null
+class WifiTest(var createInstance: GMSClient, var userId: String, var channelId: String = "999") {
+    var createChannel: GMSChannel? = null
     fun beginTest() {
 //        testCloseWife()
     }

@@ -5,29 +5,30 @@ import android.text.TextUtils
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.duobeiyun.generamessagedemo.test.TestManager
-import com.duobeiyun.generamessagesdk.ErrorInfo
-import com.duobeiyun.generamessagesdk.ResultCallback
-import com.duobeiyun.generamessagesdk.bean.LoginParams
-import com.duobeiyun.generamessagesdk.channel.GmsChannel
-import com.duobeiyun.generamessagesdk.channel.GmsChannelListener
-import com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions
-import com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute
-import com.duobeiyun.generamessagesdk.channel.bean.GmsChannelMember
-import com.duobeiyun.generamessagesdk.client.GmsClient
-import com.duobeiyun.generamessagesdk.client.GmsClientListener
-import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
-import com.duobeiyun.generamessagesdk.user.GmsAttribute
-import com.duobeiyun.generamessagesdk.utils.TokenUtils
+import com.rz.gmsdemo.test.TestManager
+import com.rz.gms.ErrorInfo
+import com.rz.gms.ResultCallback
+import com.rz.gms.bean.LoginParams
+import com.rz.gms.channel.GMSChannel
+import com.rz.gms.channel.GMSChannelListener
+import com.rz.gms.channel.bean.ChannelAttributeOptions
+import com.rz.gms.channel.bean.GMSChannelAttribute
+import com.rz.gms.channel.bean.GMSChannelMember
+import com.rz.gms.client.GMSClient
+import com.rz.gms.client.GMSClientListener
+import com.rz.gms.connect.bean.GMSMessage
+import com.rz.gms.user.GMSAttribute
+import com.rz.gms.utils.TokenUtils
 import kotlinx.android.synthetic.main.activity_main.*
 import java.nio.ByteBuffer
 import java.util.Set
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-    var createInstance: GmsClient? = null
-    var createChannel999: GmsChannel? = null
-    var createChannel111: GmsChannel? = null
+    var createInstance: GMSClient? = null
+    var createChannel999: GMSChannel? = null
+    var createChannel111: GMSChannel? = null
     var userId: String? = null
+
     //从官网获取，或者直接找相关人员
     val TEST_APPID = "bdf948509405411592b481681c3b8975";
     val TEST_APPKEY = "d631e27974b64fae8e6c1e29fc2a16e4";
@@ -58,26 +59,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun createClientInstance() {
 
 
-        createInstance = GmsClient.createInstance(
+        createInstance = GMSClient.createInstance(
             applicationContext,
             TEST_APPID,
-            object : GmsClientListener {
+            object : GMSClientListener {
                 override fun onConnectionStateChanged(code: Int, reason: Int) {
                     // 连接状态发生改变
                     Log.e(
                         "MainActivity",
-                        "GmsClientListener.onConnectionStateChanged $code   $reason"
+                        "GMSClientListener.onConnectionStateChanged $code   $reason"
                     )
                 }
 
-                override fun onMessageReceived(message: GmsMessage?, userId: String) {
-                    Log.e("MainActivity", "GmsClientListener.onMessageReceived $message   $userId")
+                override fun onMessageReceived(message: GMSMessage?, userId: String) {
+                    Log.e("MainActivity", "GMSClientListener.onMessageReceived $message   $userId")
 
                 }
 
                 override fun onPeersOnlineStatusChanged(map: Map<String, Int>) {
 //                    PeerOnlineState int 对应值
-                    Log.e("MainActivity", "GmsClientListener.onPeersOnlineStatusChanged $map")
+                    Log.e("MainActivity", "GMSClientListener.onPeersOnlineStatusChanged $map")
                 }
 
                 override fun onTokenExpired() {
@@ -210,20 +211,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             })
     }
 
-    private fun joinChanel(channelId: String): GmsChannel? {
-        var chanel: GmsChannel? =
-            createInstance?.createChannel(channelId, object : GmsChannelListener {
-                override fun onMemberJoined(member: GmsChannelMember) {
+    private fun joinChanel(channelId: String): GMSChannel? {
+        var chanel: GMSChannel? =
+            createInstance?.createChannel(channelId, object : GMSChannelListener {
+                override fun onMemberJoined(member: GMSChannelMember) {
                 }
 
-                override fun onMemberLeft(member: GmsChannelMember) {
+                override fun onMemberLeft(member: GMSChannelMember) {
                 }
 
-                override fun onMessageReceived(gmsMessage: GmsMessage, member: GmsChannelMember) {
+                override fun onMessageReceived(gmsMessage: GMSMessage, member: GMSChannelMember) {
                     Log.e("MainActivity", "onMessageReceived $gmsMessage   $member")
                 }
 
-                override fun onAttributesUpdated(attrList: List<GmsChannelAttribute>) {
+                override fun onAttributesUpdated(attrList: List<GMSChannelAttribute>) {
                     Log.e("MainActivity", "onAttributesUpdated $attrList")
                 }
 
@@ -243,7 +244,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         return chanel;
     }
 
-    private fun leaveChanel(gmsChanel: GmsChannel) {
+    private fun leaveChanel(gmsChanel: GMSChannel) {
         gmsChanel?.leave(object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
                 Log.e("MainActivity", "channel leave success")
@@ -283,9 +284,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun setChannelAttributes(channelId: String) {
         createInstance?.setChannelAttributes(channelId, mutableListOf(
-            GmsChannelAttribute("color", "red"),
-            GmsChannelAttribute("background", "yellow"),
-            GmsChannelAttribute("title", "")
+            GMSChannelAttribute("color", "red"),
+            GMSChannelAttribute("background", "yellow"),
+            GMSChannelAttribute("title", "")
         ), ChannelAttributeOptions(true), object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
                 Log.e("MainActivity", "setChannelAttributes success")
@@ -304,8 +305,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         createInstance?.getChannelAttributesByKeys(
             channelId,
             mutableListOf<String>("background"),
-            object : ResultCallback<List<GmsChannelAttribute>> {
-                override fun onSuccess(responseInfo: List<GmsChannelAttribute>?) {
+            object : ResultCallback<List<GMSChannelAttribute>> {
+                override fun onSuccess(responseInfo: List<GMSChannelAttribute>?) {
                     Log.e("MainActivity", "setChannelAttributes success $responseInfo")
                 }
 
@@ -321,8 +322,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun setLocalUserAttributes() {
         createInstance?.setLocalUserAttributes(mutableListOf(
-            GmsAttribute("name", "yy"),
-            GmsAttribute("age", "27")
+            GMSAttribute("name", "yy"),
+            GMSAttribute("age", "27")
         ), object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
                 Log.e("MainActivity", "setLocalUserAttributes success $responseInfo")
@@ -340,8 +341,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun getUserAttributes() {
         createInstance?.getUserAttributes(userId!!,
-            object : ResultCallback<List<GmsAttribute>> {
-                override fun onSuccess(responseInfo: List<GmsAttribute>?) {
+            object : ResultCallback<List<GMSAttribute>> {
+                override fun onSuccess(responseInfo: List<GMSAttribute>?) {
                     Log.e("MainActivity", "getUserAttributes success $responseInfo")
                 }
 

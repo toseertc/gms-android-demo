@@ -1,14 +1,14 @@
-package com.duobeiyun.generamessagedemo.test
+package com.rz.gmsdemo.test
 
 import android.content.Context
 import android.util.Log
-import com.duobeiyun.generamessagesdk.ErrorInfo
-import com.duobeiyun.generamessagesdk.ResultCallback
-import com.duobeiyun.generamessagesdk.client.GmsClient
-import com.duobeiyun.generamessagesdk.invite.GmsInvitationEventListener
-import com.duobeiyun.generamessagesdk.invite.Invitation
-import com.duobeiyun.generamessagesdk.invite.InvitationFailureReason
-import com.duobeiyun.generamessagesdk.invite.InvitationManager
+import com.rz.gms.ErrorInfo
+import com.rz.gms.ResultCallback
+import com.rz.gms.client.GMSClient
+import com.rz.gms.invite.GMSInvitationEventListener
+import com.rz.gms.invite.Invitation
+import com.rz.gms.invite.InvitationFailureReason
+import com.rz.gms.invite.InvitationManager
 
 /*
  * Author: cqr
@@ -18,14 +18,14 @@ import com.duobeiyun.generamessagesdk.invite.InvitationManager
  *需要俩个客户端测试，需要等接收方登录后在运行实例
  */
 
-class Inviter(var createInstance: GmsClient, var userId: String, var context: Context) {
+class Inviter(var createInstance: GMSClient, var userId: String, var context: Context) {
     private var manager: InvitationManager? = null
     private var invitation: Invitation? = null
     private var Tag = "Invite 邀请方"
     val testInitee = "1111"
     fun beginTest() {
         //发送方
-        manager = createInstance.getGmsCallManager()
+        manager = createInstance.getGMSCallManager()
         setTestListener();
         testcreate();
         if (invitation == null) {
@@ -140,7 +140,7 @@ class Inviter(var createInstance: GmsClient, var userId: String, var context: Co
     }
 
     fun setTestListener() {
-        manager?.setEventListener(object : GmsInvitationEventListener {
+        manager?.setEventListener(object : GMSInvitationEventListener {
             override fun onFailure(invitation: Invitation, reason: InvitationFailureReason) {
                 log(invitation, "onFailure")
                 Log.e(

@@ -1,15 +1,15 @@
-package com.duobeiyun.generamessagedemo.test
+package com.rz.gmsdemo.test
 
 import android.util.Log
-import com.duobeiyun.generamessagesdk.ErrorInfo
-import com.duobeiyun.generamessagesdk.ResultCallback
-import com.duobeiyun.generamessagesdk.channel.GmsChannel
-import com.duobeiyun.generamessagesdk.channel.GmsChannelListener
-import com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions
-import com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute
-import com.duobeiyun.generamessagesdk.channel.bean.GmsChannelMember
-import com.duobeiyun.generamessagesdk.client.GmsClient
-import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
+import com.rz.gms.ErrorInfo
+import com.rz.gms.ResultCallback
+import com.rz.gms.channel.GMSChannel
+import com.rz.gms.channel.GMSChannelListener
+import com.rz.gms.channel.bean.ChannelAttributeOptions
+import com.rz.gms.channel.bean.GMSChannelAttribute
+import com.rz.gms.channel.bean.GMSChannelMember
+import com.rz.gms.client.GMSClient
+import com.rz.gms.connect.bean.GMSMessage
 
 /*
  * Author: cqr
@@ -17,8 +17,8 @@ import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
  * Create: 2020/6/19 14:00
  * Changes (from 2020/6/19)
  */
-class Chanel(var createInstance: GmsClient, var userId: String, var channelId: String = "999") {
-    var createChannel: GmsChannel? = null
+class Chanel(var createInstance: GMSClient, var userId: String, var channelId: String = "999") {
+    var createChannel: GMSChannel? = null
     var TAG = "***Chanel***"
     fun beginTest() {
         testCreateChanel();
@@ -42,7 +42,7 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
     private fun testAddOrUpdateChannelAttributes() {
         createInstance?.addOrUpdateChannelAttributes(
             channelId,
-            GmsChannelAttribute("color", "colorTestChange"),
+            GMSChannelAttribute("color", "colorTestChange"),
             ChannelAttributeOptions(true),
             object : ResultCallback<Void> {
                 override fun onSuccess(responseInfo: Void?) {
@@ -108,9 +108,10 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
     }
 
     fun testgetChannelAttributes() {
-        createInstance?.getChannelAttributes(channelId,
-            object : ResultCallback<List<GmsChannelAttribute>> {
-                override fun onSuccess(responseInfo: List<GmsChannelAttribute>?) {
+        createInstance?.getChannelAttributes(
+            channelId,
+            object : ResultCallback<List<GMSChannelAttribute>> {
+                override fun onSuccess(responseInfo: List<GMSChannelAttribute>?) {
                     responseInfo?.forEach({
                         Log.e(
                             "MainActivity",
@@ -175,21 +176,21 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
 
     fun testCreateChanel() {
         createChannel =
-            createInstance?.createChannel(channelId, object : GmsChannelListener {
-                override fun onMemberJoined(member: GmsChannelMember) {
+            createInstance?.createChannel(channelId, object : GMSChannelListener {
+                override fun onMemberJoined(member: GMSChannelMember) {
                 }
 
-                override fun onMemberLeft(member: GmsChannelMember) {
+                override fun onMemberLeft(member: GMSChannelMember) {
                 }
 
                 override fun onMessageReceived(
-                    gmsMessage: GmsMessage,
-                    member: GmsChannelMember
+                    gmsMessage: GMSMessage,
+                    member: GMSChannelMember
                 ) {
                     Log.e("MainActivity", "$TAG onMessageReceived $gmsMessage   $member")
                 }
 
-                override fun onAttributesUpdated(attrList: List<GmsChannelAttribute>) {
+                override fun onAttributesUpdated(attrList: List<GMSChannelAttribute>) {
                     Log.e("MainActivity", "$TAG onAttributesUpdated $attrList")
                 }
 
@@ -231,9 +232,9 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
 
     fun testSetChanelAtt() {
         createInstance?.setChannelAttributes(channelId, mutableListOf(
-            GmsChannelAttribute("color", "red"),
-            GmsChannelAttribute("background", "yellow"),
-            GmsChannelAttribute("title", "")
+            GMSChannelAttribute("color", "red"),
+            GMSChannelAttribute("background", "yellow"),
+            GMSChannelAttribute("title", "")
         ), ChannelAttributeOptions(true), object : ResultCallback<Void> {
             override fun onSuccess(responseInfo: Void?) {
                 Log.e("MainActivity", "$TAG setChannelAttributes success")
@@ -252,8 +253,8 @@ class Chanel(var createInstance: GmsClient, var userId: String, var channelId: S
         createInstance?.getChannelAttributesByKeys(
             channelId,
             mutableListOf<String>("background"),
-            object : ResultCallback<List<GmsChannelAttribute>> {
-                override fun onSuccess(responseInfo: List<GmsChannelAttribute>?) {
+            object : ResultCallback<List<GMSChannelAttribute>> {
+                override fun onSuccess(responseInfo: List<GMSChannelAttribute>?) {
                     Log.e("MainActivity", "$TAG getChannelAttributesByKeys success $responseInfo")
                 }
 

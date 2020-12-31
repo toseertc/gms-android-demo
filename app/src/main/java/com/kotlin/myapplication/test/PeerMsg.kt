@@ -1,11 +1,11 @@
-package com.duobeiyun.generamessagedemo.test
+package com.rz.gmsdemo.test
 
 import android.util.Log
-import com.duobeiyun.generamessagesdk.ErrorInfo
-import com.duobeiyun.generamessagesdk.PeerSubscriptionOption
-import com.duobeiyun.generamessagesdk.ResultCallback
-import com.duobeiyun.generamessagesdk.client.GmsClient
-import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
+import com.rz.gms.ErrorInfo
+import com.rz.gms.PeerSubscriptionOption
+import com.rz.gms.ResultCallback
+import com.rz.gms.client.GMSClient
+import com.rz.gms.connect.bean.GMSMessage
 
 /*
  * Author: cqr
@@ -14,7 +14,7 @@ import com.duobeiyun.generamessagesdk.connect.bean.GmsMessage
  * Changes (from 2020/6/19)
  */
 
-class PeerMsg(var createInstance: GmsClient, var userId: String) {
+class PeerMsg(var createInstance: GMSClient, var userId: String) {
     val TAG = "***PeerMsg----"
     fun beginTest() {
         testqueryPeersOnlineStatus()
@@ -50,7 +50,7 @@ class PeerMsg(var createInstance: GmsClient, var userId: String) {
         var text = "发送给222"
         createInstance?.sendMessageToPeer(
             targetUid,
-            GmsMessage(
+            GMSMessage(
                 text,
                 isOfflineMessage = true
             ), resultCallback = object : ResultCallback<Void> {

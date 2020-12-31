@@ -34,179 +34,179 @@ a.a.a.b.a$a -> a.a.a.b.a$a:
 a.a.a.b.b.a -> a.a.a.b.b.a:
     1:1:void <init>():24:24 -> <init>
     1:1:void a(a.a.a.b.b.c):29:29 -> a
-    1:2:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):90:91 -> addOrUpdateChannelAttributes
-    3:3:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):90:90 -> addOrUpdateChannelAttributes
-    4:4:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):89:89 -> addOrUpdateChannelAttributes
-    1:2:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):178:179 -> addOrUpdateLocalUserAttributes
-    3:3:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):178:178 -> addOrUpdateLocalUserAttributes
-    4:4:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):177:177 -> addOrUpdateLocalUserAttributes
-    1:2:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):117:118 -> clearChannelAttributes
-    3:3:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):117:117 -> clearChannelAttributes
-    4:4:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):116:116 -> clearChannelAttributes
-    1:2:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):199:200 -> clearLocalUserAttributes
-    3:3:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):199:199 -> clearLocalUserAttributes
-    4:4:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):198:198 -> clearLocalUserAttributes
-    1:1:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):45:45 -> createChannel
-    1:1:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage(java.lang.String):49:49 -> createMessage
-    2:2:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage(java.lang.Byte[]):53:53 -> createMessage
-    3:3:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage():57:57 -> createMessage
-    1:2:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):104:105 -> deleteChannelAttributesByKeys
-    3:3:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):104:104 -> deleteChannelAttributesByKeys
-    4:4:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):103:103 -> deleteChannelAttributesByKeys
-    1:2:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):190:191 -> deleteLocalUserAttributesByKeys
-    3:3:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):190:190 -> deleteLocalUserAttributesByKeys
-    4:4:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):189:189 -> deleteLocalUserAttributesByKeys
-    1:2:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):129:130 -> getChannelAttributes
-    3:3:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):129:129 -> getChannelAttributes
-    4:4:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):128:128 -> getChannelAttributes
-    1:2:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):142:143 -> getChannelAttributesByKeys
-    3:3:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):142:142 -> getChannelAttributesByKeys
-    4:4:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):141:141 -> getChannelAttributesByKeys
-    1:2:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):154:155 -> getChannelMemberCount
-    3:3:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):154:154 -> getChannelMemberCount
-    4:4:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):153:153 -> getChannelMemberCount
-    1:2:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):211:212 -> getUserAttributes
-    3:3:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):211:211 -> getUserAttributes
-    4:4:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):210:210 -> getUserAttributes
-    1:2:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):224:225 -> getUserAttributesByKeys
-    3:3:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):224:224 -> getUserAttributesByKeys
-    4:4:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):223:223 -> getUserAttributesByKeys
-    1:1:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):37:37 -> login
-    1:1:void logout(com.duobeiyun.generamessagesdk.ResultCallback):41:41 -> logout
-    1:2:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):236:237 -> queryPeersBySubscriptionOption
-    3:3:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):236:236 -> queryPeersBySubscriptionOption
-    4:4:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):235:235 -> queryPeersBySubscriptionOption
-    1:2:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):248:249 -> queryPeersOnlineStatus
-    3:3:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):248:248 -> queryPeersOnlineStatus
-    4:4:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):247:247 -> queryPeersOnlineStatus
+    1:2:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):90:91 -> addOrUpdateChannelAttributes
+    3:3:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):90:90 -> addOrUpdateChannelAttributes
+    4:4:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):89:89 -> addOrUpdateChannelAttributes
+    1:2:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):178:179 -> addOrUpdateLocalUserAttributes
+    3:3:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):178:178 -> addOrUpdateLocalUserAttributes
+    4:4:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):177:177 -> addOrUpdateLocalUserAttributes
+    1:2:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):117:118 -> clearChannelAttributes
+    3:3:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):117:117 -> clearChannelAttributes
+    4:4:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):116:116 -> clearChannelAttributes
+    1:2:void clearLocalUserAttributes(com.rz.gms.ResultCallback):199:200 -> clearLocalUserAttributes
+    3:3:void clearLocalUserAttributes(com.rz.gms.ResultCallback):199:199 -> clearLocalUserAttributes
+    4:4:void clearLocalUserAttributes(com.rz.gms.ResultCallback):198:198 -> clearLocalUserAttributes
+    1:1:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):45:45 -> createChannel
+    1:1:com.rz.gms.connect.bean.GMSMessage createMessage(java.lang.String):49:49 -> createMessage
+    2:2:com.rz.gms.connect.bean.GMSMessage createMessage(java.lang.Byte[]):53:53 -> createMessage
+    3:3:com.rz.gms.connect.bean.GMSMessage createMessage():57:57 -> createMessage
+    1:2:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):104:105 -> deleteChannelAttributesByKeys
+    3:3:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):104:104 -> deleteChannelAttributesByKeys
+    4:4:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):103:103 -> deleteChannelAttributesByKeys
+    1:2:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):190:191 -> deleteLocalUserAttributesByKeys
+    3:3:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):190:190 -> deleteLocalUserAttributesByKeys
+    4:4:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):189:189 -> deleteLocalUserAttributesByKeys
+    1:2:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):129:130 -> getChannelAttributes
+    3:3:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):129:129 -> getChannelAttributes
+    4:4:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):128:128 -> getChannelAttributes
+    1:2:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):142:143 -> getChannelAttributesByKeys
+    3:3:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):142:142 -> getChannelAttributesByKeys
+    4:4:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):141:141 -> getChannelAttributesByKeys
+    1:2:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):154:155 -> getChannelMemberCount
+    3:3:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):154:154 -> getChannelMemberCount
+    4:4:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):153:153 -> getChannelMemberCount
+    1:2:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):211:212 -> getUserAttributes
+    3:3:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):211:211 -> getUserAttributes
+    4:4:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):210:210 -> getUserAttributes
+    1:2:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):224:225 -> getUserAttributesByKeys
+    3:3:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):224:224 -> getUserAttributesByKeys
+    4:4:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):223:223 -> getUserAttributesByKeys
+    1:1:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):37:37 -> login
+    1:1:void logout(com.rz.gms.ResultCallback):41:41 -> logout
+    1:2:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):236:237 -> queryPeersBySubscriptionOption
+    3:3:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):236:236 -> queryPeersBySubscriptionOption
+    4:4:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):235:235 -> queryPeersBySubscriptionOption
+    1:2:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):248:249 -> queryPeersOnlineStatus
+    3:3:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):248:248 -> queryPeersOnlineStatus
+    4:4:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):247:247 -> queryPeersOnlineStatus
     1:1:void release():33:33 -> release
-    1:1:void renewToken(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):284:284 -> renewToken
-    1:2:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):62:63 -> sendMessageToPeer
-    3:3:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):62:62 -> sendMessageToPeer
-    4:4:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):61:61 -> sendMessageToPeer
-    1:2:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):76:77 -> setChannelAttributes
-    3:3:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):76:76 -> setChannelAttributes
-    4:4:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):75:75 -> setChannelAttributes
-    1:2:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):166:167 -> setLocalUserAttributes
-    3:3:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):166:166 -> setLocalUserAttributes
-    4:4:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):165:165 -> setLocalUserAttributes
-    1:2:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):260:261 -> subscribePeersOnlineStatus
-    3:3:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):260:260 -> subscribePeersOnlineStatus
-    4:4:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):259:259 -> subscribePeersOnlineStatus
-    1:2:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):272:273 -> unsubscribePeersOnlineStatus
-    3:3:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):272:272 -> unsubscribePeersOnlineStatus
-    4:4:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):271:271 -> unsubscribePeersOnlineStatus
+    1:1:void renewToken(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):284:284 -> renewToken
+    1:2:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):62:63 -> sendMessageToPeer
+    3:3:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):62:62 -> sendMessageToPeer
+    4:4:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):61:61 -> sendMessageToPeer
+    1:2:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):76:77 -> setChannelAttributes
+    3:3:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):76:76 -> setChannelAttributes
+    4:4:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):75:75 -> setChannelAttributes
+    1:2:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):166:167 -> setLocalUserAttributes
+    3:3:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):166:166 -> setLocalUserAttributes
+    4:4:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):165:165 -> setLocalUserAttributes
+    1:2:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):260:261 -> subscribePeersOnlineStatus
+    3:3:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):260:260 -> subscribePeersOnlineStatus
+    4:4:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):259:259 -> subscribePeersOnlineStatus
+    1:2:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):272:273 -> unsubscribePeersOnlineStatus
+    3:3:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):272:272 -> unsubscribePeersOnlineStatus
+    4:4:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):271:271 -> unsubscribePeersOnlineStatus
 a.a.a.b.b.b -> a.a.a.b.b.b:
-    1:2:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):33:34 -> <init>
-    3:4:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):36:37 -> <init>
-    5:6:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):39:40 -> <init>
+    1:2:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):33:34 -> <init>
+    3:4:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):36:37 -> <init>
+    5:6:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):39:40 -> <init>
     1:1:void a(boolean):44:44 -> a
-    1:1:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):94:94 -> addOrUpdateChannelAttributes
-    1:1:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):174:174 -> addOrUpdateLocalUserAttributes
-    1:1:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):121:121 -> clearChannelAttributes
-    1:1:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):191:191 -> clearLocalUserAttributes
-    1:1:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):60:60 -> createChannel
-    1:1:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage(java.lang.String):64:64 -> createMessage
-    2:2:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage(java.lang.Byte[]):68:68 -> createMessage
-    3:3:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage():72:72 -> createMessage
-    1:1:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):108:108 -> deleteChannelAttributesByKeys
-    1:1:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):184:184 -> deleteLocalUserAttributesByKeys
-    1:1:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):132:132 -> getChannelAttributes
-    1:1:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):143:143 -> getChannelAttributesByKeys
-    1:1:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):154:154 -> getChannelMemberCount
-    1:1:com.duobeiyun.generamessagesdk.invite.InvitationManager getRtmCallManager():259:259 -> getRtmCallManager
-    1:1:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):200:200 -> getUserAttributes
-    1:1:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):211:211 -> getUserAttributesByKeys
-    1:1:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):52:52 -> login
-    1:1:void logout(com.duobeiyun.generamessagesdk.ResultCallback):56:56 -> logout
-    1:1:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):222:222 -> queryPeersBySubscriptionOption
-    1:1:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):232:232 -> queryPeersOnlineStatus
+    1:1:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):94:94 -> addOrUpdateChannelAttributes
+    1:1:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):174:174 -> addOrUpdateLocalUserAttributes
+    1:1:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):121:121 -> clearChannelAttributes
+    1:1:void clearLocalUserAttributes(com.rz.gms.ResultCallback):191:191 -> clearLocalUserAttributes
+    1:1:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):60:60 -> createChannel
+    1:1:com.rz.gms.connect.bean.GMSMessage createMessage(java.lang.String):64:64 -> createMessage
+    2:2:com.rz.gms.connect.bean.GMSMessage createMessage(java.lang.Byte[]):68:68 -> createMessage
+    3:3:com.rz.gms.connect.bean.GMSMessage createMessage():72:72 -> createMessage
+    1:1:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):108:108 -> deleteChannelAttributesByKeys
+    1:1:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):184:184 -> deleteLocalUserAttributesByKeys
+    1:1:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):132:132 -> getChannelAttributes
+    1:1:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):143:143 -> getChannelAttributesByKeys
+    1:1:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):154:154 -> getChannelMemberCount
+    1:1:com.rz.gms.invite.InvitationManager getRtmCallManager():259:259 -> getRtmCallManager
+    1:1:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):200:200 -> getUserAttributes
+    1:1:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):211:211 -> getUserAttributesByKeys
+    1:1:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):52:52 -> login
+    1:1:void logout(com.rz.gms.ResultCallback):56:56 -> logout
+    1:1:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):222:222 -> queryPeersBySubscriptionOption
+    1:1:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):232:232 -> queryPeersOnlineStatus
     1:1:void release():48:48 -> release
-    1:1:void renewToken(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):263:263 -> renewToken
-    1:1:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):76:76 -> sendMessageToPeer
-    1:1:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):85:85 -> setChannelAttributes
-    1:1:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):164:164 -> setLocalUserAttributes
-    1:1:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):242:242 -> subscribePeersOnlineStatus
-    1:1:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):252:252 -> unsubscribePeersOnlineStatus
+    1:1:void renewToken(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):263:263 -> renewToken
+    1:1:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):76:76 -> sendMessageToPeer
+    1:1:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):85:85 -> setChannelAttributes
+    1:1:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):164:164 -> setLocalUserAttributes
+    1:1:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):242:242 -> subscribePeersOnlineStatus
+    1:1:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):252:252 -> unsubscribePeersOnlineStatus
 a.a.a.b.b.c -> a.a.a.b.b.c:
-    1:1:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):83:83 -> <init>
-    2:2:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):42:42 -> <init>
-    3:7:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):49:53 -> <init>
-    8:8:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):62:62 -> <init>
-    9:11:void <init>(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):83:85 -> <init>
+    1:1:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):83:83 -> <init>
+    2:2:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):42:42 -> <init>
+    3:7:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):49:53 -> <init>
+    8:8:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):62:62 -> <init>
+    9:11:void <init>(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):83:85 -> <init>
     1:1:java.util.ArrayList a():51:51 -> a
-    1:2:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):334:335 -> addOrUpdateChannelAttributes
-    3:15:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):338:350 -> addOrUpdateChannelAttributes
-    16:16:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):349:349 -> addOrUpdateChannelAttributes
-    17:17:void addOrUpdateChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):357:357 -> addOrUpdateChannelAttributes
-    1:2:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):604:605 -> addOrUpdateLocalUserAttributes
-    3:5:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):608:610 -> addOrUpdateLocalUserAttributes
-    6:6:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):1191:1191 -> addOrUpdateLocalUserAttributes
-    7:7:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):613:613 -> addOrUpdateLocalUserAttributes
-    8:10:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):615:617 -> addOrUpdateLocalUserAttributes
-    11:16:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):619:624 -> addOrUpdateLocalUserAttributes
-    17:17:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):623:623 -> addOrUpdateLocalUserAttributes
-    18:18:void addOrUpdateLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):631:631 -> addOrUpdateLocalUserAttributes
+    1:2:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):334:335 -> addOrUpdateChannelAttributes
+    3:15:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):338:350 -> addOrUpdateChannelAttributes
+    16:16:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):349:349 -> addOrUpdateChannelAttributes
+    17:17:void addOrUpdateChannelAttributes(java.lang.String,com.rz.gms.channel.bean.GMSChannelAttribute,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):357:357 -> addOrUpdateChannelAttributes
+    1:2:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):604:605 -> addOrUpdateLocalUserAttributes
+    3:5:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):608:610 -> addOrUpdateLocalUserAttributes
+    6:6:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):1191:1191 -> addOrUpdateLocalUserAttributes
+    7:7:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):613:613 -> addOrUpdateLocalUserAttributes
+    8:10:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):615:617 -> addOrUpdateLocalUserAttributes
+    11:16:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):619:624 -> addOrUpdateLocalUserAttributes
+    17:17:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):623:623 -> addOrUpdateLocalUserAttributes
+    18:18:void addOrUpdateLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):631:631 -> addOrUpdateLocalUserAttributes
     1:1:java.util.concurrent.locks.ReentrantLock a(a.a.a.b.b.c):41:41 -> b
     1:1:void a(a.a.a.b.b.b):48:48 -> c
-    1:2:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):400:401 -> clearChannelAttributes
-    3:11:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):404:412 -> clearChannelAttributes
-    12:12:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):411:411 -> clearChannelAttributes
-    13:13:void clearChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):415:415 -> clearChannelAttributes
-    1:2:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):685:686 -> clearLocalUserAttributes
-    3:6:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):689:692 -> clearLocalUserAttributes
-    7:7:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):691:691 -> clearLocalUserAttributes
-    8:8:void clearLocalUserAttributes(com.duobeiyun.generamessagesdk.ResultCallback):695:695 -> clearLocalUserAttributes
-    1:2:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):206:207 -> createChannel
-    3:4:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):210:211 -> createChannel
-    5:5:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):1187:1187 -> createChannel
-    6:7:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):212:213 -> createChannel
-    8:10:com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener):217:219 -> createChannel
-    1:1:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage(java.lang.String):223:223 -> createMessage
-    2:2:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage(java.lang.Byte[]):227:227 -> createMessage
-    3:3:com.duobeiyun.generamessagesdk.connect.bean.GmsMessage createMessage():231:231 -> createMessage
-    1:1:void a(a.a.a.b.b.c,com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):41:41 -> d
-    1:2:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):366:367 -> deleteChannelAttributesByKeys
-    3:14:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):370:381 -> deleteChannelAttributesByKeys
-    15:15:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):380:380 -> deleteChannelAttributesByKeys
-    16:16:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):392:392 -> deleteChannelAttributesByKeys
-    1:2:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):638:639 -> deleteLocalUserAttributesByKeys
-    3:8:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):642:647 -> deleteLocalUserAttributesByKeys
-    9:10:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):649:650 -> deleteLocalUserAttributesByKeys
-    11:11:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):648:648 -> deleteLocalUserAttributesByKeys
-    12:12:void deleteLocalUserAttributesByKeys(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):681:681 -> deleteLocalUserAttributesByKeys
+    1:2:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):400:401 -> clearChannelAttributes
+    3:11:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):404:412 -> clearChannelAttributes
+    12:12:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):411:411 -> clearChannelAttributes
+    13:13:void clearChannelAttributes(java.lang.String,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):415:415 -> clearChannelAttributes
+    1:2:void clearLocalUserAttributes(com.rz.gms.ResultCallback):685:686 -> clearLocalUserAttributes
+    3:6:void clearLocalUserAttributes(com.rz.gms.ResultCallback):689:692 -> clearLocalUserAttributes
+    7:7:void clearLocalUserAttributes(com.rz.gms.ResultCallback):691:691 -> clearLocalUserAttributes
+    8:8:void clearLocalUserAttributes(com.rz.gms.ResultCallback):695:695 -> clearLocalUserAttributes
+    1:2:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):206:207 -> createChannel
+    3:4:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):210:211 -> createChannel
+    5:5:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):1187:1187 -> createChannel
+    6:7:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):212:213 -> createChannel
+    8:10:com.rz.gms.channel.GMSChannel createChannel(java.lang.String,com.rz.gms.channel.GMSChannelListener):217:219 -> createChannel
+    1:1:com.rz.gms.connect.bean.GMSMessage createMessage(java.lang.String):223:223 -> createMessage
+    2:2:com.rz.gms.connect.bean.GMSMessage createMessage(java.lang.Byte[]):227:227 -> createMessage
+    3:3:com.rz.gms.connect.bean.GMSMessage createMessage():231:231 -> createMessage
+    1:1:void a(a.a.a.b.b.c,com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):41:41 -> d
+    1:2:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):366:367 -> deleteChannelAttributesByKeys
+    3:14:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):370:381 -> deleteChannelAttributesByKeys
+    15:15:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):380:380 -> deleteChannelAttributesByKeys
+    16:16:void deleteChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):392:392 -> deleteChannelAttributesByKeys
+    1:2:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):638:639 -> deleteLocalUserAttributesByKeys
+    3:8:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):642:647 -> deleteLocalUserAttributesByKeys
+    9:10:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):649:650 -> deleteLocalUserAttributesByKeys
+    11:11:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):648:648 -> deleteLocalUserAttributesByKeys
+    12:12:void deleteLocalUserAttributesByKeys(java.util.List,com.rz.gms.ResultCallback):681:681 -> deleteLocalUserAttributesByKeys
     1:1:void a(a.a.a.b.b.c,java.util.HashMap):41:41 -> e
     1:1:void a(a.a.a.b.b.c,java.util.Map):41:41 -> f
-    1:2:void a(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):136:137 -> g
-    1:2:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):422:423 -> getChannelAttributes
-    3:5:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):426:428 -> getChannelAttributes
-    6:7:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):430:431 -> getChannelAttributes
-    8:8:void getChannelAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):458:458 -> getChannelAttributes
-    1:2:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):466:467 -> getChannelAttributesByKeys
-    3:6:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):470:473 -> getChannelAttributesByKeys
-    7:9:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):475:477 -> getChannelAttributesByKeys
-    10:10:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):512:512 -> getChannelAttributesByKeys
-    1:2:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):519:520 -> getChannelMemberCount
-    3:3:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):523:523 -> getChannelMemberCount
-    4:4:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):525:525 -> getChannelMemberCount
-    5:7:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):527:529 -> getChannelMemberCount
-    8:8:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):527:527 -> getChannelMemberCount
-    9:9:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):526:526 -> getChannelMemberCount
-    10:10:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):532:532 -> getChannelMemberCount
-    11:15:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):535:539 -> getChannelMemberCount
-    16:16:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):538:538 -> getChannelMemberCount
-    17:17:void getChannelMemberCount(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):564:564 -> getChannelMemberCount
-    1:5:com.duobeiyun.generamessagesdk.invite.InvitationManager getRtmCallManager():957:961 -> getRtmCallManager
-    6:6:com.duobeiyun.generamessagesdk.invite.InvitationManager getRtmCallManager():960:960 -> getRtmCallManager
-    7:7:com.duobeiyun.generamessagesdk.invite.InvitationManager getRtmCallManager():963:963 -> getRtmCallManager
-    1:2:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):702:703 -> getUserAttributes
-    3:7:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):706:710 -> getUserAttributes
-    8:8:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):709:709 -> getUserAttributes
-    9:9:void getUserAttributes(java.lang.String,com.duobeiyun.generamessagesdk.ResultCallback):749:749 -> getUserAttributes
-    1:2:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):757:758 -> getUserAttributesByKeys
-    3:10:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):761:768 -> getUserAttributesByKeys
-    11:11:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):767:767 -> getUserAttributesByKeys
-    12:12:void getUserAttributesByKeys(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):807:807 -> getUserAttributesByKeys
+    1:2:void a(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):136:137 -> g
+    1:2:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):422:423 -> getChannelAttributes
+    3:5:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):426:428 -> getChannelAttributes
+    6:7:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):430:431 -> getChannelAttributes
+    8:8:void getChannelAttributes(java.lang.String,com.rz.gms.ResultCallback):458:458 -> getChannelAttributes
+    1:2:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):466:467 -> getChannelAttributesByKeys
+    3:6:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):470:473 -> getChannelAttributesByKeys
+    7:9:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):475:477 -> getChannelAttributesByKeys
+    10:10:void getChannelAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):512:512 -> getChannelAttributesByKeys
+    1:2:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):519:520 -> getChannelMemberCount
+    3:3:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):523:523 -> getChannelMemberCount
+    4:4:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):525:525 -> getChannelMemberCount
+    5:7:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):527:529 -> getChannelMemberCount
+    8:8:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):527:527 -> getChannelMemberCount
+    9:9:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):526:526 -> getChannelMemberCount
+    10:10:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):532:532 -> getChannelMemberCount
+    11:15:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):535:539 -> getChannelMemberCount
+    16:16:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):538:538 -> getChannelMemberCount
+    17:17:void getChannelMemberCount(java.util.List,com.rz.gms.ResultCallback):564:564 -> getChannelMemberCount
+    1:5:com.rz.gms.invite.InvitationManager getRtmCallManager():957:961 -> getRtmCallManager
+    6:6:com.rz.gms.invite.InvitationManager getRtmCallManager():960:960 -> getRtmCallManager
+    7:7:com.rz.gms.invite.InvitationManager getRtmCallManager():963:963 -> getRtmCallManager
+    1:2:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):702:703 -> getUserAttributes
+    3:7:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):706:710 -> getUserAttributes
+    8:8:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):709:709 -> getUserAttributes
+    9:9:void getUserAttributes(java.lang.String,com.rz.gms.ResultCallback):749:749 -> getUserAttributes
+    1:2:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):757:758 -> getUserAttributesByKeys
+    3:10:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):761:768 -> getUserAttributesByKeys
+    11:11:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):767:767 -> getUserAttributesByKeys
+    12:12:void getUserAttributesByKeys(java.lang.String,java.util.List,com.rz.gms.ResultCallback):807:807 -> getUserAttributesByKeys
     1:5:void a(java.lang.String):1120:1124 -> h
     6:6:void a(java.lang.String):1122:1122 -> h
     7:11:void a(java.lang.String):1126:1130 -> h
@@ -222,35 +222,35 @@ a.a.a.b.b.c -> a.a.a.b.b.c:
     2:4:boolean a(java.lang.String,int):1062:1064 -> j
     5:5:boolean a(java.lang.String,int):1062:1062 -> j
     6:6:boolean a(java.lang.String,int):1058:1058 -> j
-    1:1:com.duobeiyun.generamessagesdk.ResultCallback b():46:46 -> k
-    1:1:com.duobeiyun.generamessagesdk.client.GmsClientListener b(a.a.a.b.b.c):41:41 -> l
-    1:1:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):93:93 -> login
-    2:2:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):95:95 -> login
-    3:3:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):94:94 -> login
-    4:4:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):102:102 -> login
-    5:6:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):104:105 -> login
-    7:7:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):104:104 -> login
-    8:8:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):103:103 -> login
-    9:10:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):111:112 -> login
-    11:11:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):114:114 -> login
-    12:13:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):116:117 -> login
-    14:14:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):116:116 -> login
-    15:15:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):115:115 -> login
-    16:16:void login(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):114:114 -> login
-    1:5:void logout(com.duobeiyun.generamessagesdk.ResultCallback):149:153 -> logout
-    6:6:void logout(com.duobeiyun.generamessagesdk.ResultCallback):151:151 -> logout
-    7:7:void logout(com.duobeiyun.generamessagesdk.ResultCallback):155:155 -> logout
-    8:10:void logout(com.duobeiyun.generamessagesdk.ResultCallback):157:159 -> logout
-    11:11:void logout(com.duobeiyun.generamessagesdk.ResultCallback):157:157 -> logout
-    12:13:void logout(com.duobeiyun.generamessagesdk.ResultCallback):162:163 -> logout
-    14:14:void logout(com.duobeiyun.generamessagesdk.ResultCallback):162:162 -> logout
-    15:15:void logout(com.duobeiyun.generamessagesdk.ResultCallback):161:161 -> logout
-    16:19:void logout(com.duobeiyun.generamessagesdk.ResultCallback):168:171 -> logout
-    20:21:void logout(com.duobeiyun.generamessagesdk.ResultCallback):173:174 -> logout
-    22:23:void logout(com.duobeiyun.generamessagesdk.ResultCallback):176:177 -> logout
-    24:25:void logout(com.duobeiyun.generamessagesdk.ResultCallback):179:180 -> logout
-    26:27:void logout(com.duobeiyun.generamessagesdk.ResultCallback):182:183 -> logout
-    1:8:void b(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):125:132 -> m
+    1:1:com.rz.gms.ResultCallback b():46:46 -> k
+    1:1:com.rz.gms.client.GMSClientListener b(a.a.a.b.b.c):41:41 -> l
+    1:1:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):93:93 -> login
+    2:2:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):95:95 -> login
+    3:3:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):94:94 -> login
+    4:4:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):102:102 -> login
+    5:6:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):104:105 -> login
+    7:7:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):104:104 -> login
+    8:8:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):103:103 -> login
+    9:10:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):111:112 -> login
+    11:11:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):114:114 -> login
+    12:13:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):116:117 -> login
+    14:14:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):116:116 -> login
+    15:15:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):115:115 -> login
+    16:16:void login(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):114:114 -> login
+    1:5:void logout(com.rz.gms.ResultCallback):149:153 -> logout
+    6:6:void logout(com.rz.gms.ResultCallback):151:151 -> logout
+    7:7:void logout(com.rz.gms.ResultCallback):155:155 -> logout
+    8:10:void logout(com.rz.gms.ResultCallback):157:159 -> logout
+    11:11:void logout(com.rz.gms.ResultCallback):157:157 -> logout
+    12:13:void logout(com.rz.gms.ResultCallback):162:163 -> logout
+    14:14:void logout(com.rz.gms.ResultCallback):162:162 -> logout
+    15:15:void logout(com.rz.gms.ResultCallback):161:161 -> logout
+    16:19:void logout(com.rz.gms.ResultCallback):168:171 -> logout
+    20:21:void logout(com.rz.gms.ResultCallback):173:174 -> logout
+    22:23:void logout(com.rz.gms.ResultCallback):176:177 -> logout
+    24:25:void logout(com.rz.gms.ResultCallback):179:180 -> logout
+    26:27:void logout(com.rz.gms.ResultCallback):182:183 -> logout
+    1:8:void b(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):125:132 -> m
     1:1:boolean b(java.lang.String):1175:1175 -> n
     1:1:int c():50:50 -> o
     1:4:void onStateChange(int,java.lang.String):1077:1080 -> onStateChange
@@ -264,21 +264,21 @@ a.a.a.b.b.c -> a.a.a.b.b.c:
     26:26:void onStateChange(int,java.lang.String):1099:1099 -> onStateChange
     1:1:java.util.HashMap c(a.a.a.b.b.c):41:41 -> p
     1:1:boolean c(java.lang.String):1171:1171 -> q
-    1:1:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):814:814 -> queryPeersBySubscriptionOption
-    2:2:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):816:816 -> queryPeersBySubscriptionOption
-    3:3:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):815:815 -> queryPeersBySubscriptionOption
-    4:8:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):823:827 -> queryPeersBySubscriptionOption
-    9:9:void queryPeersBySubscriptionOption(int,com.duobeiyun.generamessagesdk.ResultCallback):852:852 -> queryPeersBySubscriptionOption
-    1:1:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):859:859 -> queryPeersOnlineStatus
-    2:2:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):861:861 -> queryPeersOnlineStatus
-    3:3:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):860:860 -> queryPeersOnlineStatus
-    4:9:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):868:873 -> queryPeersOnlineStatus
-    10:10:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):872:872 -> queryPeersOnlineStatus
-    11:11:void queryPeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):894:894 -> queryPeersOnlineStatus
+    1:1:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):814:814 -> queryPeersBySubscriptionOption
+    2:2:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):816:816 -> queryPeersBySubscriptionOption
+    3:3:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):815:815 -> queryPeersBySubscriptionOption
+    4:8:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):823:827 -> queryPeersBySubscriptionOption
+    9:9:void queryPeersBySubscriptionOption(int,com.rz.gms.ResultCallback):852:852 -> queryPeersBySubscriptionOption
+    1:1:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):859:859 -> queryPeersOnlineStatus
+    2:2:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):861:861 -> queryPeersOnlineStatus
+    3:3:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):860:860 -> queryPeersOnlineStatus
+    4:9:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):868:873 -> queryPeersOnlineStatus
+    10:10:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):872:872 -> queryPeersOnlineStatus
+    11:11:void queryPeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):894:894 -> queryPeersOnlineStatus
     1:1:java.util.HashMap d(a.a.a.b.b.c):41:41 -> r
     1:1:void release():89:89 -> release
-    1:3:void renewToken(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):1179:1181 -> renewToken
-    4:4:void renewToken(com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):1183:1183 -> renewToken
+    1:3:void renewToken(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):1179:1181 -> renewToken
+    4:4:void renewToken(com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):1183:1183 -> renewToken
     1:2:void d():967:968 -> s
     3:4:void d():970:971 -> s
     5:6:void d():973:974 -> s
@@ -286,55 +286,55 @@ a.a.a.b.b.c -> a.a.a.b.b.c:
     8:9:void d():1022:1023 -> s
     10:11:void d():1025:1026 -> s
     12:12:void d():1024:1024 -> s
-    1:2:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):235:236 -> sendMessageToPeer
-    3:4:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):239:240 -> sendMessageToPeer
-    5:10:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):243:248 -> sendMessageToPeer
-    11:13:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):250:252 -> sendMessageToPeer
-    14:14:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):250:250 -> sendMessageToPeer
-    15:15:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):249:249 -> sendMessageToPeer
-    16:16:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):255:255 -> sendMessageToPeer
-    17:19:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):258:260 -> sendMessageToPeer
-    20:22:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):262:264 -> sendMessageToPeer
-    23:23:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):262:262 -> sendMessageToPeer
-    24:24:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):261:261 -> sendMessageToPeer
-    25:25:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):267:267 -> sendMessageToPeer
-    26:26:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):270:270 -> sendMessageToPeer
-    27:31:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):281:285 -> sendMessageToPeer
-    32:32:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):284:284 -> sendMessageToPeer
-    33:33:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):292:292 -> sendMessageToPeer
-    34:34:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):260:260 -> sendMessageToPeer
-    35:35:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):259:259 -> sendMessageToPeer
-    36:38:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):273:275 -> sendMessageToPeer
-    39:39:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):273:273 -> sendMessageToPeer
-    40:40:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):272:272 -> sendMessageToPeer
-    41:41:void sendMessageToPeer(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):278:278 -> sendMessageToPeer
-    1:2:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):301:302 -> setChannelAttributes
-    3:6:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):305:308 -> setChannelAttributes
-    7:15:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):310:318 -> setChannelAttributes
-    16:16:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):317:317 -> setChannelAttributes
-    17:17:void setChannelAttributes(java.lang.String,java.util.List,com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions,com.duobeiyun.generamessagesdk.ResultCallback):325:325 -> setChannelAttributes
-    1:2:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):571:572 -> setLocalUserAttributes
-    3:5:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):575:577 -> setLocalUserAttributes
-    6:6:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):1189:1189 -> setLocalUserAttributes
-    7:7:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):580:580 -> setLocalUserAttributes
-    8:10:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):582:584 -> setLocalUserAttributes
-    11:15:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):586:590 -> setLocalUserAttributes
-    16:16:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):589:589 -> setLocalUserAttributes
-    17:17:void setLocalUserAttributes(java.util.List,com.duobeiyun.generamessagesdk.ResultCallback):597:597 -> setLocalUserAttributes
-    1:1:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):901:901 -> subscribePeersOnlineStatus
-    2:2:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):903:903 -> subscribePeersOnlineStatus
-    3:3:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):902:902 -> subscribePeersOnlineStatus
-    4:11:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):910:917 -> subscribePeersOnlineStatus
-    12:12:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):916:916 -> subscribePeersOnlineStatus
-    13:13:void subscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):921:921 -> subscribePeersOnlineStatus
+    1:2:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):235:236 -> sendMessageToPeer
+    3:4:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):239:240 -> sendMessageToPeer
+    5:10:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):243:248 -> sendMessageToPeer
+    11:13:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):250:252 -> sendMessageToPeer
+    14:14:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):250:250 -> sendMessageToPeer
+    15:15:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):249:249 -> sendMessageToPeer
+    16:16:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):255:255 -> sendMessageToPeer
+    17:19:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):258:260 -> sendMessageToPeer
+    20:22:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):262:264 -> sendMessageToPeer
+    23:23:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):262:262 -> sendMessageToPeer
+    24:24:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):261:261 -> sendMessageToPeer
+    25:25:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):267:267 -> sendMessageToPeer
+    26:26:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):270:270 -> sendMessageToPeer
+    27:31:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):281:285 -> sendMessageToPeer
+    32:32:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):284:284 -> sendMessageToPeer
+    33:33:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):292:292 -> sendMessageToPeer
+    34:34:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):260:260 -> sendMessageToPeer
+    35:35:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):259:259 -> sendMessageToPeer
+    36:38:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):273:275 -> sendMessageToPeer
+    39:39:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):273:273 -> sendMessageToPeer
+    40:40:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):272:272 -> sendMessageToPeer
+    41:41:void sendMessageToPeer(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):278:278 -> sendMessageToPeer
+    1:2:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):301:302 -> setChannelAttributes
+    3:6:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):305:308 -> setChannelAttributes
+    7:15:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):310:318 -> setChannelAttributes
+    16:16:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):317:317 -> setChannelAttributes
+    17:17:void setChannelAttributes(java.lang.String,java.util.List,com.rz.gms.channel.bean.ChannelAttributeOptions,com.rz.gms.ResultCallback):325:325 -> setChannelAttributes
+    1:2:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):571:572 -> setLocalUserAttributes
+    3:5:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):575:577 -> setLocalUserAttributes
+    6:6:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):1189:1189 -> setLocalUserAttributes
+    7:7:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):580:580 -> setLocalUserAttributes
+    8:10:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):582:584 -> setLocalUserAttributes
+    11:15:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):586:590 -> setLocalUserAttributes
+    16:16:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):589:589 -> setLocalUserAttributes
+    17:17:void setLocalUserAttributes(java.util.List,com.rz.gms.ResultCallback):597:597 -> setLocalUserAttributes
+    1:1:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):901:901 -> subscribePeersOnlineStatus
+    2:2:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):903:903 -> subscribePeersOnlineStatus
+    3:3:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):902:902 -> subscribePeersOnlineStatus
+    4:11:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):910:917 -> subscribePeersOnlineStatus
+    12:12:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):916:916 -> subscribePeersOnlineStatus
+    13:13:void subscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):921:921 -> subscribePeersOnlineStatus
     1:5:boolean d(java.lang.String):1163:1167 -> t
     1:1:java.util.Map e(a.a.a.b.b.c):41:41 -> u
-    1:1:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):928:928 -> unsubscribePeersOnlineStatus
-    2:2:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):930:930 -> unsubscribePeersOnlineStatus
-    3:3:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):929:929 -> unsubscribePeersOnlineStatus
-    4:10:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):937:943 -> unsubscribePeersOnlineStatus
-    11:11:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):942:942 -> unsubscribePeersOnlineStatus
-    12:12:void unsubscribePeersOnlineStatus(java.util.Set,com.duobeiyun.generamessagesdk.ResultCallback):951:951 -> unsubscribePeersOnlineStatus
+    1:1:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):928:928 -> unsubscribePeersOnlineStatus
+    2:2:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):930:930 -> unsubscribePeersOnlineStatus
+    3:3:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):929:929 -> unsubscribePeersOnlineStatus
+    4:10:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):937:943 -> unsubscribePeersOnlineStatus
+    11:11:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):942:942 -> unsubscribePeersOnlineStatus
+    12:12:void unsubscribePeersOnlineStatus(java.util.Set,com.rz.gms.ResultCallback):951:951 -> unsubscribePeersOnlineStatus
     1:5:void e():187:191 -> v
     6:7:void e():193:194 -> v
     8:9:void e():196:197 -> v
@@ -469,9 +469,9 @@ a.a.a.b.b.c$p -> a.a.a.b.b.c$p:
     13:14:void call(java.lang.Object[]):890:891 -> call
     15:15:void call(java.lang.Object[]):880:880 -> call
 a.a.a.b.b.c$q -> a.a.a.b.b.c$q:
-    1:1:void <init>(a.a.a.b.b.c,com.duobeiyun.generamessagesdk.bean.LoginParams,com.duobeiyun.generamessagesdk.ResultCallback):137:137 -> <init>
+    1:1:void <init>(a.a.a.b.b.c,com.rz.gms.bean.LoginParams,com.rz.gms.ResultCallback):137:137 -> <init>
     1:1:void a(java.lang.Void):139:139 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):143:143 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):143:143 -> onFailure
     1:1:void onSuccess(java.lang.Object):137:137 -> onSuccess
 a.a.a.b.b.c$r -> a.a.a.b.b.c$r:
     1:1:void <init>():1152:1152 -> <init>
@@ -522,10 +522,10 @@ a.a.a.c.c -> a.a.a.c.c:
     3:3:void a():126:126 -> b
     1:1:void a(int,int):65:65 -> c
     1:1:void a(a.a.a.c.c,java.lang.String,boolean,int,java.lang.Object):50:50 -> d
-    1:1:void a(com.duobeiyun.generamessagesdk.bean.LoginParams,a.a.a.c.d):40:40 -> e
-    2:5:void a(com.duobeiyun.generamessagesdk.bean.LoginParams,a.a.a.c.d):43:46 -> e
-    6:6:void a(com.duobeiyun.generamessagesdk.bean.LoginParams,a.a.a.c.d):41:41 -> e
-    1:1:void a(com.duobeiyun.generamessagesdk.callback.LoginStateCallback):143:143 -> f
+    1:1:void a(com.rz.gms.bean.LoginParams,a.a.a.c.d):40:40 -> e
+    2:5:void a(com.rz.gms.bean.LoginParams,a.a.a.c.d):43:46 -> e
+    6:6:void a(com.rz.gms.bean.LoginParams,a.a.a.c.d):41:41 -> e
+    1:1:void a(com.rz.gms.callback.LoginStateCallback):143:143 -> f
     1:3:void a(java.lang.String):109:111 -> g
     4:4:void a(java.lang.String):110:110 -> g
     1:3:void a(java.lang.String,a.a.a.c.g):97:99 -> h
@@ -536,9 +536,9 @@ a.a.a.c.c -> a.a.a.c.c:
     5:7:void a(java.lang.String,boolean):58:60 -> j
     8:8:void a(java.lang.String,boolean):59:59 -> j
     9:9:void a(java.lang.String,boolean):58:58 -> j
-    1:1:boolean a(com.duobeiyun.generamessagesdk.bean.LoginParams):151:151 -> k
+    1:1:boolean a(com.rz.gms.bean.LoginParams):151:151 -> k
     1:2:void b():87:88 -> l
-    1:1:void b(com.duobeiyun.generamessagesdk.callback.LoginStateCallback):147:147 -> m
+    1:1:void b(com.rz.gms.callback.LoginStateCallback):147:147 -> m
     1:1:void b(java.lang.String):104:104 -> n
     1:5:void c():73:77 -> o
     6:6:void c():76:76 -> o
@@ -590,9 +590,9 @@ a.a.a.c.e -> a.a.a.c.e:
     1:1:java.lang.String r():63:63 -> y
     1:1:java.lang.String s():48:48 -> z
 a.a.a.c.f -> a.a.a.c.f:
-    1:15:io.socket.client.Socket a(com.duobeiyun.generamessagesdk.bean.LoginParams):56:70 -> a
-    16:16:io.socket.client.Socket a(com.duobeiyun.generamessagesdk.bean.LoginParams):72:72 -> a
-    17:17:io.socket.client.Socket a(com.duobeiyun.generamessagesdk.bean.LoginParams):74:74 -> a
+    1:15:io.socket.client.Socket a(com.rz.gms.bean.LoginParams):56:70 -> a
+    16:16:io.socket.client.Socket a(com.rz.gms.bean.LoginParams):72:72 -> a
+    17:17:io.socket.client.Socket a(com.rz.gms.bean.LoginParams):74:74 -> a
     1:1:void a():162:162 -> b
     2:2:void a():165:165 -> b
     1:1:void a(int):138:138 -> c
@@ -605,12 +605,12 @@ a.a.a.c.f -> a.a.a.c.f:
     2:4:java.lang.String b():98:100 -> d
     5:5:java.lang.String b():102:102 -> d
     6:6:java.lang.String b():104:104 -> d
-    1:3:boolean b(com.duobeiyun.generamessagesdk.bean.LoginParams):111:113 -> e
-    4:4:boolean b(com.duobeiyun.generamessagesdk.bean.LoginParams):115:115 -> e
-    5:5:boolean b(com.duobeiyun.generamessagesdk.bean.LoginParams):117:117 -> e
-    6:9:boolean b(com.duobeiyun.generamessagesdk.bean.LoginParams):119:122 -> e
-    10:10:boolean b(com.duobeiyun.generamessagesdk.bean.LoginParams):124:124 -> e
-    11:11:boolean b(com.duobeiyun.generamessagesdk.bean.LoginParams):126:126 -> e
+    1:3:boolean b(com.rz.gms.bean.LoginParams):111:113 -> e
+    4:4:boolean b(com.rz.gms.bean.LoginParams):115:115 -> e
+    5:5:boolean b(com.rz.gms.bean.LoginParams):117:117 -> e
+    6:9:boolean b(com.rz.gms.bean.LoginParams):119:122 -> e
+    10:10:boolean b(com.rz.gms.bean.LoginParams):124:124 -> e
+    11:11:boolean b(com.rz.gms.bean.LoginParams):126:126 -> e
     1:4:java.lang.String c():78:81 -> f
     5:5:java.lang.String c():83:83 -> f
     1:4:void d():87:90 -> g
@@ -656,15 +656,15 @@ a.a.a.c.h -> a.a.a.c.h:
     6:6:void a(a.a.a.c.d):120:120 -> d
     1:1:void a(a.a.a.c.h,int):17:17 -> e
     1:1:void a(a.a.a.c.h,int,java.lang.String,int,java.lang.Object):204:204 -> f
-    1:2:void a(com.duobeiyun.generamessagesdk.callback.LoginStateCallback):186:187 -> g
-    3:4:void a(com.duobeiyun.generamessagesdk.callback.LoginStateCallback):189:190 -> g
+    1:2:void a(com.rz.gms.callback.LoginStateCallback):186:187 -> g
+    3:4:void a(com.rz.gms.callback.LoginStateCallback):189:190 -> g
     1:1:void a(boolean):24:24 -> h
     1:1:boolean a(java.lang.String):257:257 -> i
     1:1:a.a.a.c.c b(a.a.a.c.h):17:17 -> j
     1:5:void b():43:47 -> k
     1:1:void b(a.a.a.c.h,int):17:17 -> l
-    1:1:void b(com.duobeiyun.generamessagesdk.callback.LoginStateCallback):195:195 -> m
-    2:3:void b(com.duobeiyun.generamessagesdk.callback.LoginStateCallback):198:199 -> m
+    1:1:void b(com.rz.gms.callback.LoginStateCallback):195:195 -> m
+    2:3:void b(com.rz.gms.callback.LoginStateCallback):198:199 -> m
     1:1:boolean c():24:24 -> n
     1:1:boolean d():249:249 -> o
     2:3:boolean d():248:249 -> o
@@ -737,9 +737,9 @@ a.a.a.c.j.a -> a.a.a.c.j.a:
     4:4:void <init>():57:57 -> <init>
     1:1:java.lang.String a():95:95 -> a
     1:1:void a(a.a.a.c.j.a,java.lang.String):26:26 -> b
-    1:1:void a(android.content.Context,com.duobeiyun.generamessagesdk.ResultCallback):44:44 -> c
-    2:7:void a(android.content.Context,com.duobeiyun.generamessagesdk.ResultCallback):46:51 -> c
-    8:8:void a(android.content.Context,com.duobeiyun.generamessagesdk.ResultCallback):54:54 -> c
+    1:1:void a(android.content.Context,com.rz.gms.ResultCallback):44:44 -> c
+    2:7:void a(android.content.Context,com.rz.gms.ResultCallback):46:51 -> c
+    8:8:void a(android.content.Context,com.rz.gms.ResultCallback):54:54 -> c
     1:2:void a(java.lang.String):80:81 -> d
     3:3:void a(java.lang.String):84:84 -> d
     1:1:void a(boolean):67:67 -> e
@@ -807,13 +807,13 @@ a.a.a.d.b -> a.a.a.d.b:
     4:4:void D():98:98 -> d
     5:5:void D():94:94 -> d
     6:6:void D():92:92 -> d
-    1:1:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):35:35 -> e
-    2:16:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):39:53 -> e
-    17:17:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):56:56 -> e
-    18:18:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):58:58 -> e
-    19:19:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):264:264 -> e
-    20:20:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):61:61 -> e
-    21:21:com.duobeiyun.generamessagesdk.ErrorInfo a(java.lang.String,int):66:66 -> e
+    1:1:com.rz.gms.ErrorInfo a(java.lang.String,int):35:35 -> e
+    2:16:com.rz.gms.ErrorInfo a(java.lang.String,int):39:53 -> e
+    17:17:com.rz.gms.ErrorInfo a(java.lang.String,int):56:56 -> e
+    18:18:com.rz.gms.ErrorInfo a(java.lang.String,int):58:58 -> e
+    19:19:com.rz.gms.ErrorInfo a(java.lang.String,int):264:264 -> e
+    20:20:com.rz.gms.ErrorInfo a(java.lang.String,int):61:61 -> e
+    21:21:com.rz.gms.ErrorInfo a(java.lang.String,int):66:66 -> e
     1:2:void a():160:161 -> f
     3:3:void a():163:163 -> f
     4:4:void a():162:162 -> f
@@ -880,27 +880,27 @@ a.a.a.d.b -> a.a.a.d.b:
     1:1:java.lang.String t():22:22 -> y
     1:1:java.lang.String u():21:21 -> z
 a.a.a.e.a -> a.a.a.e.a:
-    1:3:void <init>(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):21:23 -> <init>
-    4:5:void <init>(com.duobeiyun.generamessagesdk.invite.Invitation):27:28 -> <init>
-    6:6:void <init>(com.duobeiyun.generamessagesdk.invite.Invitation):32:32 -> <init>
+    1:3:void <init>(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):21:23 -> <init>
+    4:5:void <init>(com.rz.gms.invite.Invitation):27:28 -> <init>
+    6:6:void <init>(com.rz.gms.invite.Invitation):32:32 -> <init>
     1:1:a.a.a.e.a$b a():14:14 -> a
     1:1:void b():36:36 -> b
 a.a.a.e.a$a -> a.a.a.e.a$a:
     1:1:void <init>():28:28 -> <init>
 a.a.a.e.a$b -> a.a.a.e.a$b:
-    com.duobeiyun.generamessagesdk.invite.GmsInvitationEventListener e -> f
-    com.duobeiyun.generamessagesdk.callback.ResultCallbackFail g -> h
+    com.rz.gms.invite.GMSInvitationEventListener e -> f
+    com.rz.gms.callback.ResultCallbackFail g -> h
     long a -> b
     boolean d -> e
     boolean b -> c
-    com.duobeiyun.generamessagesdk.invite.Invitation f -> g
+    com.rz.gms.invite.Invitation f -> g
     java.lang.String c -> d
-    1:1:void <init>(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):40:40 -> <init>
-    2:2:void <init>(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):44:44 -> <init>
-    3:3:void <init>(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):46:46 -> <init>
+    1:1:void <init>(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):40:40 -> <init>
+    2:2:void <init>(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):44:44 -> <init>
+    3:3:void <init>(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):46:46 -> <init>
     1:1:java.lang.String a():46:46 -> a
-    1:1:void a(com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):42:42 -> b
-    1:1:void a(com.duobeiyun.generamessagesdk.invite.GmsInvitationEventListener):48:48 -> c
+    1:1:void a(com.rz.gms.callback.ResultCallbackFail):42:42 -> b
+    1:1:void a(com.rz.gms.invite.GMSInvitationEventListener):48:48 -> c
     1:1:void a(boolean):45:45 -> d
     1:1:long b():44:44 -> e
     1:1:boolean c():47:47 -> f
@@ -920,62 +920,62 @@ a.a.a.e.c.a -> a.a.a.e.c.a:
     3:5:void <init>():29:31 -> <init>
     6:7:void <init>():39:40 -> <init>
     8:8:void <init>():349:349 -> <init>
-    1:1:int a(a.a.a.e.c.a,com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback,boolean,boolean,int,java.lang.Object):218:218 -> a
-    1:2:int acceptImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):279:280 -> acceptImpl
-    3:10:int acceptImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):283:290 -> acceptImpl
-    11:11:int acceptImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):288:288 -> acceptImpl
-    12:13:int acceptImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):308:309 -> acceptImpl
+    1:1:int a(a.a.a.e.c.a,com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback,boolean,boolean,int,java.lang.Object):218:218 -> a
+    1:2:int acceptImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):279:280 -> acceptImpl
+    3:10:int acceptImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):283:290 -> acceptImpl
+    11:11:int acceptImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):288:288 -> acceptImpl
+    12:13:int acceptImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):308:309 -> acceptImpl
     1:1:int a(a.a.a.e.c.a,java.lang.Object[]):25:25 -> b
-    1:3:int a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback,boolean,boolean):220:222 -> c
-    4:5:int a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback,boolean,boolean):224:225 -> c
-    6:8:int a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback,boolean,boolean):227:229 -> c
-    9:11:int a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback,boolean,boolean):231:233 -> c
-    12:12:int a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback,boolean,boolean):235:235 -> c
-    1:2:int cancelImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):242:243 -> cancelImpl
-    3:10:int cancelImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):246:253 -> cancelImpl
-    11:11:int cancelImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):251:251 -> cancelImpl
-    12:13:int cancelImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):271:272 -> cancelImpl
-    1:1:com.duobeiyun.generamessagesdk.invite.Invitation createImpl(java.lang.String,java.lang.String):155:155 -> createImpl
-    2:2:com.duobeiyun.generamessagesdk.invite.Invitation createImpl(java.lang.String,java.lang.String):160:160 -> createImpl
-    3:8:com.duobeiyun.generamessagesdk.invite.Invitation createImpl(java.lang.String,java.lang.String):164:169 -> createImpl
-    9:10:com.duobeiyun.generamessagesdk.invite.Invitation createImpl(java.lang.String,java.lang.String):161:162 -> createImpl
-    11:12:com.duobeiyun.generamessagesdk.invite.Invitation createImpl(java.lang.String,java.lang.String):157:158 -> createImpl
+    1:3:int a(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback,boolean,boolean):220:222 -> c
+    4:5:int a(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback,boolean,boolean):224:225 -> c
+    6:8:int a(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback,boolean,boolean):227:229 -> c
+    9:11:int a(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback,boolean,boolean):231:233 -> c
+    12:12:int a(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback,boolean,boolean):235:235 -> c
+    1:2:int cancelImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):242:243 -> cancelImpl
+    3:10:int cancelImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):246:253 -> cancelImpl
+    11:11:int cancelImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):251:251 -> cancelImpl
+    12:13:int cancelImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):271:272 -> cancelImpl
+    1:1:com.rz.gms.invite.Invitation createImpl(java.lang.String,java.lang.String):155:155 -> createImpl
+    2:2:com.rz.gms.invite.Invitation createImpl(java.lang.String,java.lang.String):160:160 -> createImpl
+    3:8:com.rz.gms.invite.Invitation createImpl(java.lang.String,java.lang.String):164:169 -> createImpl
+    9:10:com.rz.gms.invite.Invitation createImpl(java.lang.String,java.lang.String):161:162 -> createImpl
+    11:12:com.rz.gms.invite.Invitation createImpl(java.lang.String,java.lang.String):157:158 -> createImpl
     1:2:int a(java.lang.Object[]):358:359 -> d
     3:4:int a(java.lang.Object[]):361:362 -> d
     5:5:int a(java.lang.Object[]):364:364 -> d
     6:6:int a(java.lang.Object[]):361:361 -> d
     1:1:java.util.concurrent.locks.ReentrantLock a(a.a.a.e.c.a):25:25 -> e
     1:1:void a():382:382 -> f
-    1:1:void a(a.a.a.e.c.a,com.duobeiyun.generamessagesdk.invite.Invitation):25:25 -> g
-    void a(com.duobeiyun.generamessagesdk.client.GmsClient) -> h
-    1:1:void a(com.duobeiyun.generamessagesdk.invite.Invitation):120:120 -> i
-    2:5:void a(com.duobeiyun.generamessagesdk.invite.Invitation):124:127 -> i
-    1:1:boolean a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):135:135 -> j
-    2:3:boolean a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):139:140 -> j
-    4:4:boolean a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):142:142 -> j
-    5:5:boolean a(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):145:145 -> j
+    1:1:void a(a.a.a.e.c.a,com.rz.gms.invite.Invitation):25:25 -> g
+    void a(com.rz.gms.client.GMSClient) -> h
+    1:1:void a(com.rz.gms.invite.Invitation):120:120 -> i
+    2:5:void a(com.rz.gms.invite.Invitation):124:127 -> i
+    1:1:boolean a(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):135:135 -> j
+    2:3:boolean a(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):139:140 -> j
+    4:4:boolean a(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):142:142 -> j
+    5:5:boolean a(com.rz.gms.invite.Invitation,com.rz.gms.callback.ResultCallbackFail):145:145 -> j
     1:1:int b(a.a.a.e.c.a):25:25 -> k
     1:2:void b():49:50 -> l
     3:4:void b():52:53 -> l
     5:5:void b():51:51 -> l
-    1:1:void b(a.a.a.e.c.a,com.duobeiyun.generamessagesdk.invite.Invitation):25:25 -> m
-    1:1:void b(com.duobeiyun.generamessagesdk.invite.Invitation):109:109 -> n
-    2:4:void b(com.duobeiyun.generamessagesdk.invite.Invitation):112:114 -> n
-    5:5:void b(com.duobeiyun.generamessagesdk.invite.Invitation):116:116 -> n
-    1:1:com.duobeiyun.generamessagesdk.invite.GmsInvitationEventListener c(a.a.a.e.c.a):25:25 -> o
+    1:1:void b(a.a.a.e.c.a,com.rz.gms.invite.Invitation):25:25 -> m
+    1:1:void b(com.rz.gms.invite.Invitation):109:109 -> n
+    2:4:void b(com.rz.gms.invite.Invitation):112:114 -> n
+    5:5:void b(com.rz.gms.invite.Invitation):116:116 -> n
+    1:1:com.rz.gms.invite.GMSInvitationEventListener c(a.a.a.e.c.a):25:25 -> o
     1:6:void onStateChange(int,java.lang.String):372:377 -> onStateChange
     1:1:java.util.HashMap d(a.a.a.e.c.a):25:25 -> p
     1:1:int e(a.a.a.e.c.a):25:25 -> q
-    1:2:int refuseImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):316:317 -> refuseImpl
-    3:10:int refuseImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):320:327 -> refuseImpl
-    11:11:int refuseImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):325:325 -> refuseImpl
-    12:13:int refuseImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):345:346 -> refuseImpl
-    1:3:int sendImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):174:176 -> sendImpl
-    4:6:int sendImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):178:180 -> sendImpl
-    7:14:int sendImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):182:189 -> sendImpl
-    15:15:int sendImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):187:187 -> sendImpl
-    16:17:int sendImpl(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):210:211 -> sendImpl
-    1:2:void setEventListener(com.duobeiyun.generamessagesdk.invite.GmsInvitationEventListener):44:45 -> setEventListener
+    1:2:int refuseImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):316:317 -> refuseImpl
+    3:10:int refuseImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):320:327 -> refuseImpl
+    11:11:int refuseImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):325:325 -> refuseImpl
+    12:13:int refuseImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):345:346 -> refuseImpl
+    1:3:int sendImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):174:176 -> sendImpl
+    4:6:int sendImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):178:180 -> sendImpl
+    7:14:int sendImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):182:189 -> sendImpl
+    15:15:int sendImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):187:187 -> sendImpl
+    16:17:int sendImpl(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):210:211 -> sendImpl
+    1:2:void setEventListener(com.rz.gms.invite.GMSInvitationEventListener):44:45 -> setEventListener
 a.a.a.e.c.a$a -> a.a.a.e.c.a$a:
     1:7:void call(java.lang.Object[]):291:297 -> call
     8:10:void call(java.lang.Object[]):299:301 -> call
@@ -1045,29 +1045,29 @@ a.a.a.f.c -> a.a.a.f.c:
     1:1:void <clinit>():15:15 -> <clinit>
     1:1:void <init>():15:15 -> <init>
     1:1:int a():95:95 -> a
-    1:1:int a(a.a.a.f.c,java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean,int,java.lang.Object):31:31 -> b
-    1:1:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):33:33 -> c
-    2:2:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):35:35 -> c
-    3:3:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):37:37 -> c
-    4:5:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):39:40 -> c
-    6:6:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):43:43 -> c
-    7:7:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):45:45 -> c
-    8:9:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):48:49 -> c
-    10:10:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):52:52 -> c
-    11:11:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):51:51 -> c
-    12:12:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):53:53 -> c
-    13:13:int a(java.lang.Object[],com.duobeiyun.generamessagesdk.ResultCallback,java.lang.String,boolean):39:39 -> c
-    1:1:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):72:72 -> d
-    2:2:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):74:74 -> d
-    3:3:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):76:76 -> d
-    4:4:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):74:74 -> d
-    5:5:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):73:73 -> d
-    6:7:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):81:82 -> d
-    8:8:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):84:84 -> d
-    9:9:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):86:86 -> d
-    10:10:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):84:84 -> d
-    11:11:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):83:83 -> d
-    12:12:boolean a(java.lang.Object[],java.lang.String,com.duobeiyun.generamessagesdk.callback.ResultCallbackFail):81:81 -> d
+    1:1:int a(a.a.a.f.c,java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean,int,java.lang.Object):31:31 -> b
+    1:1:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):33:33 -> c
+    2:2:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):35:35 -> c
+    3:3:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):37:37 -> c
+    4:5:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):39:40 -> c
+    6:6:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):43:43 -> c
+    7:7:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):45:45 -> c
+    8:9:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):48:49 -> c
+    10:10:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):52:52 -> c
+    11:11:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):51:51 -> c
+    12:12:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):53:53 -> c
+    13:13:int a(java.lang.Object[],com.rz.gms.ResultCallback,java.lang.String,boolean):39:39 -> c
+    1:1:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):72:72 -> d
+    2:2:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):74:74 -> d
+    3:3:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):76:76 -> d
+    4:4:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):74:74 -> d
+    5:5:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):73:73 -> d
+    6:7:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):81:82 -> d
+    8:8:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):84:84 -> d
+    9:9:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):86:86 -> d
+    10:10:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):84:84 -> d
+    11:11:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):83:83 -> d
+    12:12:boolean a(java.lang.Object[],java.lang.String,com.rz.gms.callback.ResultCallbackFail):81:81 -> d
 a.a.a.f.d -> a.a.a.f.d:
     1:2:boolean a(java.lang.String,java.lang.String,java.lang.String):132:133 -> a
 a.a.a.f.e -> a.a.a.f.e:
@@ -17327,14 +17327,14 @@ androidx.versionedparcelable.VersionedParcelParcel -> c.n.b:
     4:5:void setOutputField(int):93:94 -> w
     1:1:void writeBoolean(boolean):181:181 -> y
 androidx.versionedparcelable.VersionedParcelable -> c.n.c:
-com.duobeiyun.generamessagedemo.test.Chanel -> d.a.a.a.a:
-    com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel -> a
+com.rz.gmsdemo.test.Chanel -> d.a.a.a.a:
+    com.rz.gms.channel.GMSChannel createChannel -> a
     java.lang.String TAG -> b
-    com.duobeiyun.generamessagesdk.client.GmsClient createInstance -> c
+    com.rz.gms.client.GMSClient createInstance -> c
     java.lang.String channelId -> d
-    1:1:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,java.lang.String):20:20 -> <init>
-    2:2:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,java.lang.String):22:22 -> <init>
-    3:3:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):20:20 -> <init>
+    1:1:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String):20:20 -> <init>
+    2:2:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String):22:22 -> <init>
+    3:3:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):20:20 -> <init>
     1:2:void beginTest():24:25 -> a
     3:12:void beginTest():27:36 -> a
     13:14:void beginTest():38:39 -> a
@@ -17362,115 +17362,115 @@ com.duobeiyun.generamessagedemo.test.Chanel -> d.a.a.a.a:
     1:3:void testgetChannelMemberCount():87:89 -> n
     4:4:void testgetChannelMemberCount():87:87 -> n
     1:1:void testgetChannelMembers():65:65 -> o
-com.duobeiyun.generamessagedemo.test.Chanel$testAddOrUpdateChannelAttributes$1 -> d.a.a.a.a$a:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):47:47 -> <init>
+com.rz.gmsdemo.test.Chanel$testAddOrUpdateChannelAttributes$1 -> d.a.a.a.a$a:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):47:47 -> <init>
     1:1:void onSuccess(java.lang.Void):51:51 -> a
     2:2:void onSuccess(java.lang.Void):49:49 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):58:58 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):56:56 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):58:58 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):56:56 -> onFailure
     1:1:void onSuccess(java.lang.Object):47:47 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testChanelMsg$1 -> d.a.a.a.a$b:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):220:220 -> <init>
+com.rz.gmsdemo.test.Chanel$testChanelMsg$1 -> d.a.a.a.a$b:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):220:220 -> <init>
     1:1:void onSuccess(java.lang.Void):222:222 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):226:226 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):226:226 -> onFailure
     1:1:void onSuccess(java.lang.Object):220:220 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testCreateChanel$1 -> d.a.a.a.a$c:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):178:178 -> <init>
+com.rz.gmsdemo.test.Chanel$testCreateChanel$1 -> d.a.a.a.a$c:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):178:178 -> <init>
     1:1:void onAttributesUpdated(java.util.List):193:193 -> onAttributesUpdated
     1:1:void onMemberCountUpdated(int):199:199 -> onMemberCountUpdated
     2:2:void onMemberCountUpdated(int):197:197 -> onMemberCountUpdated
-    1:1:void onMessageReceived(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelMember):189:189 -> onMessageReceived
-com.duobeiyun.generamessagedemo.test.Chanel$testDeleteChannelAttributesByKeys$1 -> d.a.a.a.a$d:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):158:158 -> <init>
+    1:1:void onMessageReceived(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.channel.bean.GMSChannelMember):189:189 -> onMessageReceived
+com.rz.gmsdemo.test.Chanel$testDeleteChannelAttributesByKeys$1 -> d.a.a.a.a$d:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):158:158 -> <init>
     1:1:void onSuccess(java.lang.Void):162:162 -> a
     2:2:void onSuccess(java.lang.Void):160:160 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):169:169 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):167:167 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):169:169 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):167:167 -> onFailure
     1:1:void onSuccess(java.lang.Object):158:158 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testGetChanelAtt$1 -> d.a.a.a.a$e:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):255:255 -> <init>
+com.rz.gmsdemo.test.Chanel$testGetChanelAtt$1 -> d.a.a.a.a$e:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):255:255 -> <init>
     1:1:void onSuccess(java.util.List):257:257 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):263:263 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):261:261 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):263:263 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):261:261 -> onFailure
     1:1:void onSuccess(java.lang.Object):255:255 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testJoinChannel$1 -> d.a.a.a.a$f:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):206:206 -> <init>
+com.rz.gmsdemo.test.Chanel$testJoinChannel$1 -> d.a.a.a.a$f:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):206:206 -> <init>
     1:2:void onSuccess(java.lang.Void):208:209 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):213:213 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):213:213 -> onFailure
     1:1:void onSuccess(java.lang.Object):206:206 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testLeaveChanel$1 -> d.a.a.a.a$g:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):272:272 -> <init>
+com.rz.gmsdemo.test.Chanel$testLeaveChanel$1 -> d.a.a.a.a$g:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):272:272 -> <init>
     1:1:void onSuccess(java.lang.Void):274:274 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):278:278 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):278:278 -> onFailure
     1:1:void onSuccess(java.lang.Object):272:272 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testSetChanelAtt$1 -> d.a.a.a.a$h:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):237:237 -> <init>
+com.rz.gmsdemo.test.Chanel$testSetChanelAtt$1 -> d.a.a.a.a$h:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):237:237 -> <init>
     1:1:void onSuccess(java.lang.Void):239:239 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):245:245 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):243:243 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):245:245 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):243:243 -> onFailure
     1:1:void onSuccess(java.lang.Object):237:237 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testclearChannelAttributes$1 -> d.a.a.a.a$i:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):136:136 -> <init>
+com.rz.gmsdemo.test.Chanel$testclearChannelAttributes$1 -> d.a.a.a.a$i:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):136:136 -> <init>
     1:1:void onSuccess(java.lang.Void):140:140 -> a
     2:2:void onSuccess(java.lang.Void):138:138 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):147:147 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):145:145 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):147:147 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):145:145 -> onFailure
     1:1:void onSuccess(java.lang.Object):136:136 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testgetChannelAttributes$1 -> d.a.a.a.a$j:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):112:112 -> <init>
+com.rz.gmsdemo.test.Chanel$testgetChannelAttributes$1 -> d.a.a.a.a$j:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):112:112 -> <init>
     1:1:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1):1648:1648 -> a
     1:1:void onSuccess(java.util.List):284 -> a
     2:2:void onSuccess(java.util.List):117:117 -> a
     3:3:void onSuccess(java.util.List):115:115 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):125:125 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):123:123 -> onFailure
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):112:112 -> onSuccess
+    1:1:void onFailure(com.rz.gms.ErrorInfo):125:125 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):123:123 -> onFailure
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):112:112 -> onSuccess
     1:1:void onSuccess(java.lang.Object):112 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testgetChannelMemberCount$1 -> d.a.a.a.a$k:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):89:89 -> <init>
+com.rz.gmsdemo.test.Chanel$testgetChannelMemberCount$1 -> d.a.a.a.a$k:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):89:89 -> <init>
     1:1:void kotlin.collections.MapsKt___MapsKt.forEach(java.util.Map,kotlin.jvm.functions.Function1):151:151 -> a
     1:1:void onSuccess(java.util.Map):284 -> a
     2:2:void onSuccess(java.util.Map):102:102 -> a
     3:3:void onSuccess(java.util.Map):100:100 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):93:93 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):91:91 -> onFailure
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):89:89 -> onSuccess
+    1:1:void onFailure(com.rz.gms.ErrorInfo):93:93 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):91:91 -> onFailure
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):89:89 -> onSuccess
     1:1:void onSuccess(java.lang.Object):89 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Chanel$testgetChannelMembers$1 -> d.a.a.a.a$l:
-    com.duobeiyun.generamessagedemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):65:65 -> <init>
+com.rz.gmsdemo.test.Chanel$testgetChannelMembers$1 -> d.a.a.a.a$l:
+    com.rz.gmsdemo.test.Chanel this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):65:65 -> <init>
     1:1:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1):1648:1648 -> a
     1:1:void onSuccess(java.util.List):284 -> a
     2:2:void onSuccess(java.util.List):70:70 -> a
     3:3:void onSuccess(java.util.List):68:68 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):78:78 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):76:76 -> onFailure
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Chanel):65:65 -> onSuccess
+    1:1:void onFailure(com.rz.gms.ErrorInfo):78:78 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):76:76 -> onFailure
+    1:1:void <init>(com.rz.gmsdemo.test.Chanel):65:65 -> onSuccess
     1:1:void onSuccess(java.lang.Object):65 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Inviter -> d.a.a.a.b:
+com.rz.gmsdemo.test.Inviter -> d.a.a.a.b:
     java.lang.String userId -> f
-    com.duobeiyun.generamessagesdk.client.GmsClient createInstance -> e
-    com.duobeiyun.generamessagesdk.invite.Invitation invitation -> b
-    com.duobeiyun.generamessagesdk.invite.InvitationManager manager -> a
+    com.rz.gms.client.GMSClient createInstance -> e
+    com.rz.gms.invite.Invitation invitation -> b
+    com.rz.gms.invite.InvitationManager manager -> a
     java.lang.String Tag -> c
     java.lang.String testInitee -> d
-    1:1:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,android.content.Context):21:21 -> <init>
-    2:3:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,android.content.Context):24:25 -> <init>
-    1:1:com.duobeiyun.generamessagesdk.invite.Invitation access$getInvitation$p(com.duobeiyun.generamessagedemo.test.Inviter):21:21 -> a
-    1:1:com.duobeiyun.generamessagesdk.invite.InvitationManager access$getManager$p(com.duobeiyun.generamessagedemo.test.Inviter):21:21 -> b
-    1:1:java.lang.String access$getTag$p(com.duobeiyun.generamessagedemo.test.Inviter):21:21 -> c
-    1:1:void access$log(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation,java.lang.String):21:21 -> d
+    1:1:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):21:21 -> <init>
+    2:3:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):24:25 -> <init>
+    1:1:com.rz.gms.invite.Invitation access$getInvitation$p(com.rz.gmsdemo.test.Inviter):21:21 -> a
+    1:1:com.rz.gms.invite.InvitationManager access$getManager$p(com.rz.gmsdemo.test.Inviter):21:21 -> b
+    1:1:java.lang.String access$getTag$p(com.rz.gmsdemo.test.Inviter):21:21 -> c
+    1:1:void access$log(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation,java.lang.String):21:21 -> d
     1:4:void beginTest():28:31 -> e
     5:6:void beginTest():35:36 -> e
     7:8:void beginTest():38:39 -> e
@@ -17479,69 +17479,69 @@ com.duobeiyun.generamessagedemo.test.Inviter -> d.a.a.a.b:
     13:13:void beginTest():42:42 -> e
     14:14:void beginTest():39:39 -> e
     15:15:void beginTest():36:36 -> e
-    1:2:void log(com.duobeiyun.generamessagesdk.invite.Invitation,java.lang.String):137:138 -> f
-    3:3:void log(com.duobeiyun.generamessagesdk.invite.Invitation,java.lang.String):136:136 -> f
+    1:2:void log(com.rz.gms.invite.Invitation,java.lang.String):137:138 -> f
+    3:3:void log(com.rz.gms.invite.Invitation,java.lang.String):136:136 -> f
     1:1:void setTestListener():143:143 -> g
-    1:1:void testAccept(com.duobeiyun.generamessagesdk.invite.Invitation):83:83 -> h
+    1:1:void testAccept(com.rz.gms.invite.Invitation):83:83 -> h
     1:1:void testOutTimeWithOtherAction():56:56 -> i
     2:2:void testOutTimeWithOtherAction():63:63 -> i
-    1:1:void testRefuse(com.duobeiyun.generamessagesdk.invite.Invitation):67:67 -> j
-    1:1:void testSend(com.duobeiyun.generamessagesdk.invite.Invitation):115:115 -> k
+    1:1:void testRefuse(com.rz.gms.invite.Invitation):67:67 -> j
+    1:1:void testSend(com.rz.gms.invite.Invitation):115:115 -> k
     1:1:void testTimerCountDown():49:49 -> l
     2:2:void testTimerCountDown():51:51 -> l
-    1:1:void testcancel(com.duobeiyun.generamessagesdk.invite.Invitation):99:99 -> m
+    1:1:void testcancel(com.rz.gms.invite.Invitation):99:99 -> m
     1:2:void testcreate():131:132 -> n
     3:3:void testcreate():131:131 -> n
-com.duobeiyun.generamessagedemo.test.Inviter$setTestListener$1 -> d.a.a.a.b$a:
-    com.duobeiyun.generamessagedemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Inviter):143:143 -> <init>
-    1:1:void onAccepted(com.duobeiyun.generamessagesdk.invite.Invitation):161:161 -> onAccepted
-    1:1:void onArrived(com.duobeiyun.generamessagesdk.invite.Invitation):152:152 -> onArrived
-    1:1:void onCanceled(com.duobeiyun.generamessagesdk.invite.Invitation):156:156 -> onCanceled
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.invite.InvitationFailureReason):145:145 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.invite.InvitationFailureReason):147:147 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.invite.InvitationFailureReason):146:146 -> onFailure
-    1:1:void onRefused(com.duobeiyun.generamessagesdk.invite.Invitation):165:165 -> onRefused
-com.duobeiyun.generamessagedemo.test.Inviter$testAccept$1 -> d.a.a.a.b$b:
-    com.duobeiyun.generamessagesdk.invite.Invitation $invitation2 -> b
-    com.duobeiyun.generamessagedemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation):83:83 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):85:85 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):91:91 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):89:89 -> onFailure
+com.rz.gmsdemo.test.Inviter$setTestListener$1 -> d.a.a.a.b$a:
+    com.rz.gmsdemo.test.Inviter this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Inviter):143:143 -> <init>
+    1:1:void onAccepted(com.rz.gms.invite.Invitation):161:161 -> onAccepted
+    1:1:void onArrived(com.rz.gms.invite.Invitation):152:152 -> onArrived
+    1:1:void onCanceled(com.rz.gms.invite.Invitation):156:156 -> onCanceled
+    1:1:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):145:145 -> onFailure
+    2:2:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):147:147 -> onFailure
+    3:3:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):146:146 -> onFailure
+    1:1:void onRefused(com.rz.gms.invite.Invitation):165:165 -> onRefused
+com.rz.gmsdemo.test.Inviter$testAccept$1 -> d.a.a.a.b$b:
+    com.rz.gms.invite.Invitation $invitation2 -> b
+    com.rz.gmsdemo.test.Inviter this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation):83:83 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):85:85 -> a
+    1:1:void onFailure(com.rz.gms.ErrorInfo):91:91 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):89:89 -> onFailure
     1:1:void onSuccess(java.lang.Object):83:83 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Inviter$testOutTimeWithOtherAction$1 -> d.a.a.a.b$c:
-    com.duobeiyun.generamessagedemo.test.Inviter this$0 -> b
+com.rz.gmsdemo.test.Inviter$testOutTimeWithOtherAction$1 -> d.a.a.a.b$c:
+    com.rz.gmsdemo.test.Inviter this$0 -> b
     1:6:void run():57:62 -> run
     7:7:void run():58:58 -> run
-com.duobeiyun.generamessagedemo.test.Inviter$testRefuse$1 -> d.a.a.a.b$d:
-    com.duobeiyun.generamessagesdk.invite.Invitation $invitation2 -> b
-    com.duobeiyun.generamessagedemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation):67:67 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):69:69 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):75:75 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):73:73 -> onFailure
+com.rz.gmsdemo.test.Inviter$testRefuse$1 -> d.a.a.a.b$d:
+    com.rz.gms.invite.Invitation $invitation2 -> b
+    com.rz.gmsdemo.test.Inviter this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation):67:67 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):69:69 -> a
+    1:1:void onFailure(com.rz.gms.ErrorInfo):75:75 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):73:73 -> onFailure
     1:1:void onSuccess(java.lang.Object):67:67 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Inviter$testSend$1 -> d.a.a.a.b$e:
-    com.duobeiyun.generamessagedemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Inviter):115:115 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):117:117 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):122:123 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):121:121 -> onFailure
+com.rz.gmsdemo.test.Inviter$testSend$1 -> d.a.a.a.b$e:
+    com.rz.gmsdemo.test.Inviter this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Inviter):115:115 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):117:117 -> a
+    1:2:void onFailure(com.rz.gms.ErrorInfo):122:123 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):121:121 -> onFailure
     1:1:void onSuccess(java.lang.Object):115:115 -> onSuccess
-com.duobeiyun.generamessagedemo.test.Inviter$testcancel$1 -> d.a.a.a.b$f:
-    com.duobeiyun.generamessagesdk.invite.Invitation $invitation -> b
-    com.duobeiyun.generamessagedemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.Inviter,com.duobeiyun.generamessagesdk.invite.Invitation):99:99 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):101:101 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):106:107 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):105:105 -> onFailure
+com.rz.gmsdemo.test.Inviter$testcancel$1 -> d.a.a.a.b$f:
+    com.rz.gms.invite.Invitation $invitation -> b
+    com.rz.gmsdemo.test.Inviter this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation):99:99 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):101:101 -> a
+    1:2:void onFailure(com.rz.gms.ErrorInfo):106:107 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):105:105 -> onFailure
     1:1:void onSuccess(java.lang.Object):99:99 -> onSuccess
-com.duobeiyun.generamessagedemo.test.LocalUser -> d.a.a.a.c:
+com.rz.gmsdemo.test.LocalUser -> d.a.a.a.c:
     java.lang.String TAG -> a
-    com.duobeiyun.generamessagesdk.client.GmsClient createInstance -> b
+    com.rz.gms.client.GMSClient createInstance -> b
     java.lang.String userId -> c
-    1:2:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String):16:17 -> <init>
+    1:2:void <init>(com.rz.gms.client.GMSClient,java.lang.String):16:17 -> <init>
     1:8:void beginTest():19:26 -> a
     1:1:java.lang.String getTAG():17:17 -> b
     1:5:void testSetLocalAtt():138:142 -> c
@@ -17558,62 +17558,62 @@ com.duobeiyun.generamessagedemo.test.LocalUser -> d.a.a.a.c:
     1:1:void testgetUserAttributes():52:52 -> g
     1:4:void testgetUserAttributesByKeys():30:33 -> h
     5:5:void testgetUserAttributesByKeys():30:30 -> h
-com.duobeiyun.generamessagedemo.test.LocalUser$testSetLocalAtt$1 -> d.a.a.a.c$a:
-    com.duobeiyun.generamessagedemo.test.LocalUser this$0 -> a
+com.rz.gmsdemo.test.LocalUser$testSetLocalAtt$1 -> d.a.a.a.c$a:
+    com.rz.gmsdemo.test.LocalUser this$0 -> a
     kotlin.jvm.internal.Ref$ObjectRef $list -> b
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):145:145 -> <init>
+    1:1:void <init>(com.rz.gmsdemo.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):145:145 -> <init>
     1:3:void onSuccess(java.lang.Void):147:149 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):153:153 -> onFailure
-    2:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):155:156 -> onFailure
-    4:4:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):154:154 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):153:153 -> onFailure
+    2:3:void onFailure(com.rz.gms.ErrorInfo):155:156 -> onFailure
+    4:4:void onFailure(com.rz.gms.ErrorInfo):154:154 -> onFailure
     1:1:void onSuccess(java.lang.Object):145:145 -> onSuccess
-com.duobeiyun.generamessagedemo.test.LocalUser$testaddOrUpdateLocalUserAttributes$1 -> d.a.a.a.c$b:
-    com.duobeiyun.generamessagedemo.test.LocalUser this$0 -> a
+com.rz.gmsdemo.test.LocalUser$testaddOrUpdateLocalUserAttributes$1 -> d.a.a.a.c$b:
+    com.rz.gmsdemo.test.LocalUser this$0 -> a
     kotlin.jvm.internal.Ref$ObjectRef $list -> b
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):116:116 -> <init>
+    1:1:void <init>(com.rz.gmsdemo.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):116:116 -> <init>
     1:2:void onSuccess(java.lang.Void):119:120 -> a
     3:3:void onSuccess(java.lang.Void):118:118 -> a
     4:5:void onSuccess(java.lang.Void):122:123 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):127:127 -> onFailure
-    2:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):129:130 -> onFailure
-    4:4:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):128:128 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):127:127 -> onFailure
+    2:3:void onFailure(com.rz.gms.ErrorInfo):129:130 -> onFailure
+    4:4:void onFailure(com.rz.gms.ErrorInfo):128:128 -> onFailure
     1:1:void onSuccess(java.lang.Object):116:116 -> onSuccess
-com.duobeiyun.generamessagedemo.test.LocalUser$testclearLocalUserAttributes$1 -> d.a.a.a.c$c:
-    com.duobeiyun.generamessagedemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.LocalUser):71:71 -> <init>
+com.rz.gmsdemo.test.LocalUser$testclearLocalUserAttributes$1 -> d.a.a.a.c$c:
+    com.rz.gmsdemo.test.LocalUser this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):71:71 -> <init>
     1:2:void onSuccess(java.lang.Void):74:75 -> a
     3:3:void onSuccess(java.lang.Void):73:73 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):81:82 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):80:80 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):81:82 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):80:80 -> onFailure
     1:1:void onSuccess(java.lang.Object):71:71 -> onSuccess
-com.duobeiyun.generamessagedemo.test.LocalUser$testdeleteLocalUserAttributesByKeys$1 -> d.a.a.a.c$d:
-    com.duobeiyun.generamessagedemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.LocalUser):92:92 -> <init>
+com.rz.gmsdemo.test.LocalUser$testdeleteLocalUserAttributesByKeys$1 -> d.a.a.a.c$d:
+    com.rz.gmsdemo.test.LocalUser this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):92:92 -> <init>
     1:2:void onSuccess(java.lang.Void):95:96 -> a
     3:3:void onSuccess(java.lang.Void):94:94 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):102:103 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):101:101 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):102:103 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):101:101 -> onFailure
     1:1:void onSuccess(java.lang.Object):92:92 -> onSuccess
-com.duobeiyun.generamessagedemo.test.LocalUser$testgetUserAttributes$1 -> d.a.a.a.c$e:
-    com.duobeiyun.generamessagedemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.LocalUser):52:52 -> <init>
+com.rz.gmsdemo.test.LocalUser$testgetUserAttributes$1 -> d.a.a.a.c$e:
+    com.rz.gmsdemo.test.LocalUser this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):52:52 -> <init>
     1:2:void onSuccess(java.util.List):55:56 -> a
     3:3:void onSuccess(java.util.List):54:54 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):62:63 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):61:61 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):62:63 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):61:61 -> onFailure
     1:1:void onSuccess(java.lang.Object):52:52 -> onSuccess
-com.duobeiyun.generamessagedemo.test.LocalUser$testgetUserAttributesByKeys$1 -> d.a.a.a.c$f:
-    com.duobeiyun.generamessagedemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.LocalUser):33:33 -> <init>
+com.rz.gmsdemo.test.LocalUser$testgetUserAttributesByKeys$1 -> d.a.a.a.c$f:
+    com.rz.gmsdemo.test.LocalUser this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):33:33 -> <init>
     1:2:void onSuccess(java.util.List):36:37 -> a
     3:3:void onSuccess(java.util.List):35:35 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):43:44 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):42:42 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):43:44 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):42:42 -> onFailure
     1:1:void onSuccess(java.lang.Object):33:33 -> onSuccess
-com.duobeiyun.generamessagedemo.test.PeerMsg -> d.a.a.a.d:
+com.rz.gmsdemo.test.PeerMsg -> d.a.a.a.d:
     java.lang.String TAG -> a
-    com.duobeiyun.generamessagesdk.client.GmsClient createInstance -> b
-    1:2:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String):17:18 -> <init>
+    com.rz.gms.client.GMSClient createInstance -> b
+    1:2:void <init>(com.rz.gms.client.GMSClient,java.lang.String):17:18 -> <init>
     1:5:void beginTest():20:24 -> a
     1:1:java.lang.String getTAG():18:18 -> b
     1:1:void testqueryPeersBySubscriptionOption():28:28 -> c
@@ -17630,62 +17630,62 @@ com.duobeiyun.generamessagedemo.test.PeerMsg -> d.a.a.a.d:
     1:3:void testunsubscribePeersOnlineStatus():69:71 -> g
     4:4:void testunsubscribePeersOnlineStatus():73:73 -> g
     5:5:void testunsubscribePeersOnlineStatus():71:71 -> g
-com.duobeiyun.generamessagedemo.test.PeerMsg$testqueryPeersBySubscriptionOption$1 -> d.a.a.a.d$a:
-    com.duobeiyun.generamessagedemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.PeerMsg):30:30 -> <init>
+com.rz.gmsdemo.test.PeerMsg$testqueryPeersBySubscriptionOption$1 -> d.a.a.a.d$a:
+    com.rz.gmsdemo.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):30:30 -> <init>
     1:1:void onSuccess(java.util.Set):32:32 -> a
     2:2:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1):1648:1648 -> a
     2:2:void onSuccess(java.util.Set):136 -> a
     3:3:void onSuccess(java.util.Set):34:34 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):40:41 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):39:39 -> onFailure
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.PeerMsg):30:30 -> onSuccess
+    1:2:void onFailure(com.rz.gms.ErrorInfo):40:41 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):39:39 -> onFailure
+    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):30:30 -> onSuccess
     1:1:void onSuccess(java.lang.Object):30 -> onSuccess
-com.duobeiyun.generamessagedemo.test.PeerMsg$testqueryPeersOnlineStatus$1 -> d.a.a.a.d$b:
-    com.duobeiyun.generamessagedemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.PeerMsg):122:122 -> <init>
+com.rz.gmsdemo.test.PeerMsg$testqueryPeersOnlineStatus$1 -> d.a.a.a.d$b:
+    com.rz.gmsdemo.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):122:122 -> <init>
     1:1:void onSuccess(java.util.Map):124:124 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):129:130 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):128:128 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):129:130 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):128:128 -> onFailure
     1:1:void onSuccess(java.lang.Object):122:122 -> onSuccess
-com.duobeiyun.generamessagedemo.test.PeerMsg$testsendMessageToPeer$1 -> d.a.a.a.d$c:
-    com.duobeiyun.generamessagedemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.PeerMsg):56:56 -> <init>
+com.rz.gmsdemo.test.PeerMsg$testsendMessageToPeer$1 -> d.a.a.a.d$c:
+    com.rz.gmsdemo.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):56:56 -> <init>
     1:1:void onSuccess(java.lang.Void):58:58 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):62:62 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):62:62 -> onFailure
     1:1:void onSuccess(java.lang.Object):56:56 -> onSuccess
-com.duobeiyun.generamessagedemo.test.PeerMsg$testsubscribePeersOnlineStatus$1 -> d.a.a.a.d$d:
-    com.duobeiyun.generamessagedemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.PeerMsg):100:100 -> <init>
+com.rz.gmsdemo.test.PeerMsg$testsubscribePeersOnlineStatus$1 -> d.a.a.a.d$d:
+    com.rz.gmsdemo.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):100:100 -> <init>
     1:1:void onSuccess(java.lang.Void):102:102 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):107:108 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):106:106 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):107:108 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):106:106 -> onFailure
     1:1:void onSuccess(java.lang.Object):100:100 -> onSuccess
-com.duobeiyun.generamessagedemo.test.PeerMsg$testunsubscribePeersOnlineStatus$1 -> d.a.a.a.d$e:
-    com.duobeiyun.generamessagedemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.PeerMsg):73:73 -> <init>
+com.rz.gmsdemo.test.PeerMsg$testunsubscribePeersOnlineStatus$1 -> d.a.a.a.d$e:
+    com.rz.gmsdemo.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):73:73 -> <init>
     1:2:void onSuccess(java.lang.Void):76:77 -> a
     3:3:void onSuccess(java.lang.Void):75:75 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):83:84 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):82:82 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):83:84 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):82:82 -> onFailure
     1:1:void onSuccess(java.lang.Object):73:73 -> onSuccess
-com.duobeiyun.generamessagedemo.test.TestManager -> d.a.a.a.e:
+com.rz.gmsdemo.test.TestManager -> d.a.a.a.e:
     boolean TestAsInviter -> j
-    com.duobeiyun.generamessagesdk.client.GmsClient createInstance -> k
-    com.duobeiyun.generamessagedemo.test.LocalUser localAttr -> f
-    com.duobeiyun.generamessagedemo.test.Inviter inviter -> h
+    com.rz.gms.client.GMSClient createInstance -> k
+    com.rz.gmsdemo.test.LocalUser localAttr -> f
+    com.rz.gmsdemo.test.Inviter inviter -> h
     java.lang.String userId -> l
-    com.duobeiyun.generamessagedemo.test.PeerMsg peerMsg -> g
+    com.rz.gmsdemo.test.PeerMsg peerMsg -> g
     java.lang.Long timestamp -> d
-    com.duobeiyun.generamessagedemo.test.Chanel chanel -> e
+    com.rz.gmsdemo.test.Chanel chanel -> e
     android.content.Context context -> m
     java.lang.String TEST_APPID -> a
     java.lang.String token -> c
     java.lang.String TEST_APPKEY -> b
-    com.duobeiyun.generamessagedemo.test.invitee.Invitee invitee -> i
-    1:3:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,android.content.Context):30:32 -> <init>
-    4:4:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,android.content.Context):60:60 -> <init>
-    1:1:void access$allTestCases(com.duobeiyun.generamessagedemo.test.TestManager):30:30 -> a
+    com.rz.gmsdemo.test.invitee.Invitee invitee -> i
+    1:3:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):30:32 -> <init>
+    4:4:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):60:60 -> <init>
+    1:1:void access$allTestCases(com.rz.gmsdemo.test.TestManager):30:30 -> a
     1:1:void allTestCases():73:73 -> b
     2:2:void allTestCases():75:75 -> b
     3:3:void allTestCases():77:77 -> b
@@ -17705,85 +17705,85 @@ com.duobeiyun.generamessagedemo.test.TestManager -> d.a.a.a.e:
     3:4:void testLogin():39:40 -> f
     5:5:void testLogin():39:39 -> f
     6:6:void testLogin():37:37 -> f
-com.duobeiyun.generamessagedemo.test.TestManager$testLogin$1 -> d.a.a.a.e$a:
-    com.duobeiyun.generamessagedemo.test.TestManager this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.TestManager):40:40 -> <init>
+com.rz.gmsdemo.test.TestManager$testLogin$1 -> d.a.a.a.e$a:
+    com.rz.gmsdemo.test.TestManager this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.TestManager):40:40 -> <init>
     1:3:void onSuccess(java.lang.Void):42:44 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):49:50 -> onFailure
+    1:2:void onFailure(com.rz.gms.ErrorInfo):49:50 -> onFailure
     1:1:void onSuccess(java.lang.Object):40:40 -> onSuccess
-com.duobeiyun.generamessagedemo.test.WifiTest -> d.a.a.a.f:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,java.lang.String):13:13 -> <init>
-    2:2:void <init>(com.duobeiyun.generamessagesdk.client.GmsClient,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):13:13 -> <init>
+com.rz.gmsdemo.test.WifiTest -> d.a.a.a.f:
+    1:1:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String):13:13 -> <init>
+    2:2:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):13:13 -> <init>
     void beginTest() -> a
-com.duobeiyun.generamessagedemo.test.invitee.Invitee -> d.a.a.a.g.a:
-    com.duobeiyun.generamessagesdk.client.GmsClient instance -> d
-    com.duobeiyun.generamessagesdk.invite.InvitationManager manager -> a
+com.rz.gmsdemo.test.invitee.Invitee -> d.a.a.a.g.a:
+    com.rz.gms.client.GMSClient instance -> d
+    com.rz.gms.invite.InvitationManager manager -> a
     java.lang.String Tag -> b
     int index -> c
-    1:1:void <init>(android.content.Context,com.duobeiyun.generamessagesdk.client.GmsClient):20:20 -> <init>
-    2:2:void <init>(android.content.Context,com.duobeiyun.generamessagesdk.client.GmsClient):22:22 -> <init>
-    1:1:int access$getIndex$p(com.duobeiyun.generamessagedemo.test.invitee.Invitee):20:20 -> a
-    1:1:java.lang.String access$getTag$p(com.duobeiyun.generamessagedemo.test.invitee.Invitee):20:20 -> b
-    1:1:void access$log(com.duobeiyun.generamessagedemo.test.invitee.Invitee,com.duobeiyun.generamessagesdk.invite.Invitation,java.lang.String):20:20 -> c
-    1:1:void access$setIndex$p(com.duobeiyun.generamessagedemo.test.invitee.Invitee,int):20:20 -> d
+    1:1:void <init>(android.content.Context,com.rz.gms.client.GMSClient):20:20 -> <init>
+    2:2:void <init>(android.content.Context,com.rz.gms.client.GMSClient):22:22 -> <init>
+    1:1:int access$getIndex$p(com.rz.gmsdemo.test.invitee.Invitee):20:20 -> a
+    1:1:java.lang.String access$getTag$p(com.rz.gmsdemo.test.invitee.Invitee):20:20 -> b
+    1:1:void access$log(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation,java.lang.String):20:20 -> c
+    1:1:void access$setIndex$p(com.rz.gmsdemo.test.invitee.Invitee,int):20:20 -> d
     1:2:void beginTest():25:26 -> e
-    1:2:void log(com.duobeiyun.generamessagesdk.invite.Invitation,java.lang.String):79:80 -> f
-    3:3:void log(com.duobeiyun.generamessagesdk.invite.Invitation,java.lang.String):78:78 -> f
+    1:2:void log(com.rz.gms.invite.Invitation,java.lang.String):79:80 -> f
+    3:3:void log(com.rz.gms.invite.Invitation,java.lang.String):78:78 -> f
     1:1:void setTestListener():85:85 -> g
-    1:1:void testAccept(com.duobeiyun.generamessagesdk.invite.Invitation):46:46 -> h
-    1:1:void testRefuse(com.duobeiyun.generamessagesdk.invite.Invitation):30:30 -> i
-    1:1:void testcancel(com.duobeiyun.generamessagesdk.invite.Invitation):62:62 -> j
-com.duobeiyun.generamessagedemo.test.invitee.Invitee$setTestListener$1 -> d.a.a.a.g.a$a:
-    com.duobeiyun.generamessagedemo.test.invitee.Invitee this$0 -> a
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.invitee.Invitee):85:85 -> <init>
-    1:2:void onAccepted(com.duobeiyun.generamessagesdk.invite.Invitation):120:121 -> onAccepted
-    1:2:void onArrived(com.duobeiyun.generamessagesdk.invite.Invitation):94:95 -> onArrived
-    3:4:void onArrived(com.duobeiyun.generamessagesdk.invite.Invitation):105:106 -> onArrived
-    5:6:void onArrived(com.duobeiyun.generamessagesdk.invite.Invitation):101:102 -> onArrived
-    7:8:void onArrived(com.duobeiyun.generamessagesdk.invite.Invitation):97:98 -> onArrived
-    9:11:void onArrived(com.duobeiyun.generamessagesdk.invite.Invitation):109:111 -> onArrived
-    1:1:void onCanceled(com.duobeiyun.generamessagesdk.invite.Invitation):116:116 -> onCanceled
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.invite.InvitationFailureReason):87:87 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.invite.InvitationFailureReason):89:89 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.invite.InvitationFailureReason):88:88 -> onFailure
-    1:1:void onRefused(com.duobeiyun.generamessagesdk.invite.Invitation):125:125 -> onRefused
-com.duobeiyun.generamessagedemo.test.invitee.Invitee$testAccept$1 -> d.a.a.a.g.a$b:
-    com.duobeiyun.generamessagedemo.test.invitee.Invitee this$0 -> a
-    com.duobeiyun.generamessagesdk.invite.Invitation $invitation2 -> b
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.invitee.Invitee,com.duobeiyun.generamessagesdk.invite.Invitation):46:46 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):48:48 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):54:54 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):52:52 -> onFailure
+    1:1:void testAccept(com.rz.gms.invite.Invitation):46:46 -> h
+    1:1:void testRefuse(com.rz.gms.invite.Invitation):30:30 -> i
+    1:1:void testcancel(com.rz.gms.invite.Invitation):62:62 -> j
+com.rz.gmsdemo.test.invitee.Invitee$setTestListener$1 -> d.a.a.a.g.a$a:
+    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee):85:85 -> <init>
+    1:2:void onAccepted(com.rz.gms.invite.Invitation):120:121 -> onAccepted
+    1:2:void onArrived(com.rz.gms.invite.Invitation):94:95 -> onArrived
+    3:4:void onArrived(com.rz.gms.invite.Invitation):105:106 -> onArrived
+    5:6:void onArrived(com.rz.gms.invite.Invitation):101:102 -> onArrived
+    7:8:void onArrived(com.rz.gms.invite.Invitation):97:98 -> onArrived
+    9:11:void onArrived(com.rz.gms.invite.Invitation):109:111 -> onArrived
+    1:1:void onCanceled(com.rz.gms.invite.Invitation):116:116 -> onCanceled
+    1:1:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):87:87 -> onFailure
+    2:2:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):89:89 -> onFailure
+    3:3:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):88:88 -> onFailure
+    1:1:void onRefused(com.rz.gms.invite.Invitation):125:125 -> onRefused
+com.rz.gmsdemo.test.invitee.Invitee$testAccept$1 -> d.a.a.a.g.a$b:
+    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+    com.rz.gms.invite.Invitation $invitation2 -> b
+    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation):46:46 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):48:48 -> a
+    1:1:void onFailure(com.rz.gms.ErrorInfo):54:54 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):52:52 -> onFailure
     1:1:void onSuccess(java.lang.Object):46:46 -> onSuccess
-com.duobeiyun.generamessagedemo.test.invitee.Invitee$testRefuse$1 -> d.a.a.a.g.a$c:
-    com.duobeiyun.generamessagedemo.test.invitee.Invitee this$0 -> a
-    com.duobeiyun.generamessagesdk.invite.Invitation $invitation2 -> b
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.invitee.Invitee,com.duobeiyun.generamessagesdk.invite.Invitation):30:30 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):32:32 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):38:38 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):36:36 -> onFailure
+com.rz.gmsdemo.test.invitee.Invitee$testRefuse$1 -> d.a.a.a.g.a$c:
+    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+    com.rz.gms.invite.Invitation $invitation2 -> b
+    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation):30:30 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):32:32 -> a
+    1:1:void onFailure(com.rz.gms.ErrorInfo):38:38 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):36:36 -> onFailure
     1:1:void onSuccess(java.lang.Object):30:30 -> onSuccess
-com.duobeiyun.generamessagedemo.test.invitee.Invitee$testcancel$1 -> d.a.a.a.g.a$d:
-    com.duobeiyun.generamessagedemo.test.invitee.Invitee this$0 -> a
-    com.duobeiyun.generamessagesdk.invite.Invitation $invitation -> b
-    1:1:void <init>(com.duobeiyun.generamessagedemo.test.invitee.Invitee,com.duobeiyun.generamessagesdk.invite.Invitation):62:62 -> <init>
-    1:1:void onSuccess(com.duobeiyun.generamessagesdk.invite.Invitation):64:64 -> a
-    1:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):69:70 -> onFailure
-    3:3:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):68:68 -> onFailure
+com.rz.gmsdemo.test.invitee.Invitee$testcancel$1 -> d.a.a.a.g.a$d:
+    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+    com.rz.gms.invite.Invitation $invitation -> b
+    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation):62:62 -> <init>
+    1:1:void onSuccess(com.rz.gms.invite.Invitation):64:64 -> a
+    1:2:void onFailure(com.rz.gms.ErrorInfo):69:70 -> onFailure
+    3:3:void onFailure(com.rz.gms.ErrorInfo):68:68 -> onFailure
     1:1:void onSuccess(java.lang.Object):62:62 -> onSuccess
-com.duobeiyun.generamessagesdk.ErrorInfo -> com.duobeiyun.generamessagesdk.ErrorInfo:
+com.rz.gms.ErrorInfo -> com.rz.gms.ErrorInfo:
     1:1:void <init>(int,java.lang.String):8:8 -> <init>
     1:1:int getErrorCode():8:8 -> getErrorCode
     1:1:java.lang.String getErrorMsg():8:8 -> getErrorMsg
     1:1:void setErrorCode(int):8:8 -> setErrorCode
     1:1:void setErrorMsg(java.lang.String):8:8 -> setErrorMsg
-com.duobeiyun.generamessagesdk.PeerOnlineState -> com.duobeiyun.generamessagesdk.PeerOnlineState:
+com.rz.gms.PeerOnlineState -> com.rz.gms.PeerOnlineState:
     1:1:void <init>():14:14 -> <init>
-com.duobeiyun.generamessagesdk.PeerSubscriptionOption -> com.duobeiyun.generamessagesdk.PeerSubscriptionOption:
+com.rz.gms.PeerSubscriptionOption -> com.rz.gms.PeerSubscriptionOption:
     1:1:void <init>():12:12 -> <init>
-com.duobeiyun.generamessagesdk.bean.ErrorMsgBean -> com.duobeiyun.generamessagesdk.bean.ErrorMsgBean:
+com.rz.gms.bean.ErrorMsgBean -> com.rz.gms.bean.ErrorMsgBean:
     1:9:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):18:26 -> <init>
-com.duobeiyun.generamessagesdk.bean.LoginParams -> com.duobeiyun.generamessagesdk.bean.LoginParams:
+com.rz.gms.bean.LoginParams -> com.rz.gms.bean.LoginParams:
     1:1:void <init>(java.lang.String,java.lang.String,long):10:10 -> <init>
     1:1:java.lang.String getAppid():11:11 -> getAppid
     1:1:long getTimeStamp():10:10 -> getTimeStamp
@@ -17793,7 +17793,7 @@ com.duobeiyun.generamessagesdk.bean.LoginParams -> com.duobeiyun.generamessagesd
     1:1:void setTimeStamp(long):10:10 -> setTimeStamp
     1:1:void setToken(java.lang.String):10:10 -> setToken
     1:1:void setUid(java.lang.String):10:10 -> setUid
-com.duobeiyun.generamessagesdk.bean.NormalLog -> com.duobeiyun.generamessagesdk.bean.NormalLog:
+com.rz.gms.bean.NormalLog -> com.rz.gms.bean.NormalLog:
     1:1:void <init>():5:5 -> <init>
     1:1:java.lang.String getMsg():11:11 -> getMsg
     1:1:java.lang.String getPhoneInfo():27:27 -> getPhoneInfo
@@ -17802,7 +17802,7 @@ com.duobeiyun.generamessagesdk.bean.NormalLog -> com.duobeiyun.generamessagesdk.
     1:1:void setPhoneInfo(java.lang.String):31:31 -> setPhoneInfo
     1:1:void setTimestamp(java.lang.String):23:23 -> setTimestamp
     1:1:java.lang.String toString():36:36 -> toString
-com.duobeiyun.generamessagesdk.callback.LoginStateCallback$Companion -> com.duobeiyun.generamessagesdk.callback.LoginStateCallback$Companion:
+com.rz.gms.callback.LoginStateCallback$Companion -> com.rz.gms.callback.LoginStateCallback$Companion:
     1:4:void <clinit>():23:26 -> <clinit>
     5:5:void <clinit>():31:31 -> <clinit>
     6:6:void <clinit>():36:36 -> <clinit>
@@ -17814,70 +17814,70 @@ com.duobeiyun.generamessagesdk.callback.LoginStateCallback$Companion -> com.duob
     1:1:int getSTATE_LOGIN_Failed():36:36 -> getSTATE_LOGIN_Failed
     1:1:int getSTATE_LOGIN_KICK_OFF():40:40 -> getSTATE_LOGIN_KICK_OFF
     1:1:int getSTATE_RECONNECT_SUCCESS():26:26 -> getSTATE_RECONNECT_SUCCESS
-com.duobeiyun.generamessagesdk.channel.GmsChannel -> com.duobeiyun.generamessagesdk.channel.GmsChannel:
-    1:1:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):31:31 -> <init>
-    2:4:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):19:21 -> <init>
-    5:5:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):23:23 -> <init>
-    6:8:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):31:33 -> <init>
+com.rz.gms.channel.GMSChannel -> com.rz.gms.channel.GMSChannel:
+    1:1:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):31:31 -> <init>
+    2:4:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):19:21 -> <init>
+    5:5:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):23:23 -> <init>
+    6:8:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):31:33 -> <init>
     1:2:boolean checkAllowedJoin():93:94 -> checkAllowedJoin
     3:3:boolean checkAllowedJoin():98:98 -> checkAllowedJoin
-    1:1:boolean checkLoginState(com.duobeiyun.generamessagesdk.callback.ResultCallbackFail,java.lang.String):153:153 -> checkLoginState
-    2:2:boolean checkLoginState(com.duobeiyun.generamessagesdk.callback.ResultCallbackFail,java.lang.String):156:156 -> checkLoginState
-    3:3:boolean checkLoginState(com.duobeiyun.generamessagesdk.callback.ResultCallbackFail,java.lang.String):158:158 -> checkLoginState
-    4:4:boolean checkLoginState(com.duobeiyun.generamessagesdk.callback.ResultCallbackFail,java.lang.String):157:157 -> checkLoginState
+    1:1:boolean checkLoginState(com.rz.gms.callback.ResultCallbackFail,java.lang.String):153:153 -> checkLoginState
+    2:2:boolean checkLoginState(com.rz.gms.callback.ResultCallbackFail,java.lang.String):156:156 -> checkLoginState
+    3:3:boolean checkLoginState(com.rz.gms.callback.ResultCallbackFail,java.lang.String):158:158 -> checkLoginState
+    4:4:boolean checkLoginState(com.rz.gms.callback.ResultCallbackFail,java.lang.String):157:157 -> checkLoginState
     1:1:java.lang.String getChannelId():16:16 -> getChannelId
-    1:2:void getChannelMembers(com.duobeiyun.generamessagesdk.ResultCallback):137:138 -> getChannelMembers
-    3:3:void getChannelMembers(com.duobeiyun.generamessagesdk.ResultCallback):141:141 -> getChannelMembers
-    4:4:void getChannelMembers(com.duobeiyun.generamessagesdk.ResultCallback):139:139 -> getChannelMembers
+    1:2:void getChannelMembers(com.rz.gms.ResultCallback):137:138 -> getChannelMembers
+    3:3:void getChannelMembers(com.rz.gms.ResultCallback):141:141 -> getChannelMembers
+    4:4:void getChannelMembers(com.rz.gms.ResultCallback):139:139 -> getChannelMembers
     1:1:int getChannelState():23:23 -> getChannelState
-    1:1:com.duobeiyun.generamessagesdk.channel.GmsChannelListener getListener():17:17 -> getListener
+    1:1:com.rz.gms.channel.GMSChannelListener getListener():17:17 -> getListener
     1:1:int getSTATE_DISCONNECTED():21:21 -> getSTATE_DISCONNECTED
     1:1:int getSTATE_IDEL():19:19 -> getSTATE_IDEL
     1:1:int getSTATE_JOINED():20:20 -> getSTATE_JOINED
-    1:2:void join(com.duobeiyun.generamessagesdk.ResultCallback):74:75 -> join
-    3:3:void join(com.duobeiyun.generamessagesdk.ResultCallback):82:82 -> join
-    4:5:void join(com.duobeiyun.generamessagesdk.ResultCallback):76:77 -> join
-    6:6:void join(com.duobeiyun.generamessagesdk.ResultCallback):79:79 -> join
-    1:2:void leave(com.duobeiyun.generamessagesdk.ResultCallback):103:104 -> leave
-    3:3:void leave(com.duobeiyun.generamessagesdk.ResultCallback):107:107 -> leave
-    4:4:void leave(com.duobeiyun.generamessagesdk.ResultCallback):105:105 -> leave
+    1:2:void join(com.rz.gms.ResultCallback):74:75 -> join
+    3:3:void join(com.rz.gms.ResultCallback):82:82 -> join
+    4:5:void join(com.rz.gms.ResultCallback):76:77 -> join
+    6:6:void join(com.rz.gms.ResultCallback):79:79 -> join
+    1:2:void leave(com.rz.gms.ResultCallback):103:104 -> leave
+    3:3:void leave(com.rz.gms.ResultCallback):107:107 -> leave
+    4:4:void leave(com.rz.gms.ResultCallback):105:105 -> leave
     1:1:void release():125:125 -> release
     2:2:void release():170:170 -> release
     3:4:void release():126:127 -> release
     5:7:void release():130:132 -> release
-    1:2:void sendMessage(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):114:115 -> sendMessage
-    3:3:void sendMessage(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):118:118 -> sendMessage
-    4:4:void sendMessage(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):116:116 -> sendMessage
+    1:2:void sendMessage(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):114:115 -> sendMessage
+    3:3:void sendMessage(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):118:118 -> sendMessage
+    4:4:void sendMessage(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):116:116 -> sendMessage
     1:1:void setChannelId(java.lang.String):16:16 -> setChannelId
     1:1:void setChannelState(int):23:23 -> setChannelState
-    1:1:void setListener(com.duobeiyun.generamessagesdk.channel.GmsChannelListener):17:17 -> setListener
-com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions -> com.duobeiyun.generamessagesdk.channel.bean.ChannelAttributeOptions:
+    1:1:void setListener(com.rz.gms.channel.GMSChannelListener):17:17 -> setListener
+com.rz.gms.channel.bean.ChannelAttributeOptions -> com.rz.gms.channel.bean.ChannelAttributeOptions:
     1:1:void <init>(boolean):8:8 -> <init>
     1:1:boolean getNotify():8:8 -> getNotify
     1:1:void setNotify(boolean):8:8 -> setNotify
-com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute -> com.duobeiyun.generamessagesdk.channel.bean.GmsChannelAttribute:
+com.rz.gms.channel.bean.GMSChannelAttribute -> com.rz.gms.channel.bean.GMSChannelAttribute:
     1:1:void <init>(java.lang.String,java.lang.String):8:8 -> <init>
     1:1:java.lang.String getKey():8:8 -> getKey
     1:1:java.lang.String getValue():8:8 -> getValue
     1:1:void setKey(java.lang.String):8:8 -> setKey
     1:1:void setValue(java.lang.String):8:8 -> setValue
-com.duobeiyun.generamessagesdk.channel.bean.GmsChannelMember -> com.duobeiyun.generamessagesdk.channel.bean.GmsChannelMember:
+com.rz.gms.channel.bean.GMSChannelMember -> com.rz.gms.channel.bean.GMSChannelMember:
     1:1:void <init>(java.lang.String,java.lang.String):8:8 -> <init>
     1:1:java.lang.String getChannelId():8:8 -> getChannelId
     1:1:java.lang.String getUserId():8:8 -> getUserId
     1:1:void setChannelId(java.lang.String):8:8 -> setChannelId
     1:1:void setUserId(java.lang.String):8:8 -> setUserId
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl:
-    1:1:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):52:52 -> <init>
-    2:2:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):33:33 -> <init>
-    3:4:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):35:36 -> <init>
-    5:6:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):45:46 -> <init>
-    7:9:void <init>(java.lang.String,com.duobeiyun.generamessagesdk.channel.GmsChannelListener,a.a.a.b.b.c):53:55 -> <init>
-    1:1:java.util.concurrent.locks.ReentrantLock a(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> a
-    2:2:void a(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,int):31:31 -> a
-    3:3:void a(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,boolean):31:31 -> a
+com.rz.gms.channel.impl.GMSChannelImpl -> com.rz.gms.channel.impl.GMSChannelImpl:
+    1:1:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):52:52 -> <init>
+    2:2:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):33:33 -> <init>
+    3:4:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):35:36 -> <init>
+    5:6:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):45:46 -> <init>
+    7:9:void <init>(java.lang.String,com.rz.gms.channel.GMSChannelListener,a.a.a.b.b.c):53:55 -> <init>
+    1:1:java.util.concurrent.locks.ReentrantLock a(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> a
+    2:2:void a(com.rz.gms.channel.impl.GMSChannelImpl,int):31:31 -> a
+    3:3:void a(com.rz.gms.channel.impl.GMSChannelImpl,boolean):31:31 -> a
     4:4:kotlin.jvm.functions.Function0 a():36:36 -> a
-    1:1:java.lang.String b(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> b
+    1:1:java.lang.String b(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> b
     2:2:void b():243:243 -> b
     3:4:void b():245:246 -> b
     5:5:void b():244:244 -> b
@@ -17893,61 +17893,61 @@ com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl -> com.duobeiyun.gene
     18:18:void b():344:344 -> b
     19:20:void b():346:347 -> b
     21:21:void b():345:345 -> b
-    1:1:int c(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> c
-    1:1:boolean d(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> d
-    1:1:com.duobeiyun.generamessagesdk.channel.GmsChannelListener e(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> e
-    1:1:int f(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> f
-    1:1:int g(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> g
-    1:1:void getChannelMembersImpl(com.duobeiyun.generamessagesdk.ResultCallback):196:196 -> getChannelMembersImpl
-    2:3:void getChannelMembersImpl(com.duobeiyun.generamessagesdk.ResultCallback):199:200 -> getChannelMembersImpl
-    4:6:void getChannelMembersImpl(com.duobeiyun.generamessagesdk.ResultCallback):203:205 -> getChannelMembersImpl
-    7:7:void getChannelMembersImpl(com.duobeiyun.generamessagesdk.ResultCallback):234:234 -> getChannelMembersImpl
+    1:1:int c(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> c
+    1:1:boolean d(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> d
+    1:1:com.rz.gms.channel.GMSChannelListener e(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> e
+    1:1:int f(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> f
+    1:1:int g(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> g
+    1:1:void getChannelMembersImpl(com.rz.gms.ResultCallback):196:196 -> getChannelMembersImpl
+    2:3:void getChannelMembersImpl(com.rz.gms.ResultCallback):199:200 -> getChannelMembersImpl
+    4:6:void getChannelMembersImpl(com.rz.gms.ResultCallback):203:205 -> getChannelMembersImpl
+    7:7:void getChannelMembersImpl(com.rz.gms.ResultCallback):234:234 -> getChannelMembersImpl
     1:1:java.lang.String getId():238:238 -> getId
-    1:1:int h(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl):31:31 -> h
-    1:2:void joinImpl(com.duobeiyun.generamessagesdk.ResultCallback):59:60 -> joinImpl
-    3:4:void joinImpl(com.duobeiyun.generamessagesdk.ResultCallback):63:64 -> joinImpl
-    5:10:void joinImpl(com.duobeiyun.generamessagesdk.ResultCallback):67:72 -> joinImpl
-    11:11:void joinImpl(com.duobeiyun.generamessagesdk.ResultCallback):70:70 -> joinImpl
-    12:12:void joinImpl(com.duobeiyun.generamessagesdk.ResultCallback):91:91 -> joinImpl
-    1:2:void leaveImpl(com.duobeiyun.generamessagesdk.ResultCallback):95:96 -> leaveImpl
-    3:6:void leaveImpl(com.duobeiyun.generamessagesdk.ResultCallback):99:102 -> leaveImpl
-    7:7:void leaveImpl(com.duobeiyun.generamessagesdk.ResultCallback):101:101 -> leaveImpl
-    8:8:void leaveImpl(com.duobeiyun.generamessagesdk.ResultCallback):120:120 -> leaveImpl
+    1:1:int h(com.rz.gms.channel.impl.GMSChannelImpl):31:31 -> h
+    1:2:void joinImpl(com.rz.gms.ResultCallback):59:60 -> joinImpl
+    3:4:void joinImpl(com.rz.gms.ResultCallback):63:64 -> joinImpl
+    5:10:void joinImpl(com.rz.gms.ResultCallback):67:72 -> joinImpl
+    11:11:void joinImpl(com.rz.gms.ResultCallback):70:70 -> joinImpl
+    12:12:void joinImpl(com.rz.gms.ResultCallback):91:91 -> joinImpl
+    1:2:void leaveImpl(com.rz.gms.ResultCallback):95:96 -> leaveImpl
+    3:6:void leaveImpl(com.rz.gms.ResultCallback):99:102 -> leaveImpl
+    7:7:void leaveImpl(com.rz.gms.ResultCallback):101:101 -> leaveImpl
+    8:8:void leaveImpl(com.rz.gms.ResultCallback):120:120 -> leaveImpl
     1:5:void onStateChange(int,java.lang.String):370:374 -> onStateChange
     6:11:void onStateChange(int,java.lang.String):376:381 -> onStateChange
     12:12:void onStateChange(int,java.lang.String):383:383 -> onStateChange
     1:4:void releaseImpl():189:192 -> releaseImpl
-    1:1:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):124:124 -> sendMessageImpl
-    2:3:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):127:128 -> sendMessageImpl
-    4:4:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):131:131 -> sendMessageImpl
-    5:6:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):133:134 -> sendMessageImpl
-    7:9:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):136:138 -> sendMessageImpl
-    10:10:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):136:136 -> sendMessageImpl
-    11:11:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):135:135 -> sendMessageImpl
-    12:12:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):141:141 -> sendMessageImpl
-    13:13:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):144:144 -> sendMessageImpl
-    14:14:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):134:134 -> sendMessageImpl
-    15:16:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):145:146 -> sendMessageImpl
-    17:19:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):148:150 -> sendMessageImpl
-    20:20:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):148:148 -> sendMessageImpl
-    21:21:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):147:147 -> sendMessageImpl
-    22:22:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):153:153 -> sendMessageImpl
-    23:23:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):156:156 -> sendMessageImpl
-    24:25:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):168:169 -> sendMessageImpl
-    26:28:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):171:173 -> sendMessageImpl
-    29:29:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):170:170 -> sendMessageImpl
-    30:30:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):169:169 -> sendMessageImpl
-    31:33:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):176:178 -> sendMessageImpl
-    34:34:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):177:177 -> sendMessageImpl
-    35:35:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):172:172 -> sendMessageImpl
-    36:36:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):156:156 -> sendMessageImpl
-    37:37:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):146:146 -> sendMessageImpl
-    38:38:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):145:145 -> sendMessageImpl
-    39:41:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):159:161 -> sendMessageImpl
-    42:42:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):159:159 -> sendMessageImpl
-    43:43:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):158:158 -> sendMessageImpl
-    44:44:void sendMessageImpl(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.ResultCallback):164:164 -> sendMessageImpl
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$a -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$a:
+    1:1:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):124:124 -> sendMessageImpl
+    2:3:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):127:128 -> sendMessageImpl
+    4:4:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):131:131 -> sendMessageImpl
+    5:6:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):133:134 -> sendMessageImpl
+    7:9:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):136:138 -> sendMessageImpl
+    10:10:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):136:136 -> sendMessageImpl
+    11:11:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):135:135 -> sendMessageImpl
+    12:12:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):141:141 -> sendMessageImpl
+    13:13:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):144:144 -> sendMessageImpl
+    14:14:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):134:134 -> sendMessageImpl
+    15:16:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):145:146 -> sendMessageImpl
+    17:19:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):148:150 -> sendMessageImpl
+    20:20:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):148:148 -> sendMessageImpl
+    21:21:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):147:147 -> sendMessageImpl
+    22:22:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):153:153 -> sendMessageImpl
+    23:23:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):156:156 -> sendMessageImpl
+    24:25:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):168:169 -> sendMessageImpl
+    26:28:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):171:173 -> sendMessageImpl
+    29:29:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):170:170 -> sendMessageImpl
+    30:30:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):169:169 -> sendMessageImpl
+    31:33:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):176:178 -> sendMessageImpl
+    34:34:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):177:177 -> sendMessageImpl
+    35:35:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):172:172 -> sendMessageImpl
+    36:36:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):156:156 -> sendMessageImpl
+    37:37:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):146:146 -> sendMessageImpl
+    38:38:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):145:145 -> sendMessageImpl
+    39:41:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):159:161 -> sendMessageImpl
+    42:42:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):159:159 -> sendMessageImpl
+    43:43:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):158:158 -> sendMessageImpl
+    44:44:void sendMessageImpl(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.ResultCallback):164:164 -> sendMessageImpl
+com.rz.gms.channel.impl.GMSChannelImpl$a -> com.rz.gms.channel.impl.GMSChannelImpl$a:
     1:5:void call(java.lang.Object[]):206:210 -> call
     6:6:void call(java.lang.Object[]):207:207 -> call
     7:7:void call(java.lang.Object[]):213:213 -> call
@@ -17957,30 +17957,30 @@ com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$a -> com.duobeiyun.ge
     16:16:void call(java.lang.Object[]):228:228 -> call
     17:18:void call(java.lang.Object[]):231:232 -> call
     19:19:void call(java.lang.Object[]):216:216 -> call
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$allowRejoined$1 -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$allowRejoined$1:
+com.rz.gms.channel.impl.GMSChannelImpl$allowRejoined$1 -> com.rz.gms.channel.impl.GMSChannelImpl$allowRejoined$1:
     1:1:java.lang.Object invoke():31:31 -> invoke
     2:2:boolean invoke():33:33 -> invoke
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$b -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$b:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,java.lang.String):246:246 -> <init>
+com.rz.gms.channel.impl.GMSChannelImpl$b -> com.rz.gms.channel.impl.GMSChannelImpl$b:
+    1:1:void <init>(com.rz.gms.channel.impl.GMSChannelImpl,java.lang.String):246:246 -> <init>
     1:5:void a(java.lang.Object[]):248:252 -> a
     6:9:void a(java.lang.Object[]):255:258 -> a
     10:10:void a(java.lang.Object[]):260:260 -> a
     11:11:void a(java.lang.Object[]):249:249 -> a
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$c -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$c:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,java.lang.String):269:269 -> <init>
+com.rz.gms.channel.impl.GMSChannelImpl$c -> com.rz.gms.channel.impl.GMSChannelImpl$c:
+    1:1:void <init>(com.rz.gms.channel.impl.GMSChannelImpl,java.lang.String):269:269 -> <init>
     1:7:void a(java.lang.Object[]):271:277 -> a
     8:8:void a(java.lang.Object[]):279:279 -> a
     9:9:void a(java.lang.Object[]):272:272 -> a
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$d -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$d:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,java.lang.String):286:286 -> <init>
+com.rz.gms.channel.impl.GMSChannelImpl$d -> com.rz.gms.channel.impl.GMSChannelImpl$d:
+    1:1:void <init>(com.rz.gms.channel.impl.GMSChannelImpl,java.lang.String):286:286 -> <init>
     1:13:void a(java.lang.Object[]):288:300 -> a
     14:14:void a(java.lang.Object[]):298:298 -> a
     15:15:void a(java.lang.Object[]):300:300 -> a
     16:16:void a(java.lang.Object[]):299:299 -> a
     17:17:void a(java.lang.Object[]):304:304 -> a
     18:18:void a(java.lang.Object[]):290:290 -> a
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$e -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$e:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,java.lang.String):312:312 -> <init>
+com.rz.gms.channel.impl.GMSChannelImpl$e -> com.rz.gms.channel.impl.GMSChannelImpl$e:
+    1:1:void <init>(com.rz.gms.channel.impl.GMSChannelImpl,java.lang.String):312:312 -> <init>
     1:6:void a(java.lang.Object[]):314:319 -> a
     7:7:void a(java.lang.Object[]):321:321 -> a
     8:11:void a(java.lang.Object[]):324:327 -> a
@@ -17989,42 +17989,42 @@ com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$e -> com.duobeiyun.ge
     16:17:void a(java.lang.Object[]):336:337 -> a
     18:18:void a(java.lang.Object[]):340:340 -> a
     19:19:void a(java.lang.Object[]):315:315 -> a
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$f -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$f:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl,java.lang.String):347:347 -> <init>
+com.rz.gms.channel.impl.GMSChannelImpl$f -> com.rz.gms.channel.impl.GMSChannelImpl$f:
+    1:1:void <init>(com.rz.gms.channel.impl.GMSChannelImpl,java.lang.String):347:347 -> <init>
     1:3:void a(java.lang.Object[]):349:351 -> a
     4:4:void a(java.lang.Object[]):353:353 -> a
     5:5:void a(java.lang.Object[]):356:356 -> a
     6:7:void a(java.lang.Object[]):358:359 -> a
     8:8:void a(java.lang.Object[]):361:361 -> a
     9:9:void a(java.lang.Object[]):350:350 -> a
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$g -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$g:
+com.rz.gms.channel.impl.GMSChannelImpl$g -> com.rz.gms.channel.impl.GMSChannelImpl$g:
     1:6:void call(java.lang.Object[]):73:78 -> call
     7:7:void call(java.lang.Object[]):74:74 -> call
     8:10:void call(java.lang.Object[]):81:83 -> call
     11:11:void call(java.lang.Object[]):85:85 -> call
     12:13:void call(java.lang.Object[]):88:89 -> call
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$getChannelId$1 -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$getChannelId$1:
+com.rz.gms.channel.impl.GMSChannelImpl$getChannelId$1 -> com.rz.gms.channel.impl.GMSChannelImpl$getChannelId$1:
     1:1:java.lang.Object invoke():31:31 -> invoke
     2:2:java.lang.String invoke():36:36 -> invoke
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$h -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$h:
+com.rz.gms.channel.impl.GMSChannelImpl$h -> com.rz.gms.channel.impl.GMSChannelImpl$h:
     1:5:void call(java.lang.Object[]):103:107 -> call
     6:6:void call(java.lang.Object[]):104:104 -> call
     7:8:void call(java.lang.Object[]):110:111 -> call
     9:9:void call(java.lang.Object[]):113:113 -> call
     10:10:void call(java.lang.Object[]):115:115 -> call
     11:11:void call(java.lang.Object[]):118:118 -> call
-com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$i -> com.duobeiyun.generamessagesdk.channel.impl.GmsChannelImpl$i:
+com.rz.gms.channel.impl.GMSChannelImpl$i -> com.rz.gms.channel.impl.GMSChannelImpl$i:
     1:4:void call(java.lang.Object[]):179:182 -> call
     5:5:void call(java.lang.Object[]):179:179 -> call
-com.duobeiyun.generamessagesdk.client.GmsClient -> com.duobeiyun.generamessagesdk.client.GmsClient:
+com.rz.gms.client.GMSClient -> com.rz.gms.client.GMSClient:
     1:1:void <init>():23:23 -> <init>
     1:1:void setLogFile(java.lang.String):315:315 -> setLogFile
     1:1:int setLogFilter(int):319:319 -> setLogFilter
-com.duobeiyun.generamessagesdk.client.GmsClient$Companion -> com.duobeiyun.generamessagesdk.client.GmsClient$Companion:
+com.rz.gms.client.GMSClient$Companion -> com.rz.gms.client.GMSClient$Companion:
     1:1:void <init>():25:25 -> <init>
     2:2:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):25:25 -> <init>
-    1:1:com.duobeiyun.generamessagesdk.client.GmsClient createInstance(android.content.Context,java.lang.String,com.duobeiyun.generamessagesdk.client.GmsClientListener):46:46 -> createInstance
-com.duobeiyun.generamessagesdk.connect.Connect -> com.duobeiyun.generamessagesdk.connect.Connect:
+    1:1:com.rz.gms.client.GMSClient createInstance(android.content.Context,java.lang.String,com.rz.gms.client.GMSClientListener):46:46 -> createInstance
+com.rz.gms.connect.Connect -> com.rz.gms.connect.Connect:
     1:1:void <clinit>():8:8 -> <clinit>
     2:6:void <clinit>():11:15 -> <clinit>
     7:14:void <clinit>():19:26 -> <clinit>
@@ -18042,8 +18042,8 @@ com.duobeiyun.generamessagesdk.connect.Connect -> com.duobeiyun.generamessagesdk
     1:1:int getCONNECTION_STATE_CONNECTED():13:13 -> getCONNECTION_STATE_CONNECTED
     1:1:int getCONNECTION_STATE_CONNECTING():12:12 -> getCONNECTION_STATE_CONNECTING
     1:1:int getCONNECTION_STATE_RECONNECTING():14:14 -> getCONNECTION_STATE_RECONNECTING
-com.duobeiyun.generamessagesdk.connect.UserModel -> com.duobeiyun.generamessagesdk.connect.UserModel:
-    1:1:void <init>(com.duobeiyun.generamessagesdk.connect.UserModel$a):16:16 -> <init>
+com.rz.gms.connect.UserModel -> com.rz.gms.connect.UserModel:
+    1:1:void <init>(com.rz.gms.connect.UserModel$a):16:16 -> <init>
     2:3:void <init>():23:24 -> <init>
     1:2:boolean a(java.lang.String):50:51 -> a
     3:4:boolean a(java.lang.String):54:55 -> a
@@ -18052,23 +18052,23 @@ com.duobeiyun.generamessagesdk.connect.UserModel -> com.duobeiyun.generamessages
     1:2:void c():62:63 -> c
     1:2:boolean canLogin():94:95 -> canLogin
     1:3:void d():43:45 -> d
-    1:1:com.duobeiyun.generamessagesdk.connect.UserModel getInstance():28:28 -> getInstance
-    1:1:com.duobeiyun.generamessagesdk.connect.UserModel$b getUserInfo():116:116 -> getUserInfo
-    2:2:com.duobeiyun.generamessagesdk.connect.UserModel$b getUserInfo():118:118 -> getUserInfo
+    1:1:com.rz.gms.connect.UserModel getInstance():28:28 -> getInstance
+    1:1:com.rz.gms.connect.UserModel$b getUserInfo():116:116 -> getUserInfo
+    2:2:com.rz.gms.connect.UserModel$b getUserInfo():118:118 -> getUserInfo
     1:2:boolean isLogin():87:88 -> isLogin
     1:2:boolean isLoginDisconnect():108:109 -> isLoginDisconnect
     1:2:boolean isLogout():80:81 -> isLogout
     1:2:boolean isloginFailed():101:102 -> isloginFailed
-com.duobeiyun.generamessagesdk.connect.UserModel$b -> com.duobeiyun.generamessagesdk.connect.UserModel$b:
-    1:3:void <init>(com.duobeiyun.generamessagesdk.connect.UserModel):31:33 -> <init>
-    1:1:int a(com.duobeiyun.generamessagesdk.connect.UserModel$b):31:31 -> a
-    2:2:int a(com.duobeiyun.generamessagesdk.connect.UserModel$b,int):31:31 -> a
+com.rz.gms.connect.UserModel$b -> com.rz.gms.connect.UserModel$b:
+    1:3:void <init>(com.rz.gms.connect.UserModel):31:33 -> <init>
+    1:1:int a(com.rz.gms.connect.UserModel$b):31:31 -> a
+    2:2:int a(com.rz.gms.connect.UserModel$b,int):31:31 -> a
     1:1:java.lang.Object clone():31:31 -> clone
-    2:2:com.duobeiyun.generamessagesdk.connect.UserModel$b clone():37:37 -> clone
-com.duobeiyun.generamessagesdk.connect.UserModel$c -> com.duobeiyun.generamessagesdk.connect.UserModel$c:
+    2:2:com.rz.gms.connect.UserModel$b clone():37:37 -> clone
+com.rz.gms.connect.UserModel$c -> com.rz.gms.connect.UserModel$c:
     1:1:void <clinit>():18:18 -> <clinit>
-    1:1:com.duobeiyun.generamessagesdk.connect.UserModel a():17:17 -> a
-com.duobeiyun.generamessagesdk.connect.bean.GmsMessage -> com.duobeiyun.generamessagesdk.connect.bean.GmsMessage:
+    1:1:com.rz.gms.connect.UserModel a():17:17 -> a
+com.rz.gms.connect.bean.GMSMessage -> com.rz.gms.connect.bean.GMSMessage:
     1:1:void <init>(java.lang.String,long,boolean,java.lang.String,java.lang.Byte[]):8:8 -> <init>
     2:2:void <init>(java.lang.String,long,boolean,java.lang.String,java.lang.Byte[],int,kotlin.jvm.internal.DefaultConstructorMarker):13:13 -> <init>
     1:1:long getServerReceivedTs():10:10 -> getServerReceivedTs
@@ -18081,9 +18081,9 @@ com.duobeiyun.generamessagesdk.connect.bean.GmsMessage -> com.duobeiyun.generame
     1:1:void setTargetUserId(java.lang.String):12:12 -> setTargetUserId
     1:1:void setText(java.lang.String):9:9 -> setText
     1:1:void setTextByte(java.lang.Byte[]):13:13 -> setTextByte
-com.duobeiyun.generamessagesdk.connect.config.ConfigBean -> com.duobeiyun.generamessagesdk.connect.config.ConfigBean:
+com.rz.gms.connect.config.ConfigBean -> com.rz.gms.connect.config.ConfigBean:
     1:1:void <init>():12:12 -> <init>
-com.duobeiyun.generamessagesdk.constant.LoginStateConstant -> com.duobeiyun.generamessagesdk.constant.LoginStateConstant:
+com.rz.gms.constant.LoginStateConstant -> com.rz.gms.constant.LoginStateConstant:
     1:1:void <clinit>():12:12 -> <clinit>
     2:2:void <clinit>():14:14 -> <clinit>
     3:3:void <clinit>():17:17 -> <clinit>
@@ -18094,11 +18094,11 @@ com.duobeiyun.generamessagesdk.constant.LoginStateConstant -> com.duobeiyun.gene
     8:8:void <clinit>():32:32 -> <clinit>
     9:9:void <clinit>():35:35 -> <clinit>
     1:1:void <init>():12:12 -> <init>
-com.duobeiyun.generamessagesdk.invite.Invitation -> com.duobeiyun.generamessagesdk.invite.Invitation:
+com.rz.gms.invite.Invitation -> com.rz.gms.invite.Invitation:
     1:1:void <init>(java.lang.String):22:22 -> <init>
     2:3:void <init>(java.lang.String):26:27 -> <init>
     1:1:java.lang.Object clone():22:22 -> clone
-    2:2:com.duobeiyun.generamessagesdk.invite.Invitation clone():97:97 -> clone
+    2:2:com.rz.gms.invite.Invitation clone():97:97 -> clone
     1:1:boolean equals(java.lang.Object):106:106 -> equals
     2:2:boolean equals(java.lang.Object):108:108 -> equals
     3:5:boolean equals(java.lang.Object):110:112 -> equals
@@ -18132,7 +18132,7 @@ com.duobeiyun.generamessagesdk.invite.Invitation -> com.duobeiyun.generamessages
     1:1:void setResponseInfo$generamessagesdk_release(java.lang.String):25:25 -> setResponseInfo$generamessagesdk_release
     1:1:void setState$generamessagesdk_release(java.lang.Integer):26:26 -> setState$generamessagesdk_release
     1:1:java.lang.String toString():101:101 -> toString
-com.duobeiyun.generamessagesdk.invite.InvitationApiCallError -> com.duobeiyun.generamessagesdk.invite.InvitationApiCallError:
+com.rz.gms.invite.InvitationApiCallError -> com.rz.gms.invite.InvitationApiCallError:
     1:1:void <clinit>():10:10 -> <clinit>
     2:7:void <clinit>():12:17 -> <clinit>
     1:1:void <init>():10:10 -> <init>
@@ -18150,36 +18150,36 @@ com.duobeiyun.generamessagesdk.invite.InvitationApiCallError -> com.duobeiyun.ge
     1:1:void setINVITATION_API_CALL_ERR_PEER_OFFLINE(int):15:15 -> setINVITATION_API_CALL_ERR_PEER_OFFLINE
     1:1:void setINVITATION_API_CALL_ERR_USER_NOT_LOGGED_IN(int):17:17 -> setINVITATION_API_CALL_ERR_USER_NOT_LOGGED_IN
     1:1:void setINVITATION_API_CALL_ERR_WRONG_IDENTITY(int):16:16 -> setINVITATION_API_CALL_ERR_WRONG_IDENTITY
-com.duobeiyun.generamessagesdk.invite.InvitationFailureReason -> com.duobeiyun.generamessagesdk.invite.InvitationFailureReason:
+com.rz.gms.invite.InvitationFailureReason -> com.rz.gms.invite.InvitationFailureReason:
     1:1:void <clinit>():14:14 -> <clinit>
     2:2:void <clinit>():17:17 -> <clinit>
     3:3:void <clinit>():20:20 -> <clinit>
     1:1:void <init>(java.lang.String):10:10 -> <init>
     1:1:java.lang.String getReason():10:10 -> getReason
     1:1:void setReason(java.lang.String):10:10 -> setReason
-com.duobeiyun.generamessagesdk.invite.InvitationFailureReason$Companion -> com.duobeiyun.generamessagesdk.invite.InvitationFailureReason$Companion:
+com.rz.gms.invite.InvitationFailureReason$Companion -> com.rz.gms.invite.InvitationFailureReason$Companion:
     1:1:void <init>():12:12 -> <init>
     2:2:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):12:12 -> <init>
-com.duobeiyun.generamessagesdk.invite.InvitationManager -> com.duobeiyun.generamessagesdk.invite.InvitationManager:
+com.rz.gms.invite.InvitationManager -> com.rz.gms.invite.InvitationManager:
     1:1:void <init>():14:14 -> <init>
-    1:2:int accept(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):48:49 -> accept
-    3:3:int accept(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):51:51 -> accept
-    1:2:int cancel(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):41:42 -> cancel
-    3:3:int cancel(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):44:44 -> cancel
-    1:1:boolean checkLoginState(com.duobeiyun.generamessagesdk.ResultCallback):62:62 -> checkLoginState
-    2:2:boolean checkLoginState(com.duobeiyun.generamessagesdk.ResultCallback):65:65 -> checkLoginState
-    3:4:boolean checkLoginState(com.duobeiyun.generamessagesdk.ResultCallback):67:68 -> checkLoginState
-    5:5:boolean checkLoginState(com.duobeiyun.generamessagesdk.ResultCallback):67:67 -> checkLoginState
-    6:6:boolean checkLoginState(com.duobeiyun.generamessagesdk.ResultCallback):66:66 -> checkLoginState
-    1:2:com.duobeiyun.generamessagesdk.invite.Invitation create(java.lang.String,java.lang.String):26:27 -> create
-    1:2:int refuse(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):55:56 -> refuse
-    3:3:int refuse(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):58:58 -> refuse
-    1:2:int send(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):34:35 -> send
-    3:3:int send(com.duobeiyun.generamessagesdk.invite.Invitation,com.duobeiyun.generamessagesdk.ResultCallback):37:37 -> send
-com.duobeiyun.generamessagesdk.invite.InvitationNotifyType -> com.duobeiyun.generamessagesdk.invite.InvitationNotifyType:
+    1:2:int accept(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):48:49 -> accept
+    3:3:int accept(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):51:51 -> accept
+    1:2:int cancel(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):41:42 -> cancel
+    3:3:int cancel(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):44:44 -> cancel
+    1:1:boolean checkLoginState(com.rz.gms.ResultCallback):62:62 -> checkLoginState
+    2:2:boolean checkLoginState(com.rz.gms.ResultCallback):65:65 -> checkLoginState
+    3:4:boolean checkLoginState(com.rz.gms.ResultCallback):67:68 -> checkLoginState
+    5:5:boolean checkLoginState(com.rz.gms.ResultCallback):67:67 -> checkLoginState
+    6:6:boolean checkLoginState(com.rz.gms.ResultCallback):66:66 -> checkLoginState
+    1:2:com.rz.gms.invite.Invitation create(java.lang.String,java.lang.String):26:27 -> create
+    1:2:int refuse(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):55:56 -> refuse
+    3:3:int refuse(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):58:58 -> refuse
+    1:2:int send(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):34:35 -> send
+    3:3:int send(com.rz.gms.invite.Invitation,com.rz.gms.ResultCallback):37:37 -> send
+com.rz.gms.invite.InvitationNotifyType -> com.rz.gms.invite.InvitationNotifyType:
     1:4:void <clinit>():11:14 -> <clinit>
     1:1:void <init>(java.lang.String,int,java.lang.String):10:10 -> <init>
-com.duobeiyun.generamessagesdk.invite.InviteResult -> com.duobeiyun.generamessagesdk.invite.InviteResult:
+com.rz.gms.invite.InviteResult -> com.rz.gms.invite.InviteResult:
     1:1:void <clinit>():10:10 -> <clinit>
     2:5:void <clinit>():12:15 -> <clinit>
     1:1:void <init>():10:10 -> <init>
@@ -18188,7 +18188,7 @@ com.duobeiyun.generamessagesdk.invite.InviteResult -> com.duobeiyun.generamessag
     1:1:int getINVITATION_API_CALL_ERR_INVALID_STATE():14:14 -> getINVITATION_API_CALL_ERR_INVALID_STATE
     1:1:int getINVITATION_API_CALL_ERR_OK():11:11 -> getINVITATION_API_CALL_ERR_OK
     1:1:int getINVITATION_API_CALL_ERR_PEER_OFFLINE():15:15 -> getINVITATION_API_CALL_ERR_PEER_OFFLINE
-com.duobeiyun.generamessagesdk.invite.InviteState -> com.duobeiyun.generamessagesdk.invite.InviteState:
+com.rz.gms.invite.InviteState -> com.rz.gms.invite.InviteState:
     1:1:void <clinit>():10:10 -> <clinit>
     2:6:void <clinit>():12:16 -> <clinit>
     1:1:void <init>():10:10 -> <init>
@@ -18198,19 +18198,19 @@ com.duobeiyun.generamessagesdk.invite.InviteState -> com.duobeiyun.generamessage
     1:1:int getINVITATION_STATE_FAILURE():12:12 -> getINVITATION_STATE_FAILURE
     1:1:int getINVITATION_STATE_IDLE():11:11 -> getINVITATION_STATE_IDLE
     1:1:int getINVITATION_STATE_REFUSED():16:16 -> getINVITATION_STATE_REFUSED
-com.duobeiyun.generamessagesdk.user.GmsAttribute -> com.duobeiyun.generamessagesdk.user.GmsAttribute:
+com.rz.gms.user.GMSAttribute -> com.rz.gms.user.GMSAttribute:
     1:1:void <init>(java.lang.String,java.lang.String):8:8 -> <init>
     1:1:java.lang.String getKey():8:8 -> getKey
     1:1:java.lang.String getValue():8:8 -> getValue
     1:1:void setKey(java.lang.String):8:8 -> setKey
     1:1:void setValue(java.lang.String):8:8 -> setValue
-com.duobeiyun.generamessagesdk.utils.TokenUtils -> com.duobeiyun.generamessagesdk.utils.TokenUtils:
+com.rz.gms.utils.TokenUtils -> com.rz.gms.utils.TokenUtils:
     1:1:void <init>():11:11 -> <init>
     1:1:java.lang.String createToke(java.lang.String,java.lang.String,long,java.lang.String):13:13 -> createToke
     2:2:java.lang.String createToke(java.lang.String,java.lang.String,long,java.lang.String):16:16 -> createToke
     3:3:java.lang.String createToke(java.lang.String,java.lang.String,long,java.lang.String):19:19 -> createToke
     4:6:java.lang.String createToke(java.lang.String,java.lang.String,long,java.lang.String):22:24 -> createToke
-com.duobeiyun.generamessagesdk.utils.log.LogUtils -> com.duobeiyun.generamessagesdk.utils.log.LogUtils:
+com.rz.gms.utils.log.LogUtils -> com.rz.gms.utils.log.LogUtils:
     1:1:void <clinit>():10:10 -> <clinit>
     2:2:void <clinit>():23:23 -> <clinit>
     1:1:void <init>():9:9 -> <init>
@@ -20248,15 +20248,15 @@ com.google.gson.stream.MalformedJsonException -> d.b.a.u.d:
     1:1:void <init>(java.lang.String):29:29 -> <init>
 com.kotlin.myapplication.MainActivity -> com.kotlin.myapplication.MainActivity:
     java.lang.String TEST_APPID -> w
-    com.duobeiyun.generamessagedemo.test.TestManager testManger -> y
+    com.rz.gmsdemo.test.TestManager testManger -> y
     java.lang.String userId -> v
     java.lang.String TEST_APPKEY -> x
-    com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel999 -> t
-    com.duobeiyun.generamessagesdk.channel.GmsChannel createChannel111 -> u
+    com.rz.gms.channel.GMSChannel createChannel999 -> t
+    com.rz.gms.channel.GMSChannel createChannel111 -> u
     java.lang.String token -> z
     java.util.HashMap _$_findViewCache -> B
     java.lang.Long timestamp -> A
-    com.duobeiyun.generamessagesdk.client.GmsClient createInstance -> s
+    com.rz.gms.client.GMSClient createInstance -> s
     1:1:void <init>():25:25 -> <init>
     2:3:void <init>():30:31 -> <init>
     android.view.View _$_findCachedViewById(int) -> E
@@ -20265,7 +20265,7 @@ com.kotlin.myapplication.MainActivity -> com.kotlin.myapplication.MainActivity:
     1:1:void getChannelAttributesByKeys(java.lang.String):299:299 -> G
     2:3:void getChannelAttributesByKeys(java.lang.String):301:302 -> G
     4:4:void getChannelAttributesByKeys(java.lang.String):299:299 -> G
-    1:1:com.duobeiyun.generamessagesdk.client.GmsClient getCreateInstance():26:26 -> H
+    1:1:com.rz.gms.client.GMSClient getCreateInstance():26:26 -> H
     1:1:java.lang.String getTEST_APPID():30:30 -> I
     1:1:java.lang.String getTEST_APPKEY():31:31 -> J
     1:1:java.lang.Long getTimestamp():41:41 -> K
@@ -20282,10 +20282,10 @@ com.kotlin.myapplication.MainActivity -> com.kotlin.myapplication.MainActivity:
     2:6:void initListeners():109:113 -> P
     7:7:void initListeners():115:115 -> P
     8:15:void initListeners():117:124 -> P
-    1:1:com.duobeiyun.generamessagesdk.channel.GmsChannel joinChanel(java.lang.String):213:213 -> Q
-    2:2:com.duobeiyun.generamessagesdk.channel.GmsChannel joinChanel(java.lang.String):232:232 -> Q
-    1:1:void leaveChanel(com.duobeiyun.generamessagesdk.channel.GmsChannel):245:245 -> R
-    2:2:void leaveChanel(com.duobeiyun.generamessagesdk.channel.GmsChannel):254:254 -> R
+    1:1:com.rz.gms.channel.GMSChannel joinChanel(java.lang.String):213:213 -> Q
+    2:2:com.rz.gms.channel.GMSChannel joinChanel(java.lang.String):232:232 -> Q
+    1:1:void leaveChanel(com.rz.gms.channel.GMSChannel):245:245 -> R
+    2:2:void leaveChanel(com.rz.gms.channel.GMSChannel):254:254 -> R
     1:3:void login():198:200 -> S
     4:5:void login():198:199 -> S
     1:1:void logout():163:163 -> T
@@ -20316,7 +20316,7 @@ com.kotlin.myapplication.MainActivity$createClientInstance$1 -> com.kotlin.myapp
     1:1:void <init>(com.kotlin.myapplication.MainActivity):62:62 -> <init>
     1:1:void onConnectionStateChanged(int,int):67:67 -> onConnectionStateChanged
     2:2:void onConnectionStateChanged(int,int):65:65 -> onConnectionStateChanged
-    1:1:void onMessageReceived(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,java.lang.String):72:72 -> onMessageReceived
+    1:1:void onMessageReceived(com.rz.gms.connect.bean.GMSMessage,java.lang.String):72:72 -> onMessageReceived
     1:1:void onPeersOnlineStatusChanged(java.util.Map):78:78 -> onPeersOnlineStatusChanged
     1:4:void onTokenExpired():83:86 -> onTokenExpired
     5:5:void onTokenExpired():85:85 -> onTokenExpired
@@ -20324,68 +20324,68 @@ com.kotlin.myapplication.MainActivity$createClientInstance$1 -> com.kotlin.myapp
 com.kotlin.myapplication.MainActivity$createClientInstance$1$onTokenExpired$1 -> com.kotlin.myapplication.MainActivity$a$a:
     1:1:void <init>():86:86 -> <init>
     1:1:void onSuccess(java.lang.Void):88:88 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):95:95 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):95:95 -> onFailure
     1:1:void onSuccess(java.lang.Object):86:86 -> onSuccess
 com.kotlin.myapplication.MainActivity$getChannelAttributesByKeys$1 -> com.kotlin.myapplication.MainActivity$b:
     1:1:void <init>():302:302 -> <init>
     1:1:void onSuccess(java.util.List):304:304 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):310:310 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):308:308 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):310:310 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):308:308 -> onFailure
     1:1:void onSuccess(java.lang.Object):302:302 -> onSuccess
 com.kotlin.myapplication.MainActivity$getUserAttributes$1 -> com.kotlin.myapplication.MainActivity$c:
     1:1:void <init>():338:338 -> <init>
     1:1:void onSuccess(java.util.List):340:340 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):346:346 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):344:344 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):346:346 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):344:344 -> onFailure
     1:1:void onSuccess(java.lang.Object):338:338 -> onSuccess
 com.kotlin.myapplication.MainActivity$joinChanel$1 -> com.kotlin.myapplication.MainActivity$d:
     1:1:void <init>():232:232 -> <init>
     1:1:void onSuccess(java.lang.Void):234:234 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):238:238 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):238:238 -> onFailure
     1:1:void onSuccess(java.lang.Object):232:232 -> onSuccess
 com.kotlin.myapplication.MainActivity$joinChanel$chanel$1 -> com.kotlin.myapplication.MainActivity$e:
     java.lang.String $channelId -> a
     1:1:void <init>(java.lang.String):213:213 -> <init>
     1:1:void onAttributesUpdated(java.util.List):225:225 -> onAttributesUpdated
     1:1:void onMemberCountUpdated(int):229:229 -> onMemberCountUpdated
-    1:1:void onMessageReceived(com.duobeiyun.generamessagesdk.connect.bean.GmsMessage,com.duobeiyun.generamessagesdk.channel.bean.GmsChannelMember):221:221 -> onMessageReceived
+    1:1:void onMessageReceived(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.channel.bean.GMSChannelMember):221:221 -> onMessageReceived
 com.kotlin.myapplication.MainActivity$leaveChanel$1 -> com.kotlin.myapplication.MainActivity$f:
     1:1:void <init>():245:245 -> <init>
     1:1:void onSuccess(java.lang.Void):247:247 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):251:251 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):251:251 -> onFailure
     1:1:void onSuccess(java.lang.Object):245:245 -> onSuccess
 com.kotlin.myapplication.MainActivity$login$1 -> com.kotlin.myapplication.MainActivity$g:
     1:1:void <init>():200:200 -> <init>
     1:1:void onSuccess(java.lang.Void):202:202 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):206:206 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):206:206 -> onFailure
     1:1:void onSuccess(java.lang.Object):200:200 -> onSuccess
 com.kotlin.myapplication.MainActivity$logout$1 -> com.kotlin.myapplication.MainActivity$h:
     1:1:void <init>():163:163 -> <init>
     1:1:void onSuccess(java.lang.Void):165:165 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):169:169 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):169:169 -> onFailure
     1:1:void onSuccess(java.lang.Object):163:163 -> onSuccess
 com.kotlin.myapplication.MainActivity$queryPeersOnlineStatus$1 -> com.kotlin.myapplication.MainActivity$i:
     1:1:void <init>():183:183 -> <init>
     1:1:void onSuccess(java.util.Map):185:185 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):191:191 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):189:189 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):191:191 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):189:189 -> onFailure
     1:1:void onSuccess(java.lang.Object):183:183 -> onSuccess
 com.kotlin.myapplication.MainActivity$sendChannelMsg$1 -> com.kotlin.myapplication.MainActivity$j:
     1:1:void <init>():264:264 -> <init>
     1:1:void onSuccess(java.lang.Void):266:266 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):270:270 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):270:270 -> onFailure
     1:1:void onSuccess(java.lang.Object):264:264 -> onSuccess
 com.kotlin.myapplication.MainActivity$setChannelAttributes$1 -> com.kotlin.myapplication.MainActivity$k:
     1:1:void <init>():284:284 -> <init>
     1:1:void onSuccess(java.lang.Void):286:286 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):292:292 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):290:290 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):292:292 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):290:290 -> onFailure
     1:1:void onSuccess(java.lang.Object):284:284 -> onSuccess
 com.kotlin.myapplication.MainActivity$setLocalUserAttributes$1 -> com.kotlin.myapplication.MainActivity$l:
     1:1:void <init>():321:321 -> <init>
     1:1:void onSuccess(java.lang.Void):323:323 -> a
-    1:1:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):329:329 -> onFailure
-    2:2:void onFailure(com.duobeiyun.generamessagesdk.ErrorInfo):327:327 -> onFailure
+    1:1:void onFailure(com.rz.gms.ErrorInfo):329:329 -> onFailure
+    2:2:void onFailure(com.rz.gms.ErrorInfo):327:327 -> onFailure
     1:1:void onSuccess(java.lang.Object):321:321 -> onSuccess
 com.kotlin.myapplication.R$id -> d.c.a.a:
 io.socket.backo.Backoff -> e.a.a.a:

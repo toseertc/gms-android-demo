@@ -1,10 +1,10 @@
-package com.duobeiyun.generamessagedemo.test
+package com.rz.gmsdemo.test
 
 import android.util.Log
-import com.duobeiyun.generamessagesdk.ErrorInfo
-import com.duobeiyun.generamessagesdk.ResultCallback
-import com.duobeiyun.generamessagesdk.client.GmsClient
-import com.duobeiyun.generamessagesdk.user.GmsAttribute
+import com.rz.gms.ErrorInfo
+import com.rz.gms.ResultCallback
+import com.rz.gms.client.GMSClient
+import com.rz.gms.user.GMSAttribute
 
 /*
  * Author: cqr
@@ -13,7 +13,7 @@ import com.duobeiyun.generamessagesdk.user.GmsAttribute
  * Changes (from 2020/6/19)
  */
 
-class LocalUser(var createInstance: GmsClient, var userId: String) {
+class LocalUser(var createInstance: GMSClient, var userId: String) {
     val TAG = LocalUser::class.java.name
     fun beginTest() {
         testSetLocalAtt()
@@ -30,8 +30,8 @@ class LocalUser(var createInstance: GmsClient, var userId: String) {
         createInstance?.getUserAttributesByKeys(
             userId,
             mutableListOf("country"),
-            object : ResultCallback<List<GmsAttribute>> {
-                override fun onSuccess(responseInfo: List<GmsAttribute>?) {
+            object : ResultCallback<List<GMSAttribute>> {
+                override fun onSuccess(responseInfo: List<GMSAttribute>?) {
                     Log.e(
                         TAG,
                         "testgetUserAttributesByKeys success $responseInfo"
@@ -49,8 +49,8 @@ class LocalUser(var createInstance: GmsClient, var userId: String) {
     }
 
     fun testgetUserAttributes() {
-        createInstance?.getUserAttributes(userId, object : ResultCallback<List<GmsAttribute>> {
-            override fun onSuccess(responseInfo: List<GmsAttribute>?) {
+        createInstance?.getUserAttributes(userId, object : ResultCallback<List<GMSAttribute>> {
+            override fun onSuccess(responseInfo: List<GMSAttribute>?) {
                 Log.e(
                     TAG,
                     "testgetUserAttributes success $responseInfo"
@@ -109,8 +109,8 @@ class LocalUser(var createInstance: GmsClient, var userId: String) {
 
     fun testaddOrUpdateLocalUserAttributes() {
         var list = mutableListOf(
-            GmsAttribute("name", "duobeiGms"),
-            GmsAttribute("age", "1000000000000")
+            GMSAttribute("name", "duobeiGMS"),
+            GMSAttribute("age", "1000000000000")
         )
         createInstance?.addOrUpdateLocalUserAttributes(list,
             object : ResultCallback<Void> {
@@ -136,10 +136,10 @@ class LocalUser(var createInstance: GmsClient, var userId: String) {
 
     fun testSetLocalAtt() {
         var list = mutableListOf(
-            GmsAttribute("name", "yy"),
-            GmsAttribute("age", "27"),
-            GmsAttribute("city", "beijing"),
-            GmsAttribute("country", "china")
+            GMSAttribute("name", "yy"),
+            GMSAttribute("age", "27"),
+            GMSAttribute("city", "beijing"),
+            GMSAttribute("country", "china")
         );
         createInstance?.setLocalUserAttributes(
             list, object : ResultCallback<Void> {

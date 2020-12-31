@@ -63,7 +63,7 @@
 -keep public class * extends android.app.backup.BackupAgentHelper
 -keep public class * extends android.preference.Preference
 #gms 不混淆
--keep class com.duobeiyun.generamessagesdk.** {*;}
+-keep class com.rz.gms.** {*;}
 
 
 -dump class_files.txt
