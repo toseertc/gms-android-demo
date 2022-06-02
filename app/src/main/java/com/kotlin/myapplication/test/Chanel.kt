@@ -1,15 +1,16 @@
-package com.rz.gmsdemo.test
+package com.kotlin.myapplication.test
 
 import android.util.Log
-import com.rz.gms.ErrorInfo
-import com.rz.gms.ResultCallback
-import com.rz.gms.channel.GMSChannel
-import com.rz.gms.channel.GMSChannelListener
-import com.rz.gms.channel.bean.ChannelAttributeOptions
-import com.rz.gms.channel.bean.GMSChannelAttribute
-import com.rz.gms.channel.bean.GMSChannelMember
-import com.rz.gms.client.GMSClient
-import com.rz.gms.connect.bean.GMSMessage
+import cn.tosee.gms.ErrorInfo
+import cn.tosee.gms.ResultCallback
+import cn.tosee.gms.channel.GMSChannel
+import cn.tosee.gms.channel.GMSChannelListener
+import cn.tosee.gms.channel.MemberLeftReason
+import cn.tosee.gms.channel.bean.ChannelAttributeOptions
+import cn.tosee.gms.channel.bean.GMSChannelAttribute
+import cn.tosee.gms.channel.bean.GMSChannelMember
+import cn.tosee.gms.client.GMSClient
+import cn.tosee.gms.connect.bean.GMSMessage
 
 /*
  * Author: cqr
@@ -180,8 +181,11 @@ class Chanel(var createInstance: GMSClient, var userId: String, var channelId: S
                 override fun onMemberJoined(member: GMSChannelMember) {
                 }
 
-                override fun onMemberLeft(member: GMSChannelMember) {
+                override fun onMemberLeft(member: GMSChannelMember, leaveReason: MemberLeftReason) {
+                    TODO("Not yet implemented")
                 }
+
+
 
                 override fun onMessageReceived(
                     gmsMessage: GMSMessage,

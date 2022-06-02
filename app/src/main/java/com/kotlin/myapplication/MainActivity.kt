@@ -5,20 +5,24 @@ import android.text.TextUtils
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.rz.gmsdemo.test.TestManager
-import com.rz.gms.ErrorInfo
-import com.rz.gms.ResultCallback
-import com.rz.gms.bean.LoginParams
-import com.rz.gms.channel.GMSChannel
-import com.rz.gms.channel.GMSChannelListener
-import com.rz.gms.channel.bean.ChannelAttributeOptions
-import com.rz.gms.channel.bean.GMSChannelAttribute
-import com.rz.gms.channel.bean.GMSChannelMember
-import com.rz.gms.client.GMSClient
-import com.rz.gms.client.GMSClientListener
-import com.rz.gms.connect.bean.GMSMessage
-import com.rz.gms.user.GMSAttribute
-import com.rz.gms.utils.TokenUtils
+import cn.tosee.gms.ErrorInfo
+import cn.tosee.gms.ResultCallback
+import cn.tosee.gms.bean.LoginParams
+import cn.tosee.gms.channel.GMSChannel
+import cn.tosee.gms.channel.GMSChannelListener
+import cn.tosee.gms.channel.MemberLeftReason
+import cn.tosee.gms.channel.bean.ChannelAttributeOptions
+import cn.tosee.gms.channel.bean.GMSChannelAttribute
+import cn.tosee.gms.channel.bean.GMSChannelMember
+import cn.tosee.gms.client.GMSClient
+import cn.tosee.gms.client.GMSClientListener
+import cn.tosee.gms.connect.bean.EnvConfig
+import cn.tosee.gms.connect.bean.GMSMessage
+import cn.tosee.gms.connect.bean.Options
+import cn.tosee.gms.user.GMSAttribute
+import cn.tosee.gms.user.GMSAttributeWithState
+import cn.tosee.gms.utils.TokenUtils
+import com.kotlin.myapplication.test.TestManager
 import kotlinx.android.synthetic.main.activity_main.*
 import java.nio.ByteBuffer
 import java.util.Set
@@ -32,6 +36,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     //从官网获取，或者直接找相关人员
     val TEST_APPID = "bdf948509405411592b481681c3b8975";
     val TEST_APPKEY = "d631e27974b64fae8e6c1e29fc2a16e4";
+    val TEST_API_SERVER = "https://rtc-api-dev.tosee.cn"  //替换成自己的server地址
+    val TEST_LOG_API_SERVER = "https://baidu.com"  //替换成自己的log-server地址
     var testManger: TestManager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,7 +54,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         userId = "gms_android"// + Random.nextInt(1000).toString()
         /**此为demo 生成token，用户对接，需要从自己的服务器进行请求，不要将appkey放在客户端 不安全*/
         timestamp = 0
-        token = TokenUtils.createToke(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
+        token = TokenUtils.createToken(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
         createClientInstance()
         testManger = TestManager(createInstance!!, userId!!, this)
 
@@ -62,6 +68,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         createInstance = GMSClient.createInstance(
             applicationContext,
             TEST_APPID,
+            Options(EnvConfig(TEST_API_SERVER,TEST_LOG_API_SERVER)),
             object : GMSClientListener {
                 override fun onConnectionStateChanged(code: Int, reason: Int) {
                     // 连接状态发生改变
@@ -81,11 +88,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     Log.e("MainActivity", "GMSClientListener.onPeersOnlineStatusChanged $map")
                 }
 
+                override fun onPeersUserAttributesChanged(userAttributes: Map<String, List<GMSAttributeWithState>>) {
+                    TODO("Not yet implemented")
+                }
+
                 override fun onTokenExpired() {
                     /**此为demo 生成token，用户对接，需要从自己的服务器进行请求，不要将appkey放在客户端 不安全*/
                     timestamp = System.currentTimeMillis();
-                    token = TokenUtils.createToke(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
-                    createInstance?.renewToken(LoginParams(token!!, userId!!, timestamp!!),
+                    token = TokenUtils.createToken(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
+                    createInstance?.renewToken(
+                        LoginParams(token!!, userId!!, timestamp!!),
                         object : ResultCallback<Void> {
                             override fun onSuccess(responseInfo: Void?) {
                                 Log.e(
@@ -217,7 +229,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 override fun onMemberJoined(member: GMSChannelMember) {
                 }
 
-                override fun onMemberLeft(member: GMSChannelMember) {
+                override fun onMemberLeft(member: GMSChannelMember, leaveReason: MemberLeftReason) {
+                    TODO("Not yet implemented")
                 }
 
                 override fun onMessageReceived(gmsMessage: GMSMessage, member: GMSChannelMember) {

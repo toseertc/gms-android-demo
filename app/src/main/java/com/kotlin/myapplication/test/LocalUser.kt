@@ -1,10 +1,10 @@
-package com.rz.gmsdemo.test
+package com.kotlin.myapplication.test
 
 import android.util.Log
-import com.rz.gms.ErrorInfo
-import com.rz.gms.ResultCallback
-import com.rz.gms.client.GMSClient
-import com.rz.gms.user.GMSAttribute
+import cn.tosee.gms.ErrorInfo
+import cn.tosee.gms.ResultCallback
+import cn.tosee.gms.client.GMSClient
+import cn.tosee.gms.user.GMSAttribute
 
 /*
  * Author: cqr

@@ -17327,7 +17327,7 @@ androidx.versionedparcelable.VersionedParcelParcel -> c.n.b:
     4:5:void setOutputField(int):93:94 -> w
     1:1:void writeBoolean(boolean):181:181 -> y
 androidx.versionedparcelable.VersionedParcelable -> c.n.c:
-com.rz.gmsdemo.test.Chanel -> d.a.a.a.a:
+com.kotlin.myapplication.test.Chanel -> d.a.a.a.a:
     com.rz.gms.channel.GMSChannel createChannel -> a
     java.lang.String TAG -> b
     com.rz.gms.client.GMSClient createInstance -> c
@@ -17362,103 +17362,103 @@ com.rz.gmsdemo.test.Chanel -> d.a.a.a.a:
     1:3:void testgetChannelMemberCount():87:89 -> n
     4:4:void testgetChannelMemberCount():87:87 -> n
     1:1:void testgetChannelMembers():65:65 -> o
-com.rz.gmsdemo.test.Chanel$testAddOrUpdateChannelAttributes$1 -> d.a.a.a.a$a:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):47:47 -> <init>
+com.kotlin.myapplication.test.Chanel$testAddOrUpdateChannelAttributes$1 -> d.a.a.a.a$a:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):47:47 -> <init>
     1:1:void onSuccess(java.lang.Void):51:51 -> a
     2:2:void onSuccess(java.lang.Void):49:49 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):58:58 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):56:56 -> onFailure
     1:1:void onSuccess(java.lang.Object):47:47 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testChanelMsg$1 -> d.a.a.a.a$b:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):220:220 -> <init>
+com.kotlin.myapplication.test.Chanel$testChanelMsg$1 -> d.a.a.a.a$b:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):220:220 -> <init>
     1:1:void onSuccess(java.lang.Void):222:222 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):226:226 -> onFailure
     1:1:void onSuccess(java.lang.Object):220:220 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testCreateChanel$1 -> d.a.a.a.a$c:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):178:178 -> <init>
+com.kotlin.myapplication.test.Chanel$testCreateChanel$1 -> d.a.a.a.a$c:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):178:178 -> <init>
     1:1:void onAttributesUpdated(java.util.List):193:193 -> onAttributesUpdated
     1:1:void onMemberCountUpdated(int):199:199 -> onMemberCountUpdated
     2:2:void onMemberCountUpdated(int):197:197 -> onMemberCountUpdated
     1:1:void onMessageReceived(com.rz.gms.connect.bean.GMSMessage,com.rz.gms.channel.bean.GMSChannelMember):189:189 -> onMessageReceived
-com.rz.gmsdemo.test.Chanel$testDeleteChannelAttributesByKeys$1 -> d.a.a.a.a$d:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):158:158 -> <init>
+com.kotlin.myapplication.test.Chanel$testDeleteChannelAttributesByKeys$1 -> d.a.a.a.a$d:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):158:158 -> <init>
     1:1:void onSuccess(java.lang.Void):162:162 -> a
     2:2:void onSuccess(java.lang.Void):160:160 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):169:169 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):167:167 -> onFailure
     1:1:void onSuccess(java.lang.Object):158:158 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testGetChanelAtt$1 -> d.a.a.a.a$e:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):255:255 -> <init>
+com.kotlin.myapplication.test.Chanel$testGetChanelAtt$1 -> d.a.a.a.a$e:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):255:255 -> <init>
     1:1:void onSuccess(java.util.List):257:257 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):263:263 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):261:261 -> onFailure
     1:1:void onSuccess(java.lang.Object):255:255 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testJoinChannel$1 -> d.a.a.a.a$f:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):206:206 -> <init>
+com.kotlin.myapplication.test.Chanel$testJoinChannel$1 -> d.a.a.a.a$f:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):206:206 -> <init>
     1:2:void onSuccess(java.lang.Void):208:209 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):213:213 -> onFailure
     1:1:void onSuccess(java.lang.Object):206:206 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testLeaveChanel$1 -> d.a.a.a.a$g:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):272:272 -> <init>
+com.kotlin.myapplication.test.Chanel$testLeaveChanel$1 -> d.a.a.a.a$g:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):272:272 -> <init>
     1:1:void onSuccess(java.lang.Void):274:274 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):278:278 -> onFailure
     1:1:void onSuccess(java.lang.Object):272:272 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testSetChanelAtt$1 -> d.a.a.a.a$h:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):237:237 -> <init>
+com.kotlin.myapplication.test.Chanel$testSetChanelAtt$1 -> d.a.a.a.a$h:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):237:237 -> <init>
     1:1:void onSuccess(java.lang.Void):239:239 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):245:245 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):243:243 -> onFailure
     1:1:void onSuccess(java.lang.Object):237:237 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testclearChannelAttributes$1 -> d.a.a.a.a$i:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):136:136 -> <init>
+com.kotlin.myapplication.test.Chanel$testclearChannelAttributes$1 -> d.a.a.a.a$i:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):136:136 -> <init>
     1:1:void onSuccess(java.lang.Void):140:140 -> a
     2:2:void onSuccess(java.lang.Void):138:138 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):147:147 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):145:145 -> onFailure
     1:1:void onSuccess(java.lang.Object):136:136 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testgetChannelAttributes$1 -> d.a.a.a.a$j:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):112:112 -> <init>
+com.kotlin.myapplication.test.Chanel$testgetChannelAttributes$1 -> d.a.a.a.a$j:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):112:112 -> <init>
     1:1:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1):1648:1648 -> a
     1:1:void onSuccess(java.util.List):284 -> a
     2:2:void onSuccess(java.util.List):117:117 -> a
     3:3:void onSuccess(java.util.List):115:115 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):125:125 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):123:123 -> onFailure
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):112:112 -> onSuccess
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):112:112 -> onSuccess
     1:1:void onSuccess(java.lang.Object):112 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testgetChannelMemberCount$1 -> d.a.a.a.a$k:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):89:89 -> <init>
+com.kotlin.myapplication.test.Chanel$testgetChannelMemberCount$1 -> d.a.a.a.a$k:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):89:89 -> <init>
     1:1:void kotlin.collections.MapsKt___MapsKt.forEach(java.util.Map,kotlin.jvm.functions.Function1):151:151 -> a
     1:1:void onSuccess(java.util.Map):284 -> a
     2:2:void onSuccess(java.util.Map):102:102 -> a
     3:3:void onSuccess(java.util.Map):100:100 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):93:93 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):91:91 -> onFailure
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):89:89 -> onSuccess
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):89:89 -> onSuccess
     1:1:void onSuccess(java.lang.Object):89 -> onSuccess
-com.rz.gmsdemo.test.Chanel$testgetChannelMembers$1 -> d.a.a.a.a$l:
-    com.rz.gmsdemo.test.Chanel this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):65:65 -> <init>
+com.kotlin.myapplication.test.Chanel$testgetChannelMembers$1 -> d.a.a.a.a$l:
+    com.kotlin.myapplication.test.Chanel this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):65:65 -> <init>
     1:1:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1):1648:1648 -> a
     1:1:void onSuccess(java.util.List):284 -> a
     2:2:void onSuccess(java.util.List):70:70 -> a
     3:3:void onSuccess(java.util.List):68:68 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):78:78 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):76:76 -> onFailure
-    1:1:void <init>(com.rz.gmsdemo.test.Chanel):65:65 -> onSuccess
+    1:1:void <init>(com.kotlin.myapplication.test.Chanel):65:65 -> onSuccess
     1:1:void onSuccess(java.lang.Object):65 -> onSuccess
-com.rz.gmsdemo.test.Inviter -> d.a.a.a.b:
+com.kotlin.myapplication.test.Inviter -> d.a.a.a.b:
     java.lang.String userId -> f
     com.rz.gms.client.GMSClient createInstance -> e
     com.rz.gms.invite.Invitation invitation -> b
@@ -17467,10 +17467,10 @@ com.rz.gmsdemo.test.Inviter -> d.a.a.a.b:
     java.lang.String testInitee -> d
     1:1:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):21:21 -> <init>
     2:3:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):24:25 -> <init>
-    1:1:com.rz.gms.invite.Invitation access$getInvitation$p(com.rz.gmsdemo.test.Inviter):21:21 -> a
-    1:1:com.rz.gms.invite.InvitationManager access$getManager$p(com.rz.gmsdemo.test.Inviter):21:21 -> b
-    1:1:java.lang.String access$getTag$p(com.rz.gmsdemo.test.Inviter):21:21 -> c
-    1:1:void access$log(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation,java.lang.String):21:21 -> d
+    1:1:com.rz.gms.invite.Invitation access$getInvitation$p(com.kotlin.myapplication.test.Inviter):21:21 -> a
+    1:1:com.rz.gms.invite.InvitationManager access$getManager$p(com.kotlin.myapplication.test.Inviter):21:21 -> b
+    1:1:java.lang.String access$getTag$p(com.kotlin.myapplication.test.Inviter):21:21 -> c
+    1:1:void access$log(com.kotlin.myapplication.test.Inviter,com.rz.gms.invite.Invitation,java.lang.String):21:21 -> d
     1:4:void beginTest():28:31 -> e
     5:6:void beginTest():35:36 -> e
     7:8:void beginTest():38:39 -> e
@@ -17492,9 +17492,9 @@ com.rz.gmsdemo.test.Inviter -> d.a.a.a.b:
     1:1:void testcancel(com.rz.gms.invite.Invitation):99:99 -> m
     1:2:void testcreate():131:132 -> n
     3:3:void testcreate():131:131 -> n
-com.rz.gmsdemo.test.Inviter$setTestListener$1 -> d.a.a.a.b$a:
-    com.rz.gmsdemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Inviter):143:143 -> <init>
+com.kotlin.myapplication.test.Inviter$setTestListener$1 -> d.a.a.a.b$a:
+    com.kotlin.myapplication.test.Inviter this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Inviter):143:143 -> <init>
     1:1:void onAccepted(com.rz.gms.invite.Invitation):161:161 -> onAccepted
     1:1:void onArrived(com.rz.gms.invite.Invitation):152:152 -> onArrived
     1:1:void onCanceled(com.rz.gms.invite.Invitation):156:156 -> onCanceled
@@ -17502,42 +17502,42 @@ com.rz.gmsdemo.test.Inviter$setTestListener$1 -> d.a.a.a.b$a:
     2:2:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):147:147 -> onFailure
     3:3:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):146:146 -> onFailure
     1:1:void onRefused(com.rz.gms.invite.Invitation):165:165 -> onRefused
-com.rz.gmsdemo.test.Inviter$testAccept$1 -> d.a.a.a.b$b:
+com.kotlin.myapplication.test.Inviter$testAccept$1 -> d.a.a.a.b$b:
     com.rz.gms.invite.Invitation $invitation2 -> b
-    com.rz.gmsdemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation):83:83 -> <init>
+    com.kotlin.myapplication.test.Inviter this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Inviter,com.rz.gms.invite.Invitation):83:83 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):85:85 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):91:91 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):89:89 -> onFailure
     1:1:void onSuccess(java.lang.Object):83:83 -> onSuccess
-com.rz.gmsdemo.test.Inviter$testOutTimeWithOtherAction$1 -> d.a.a.a.b$c:
-    com.rz.gmsdemo.test.Inviter this$0 -> b
+com.kotlin.myapplication.test.Inviter$testOutTimeWithOtherAction$1 -> d.a.a.a.b$c:
+    com.kotlin.myapplication.test.Inviter this$0 -> b
     1:6:void run():57:62 -> run
     7:7:void run():58:58 -> run
-com.rz.gmsdemo.test.Inviter$testRefuse$1 -> d.a.a.a.b$d:
+com.kotlin.myapplication.test.Inviter$testRefuse$1 -> d.a.a.a.b$d:
     com.rz.gms.invite.Invitation $invitation2 -> b
-    com.rz.gmsdemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation):67:67 -> <init>
+    com.kotlin.myapplication.test.Inviter this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Inviter,com.rz.gms.invite.Invitation):67:67 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):69:69 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):75:75 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):73:73 -> onFailure
     1:1:void onSuccess(java.lang.Object):67:67 -> onSuccess
-com.rz.gmsdemo.test.Inviter$testSend$1 -> d.a.a.a.b$e:
-    com.rz.gmsdemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Inviter):115:115 -> <init>
+com.kotlin.myapplication.test.Inviter$testSend$1 -> d.a.a.a.b$e:
+    com.kotlin.myapplication.test.Inviter this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Inviter):115:115 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):117:117 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):122:123 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):121:121 -> onFailure
     1:1:void onSuccess(java.lang.Object):115:115 -> onSuccess
-com.rz.gmsdemo.test.Inviter$testcancel$1 -> d.a.a.a.b$f:
+com.kotlin.myapplication.test.Inviter$testcancel$1 -> d.a.a.a.b$f:
     com.rz.gms.invite.Invitation $invitation -> b
-    com.rz.gmsdemo.test.Inviter this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.Inviter,com.rz.gms.invite.Invitation):99:99 -> <init>
+    com.kotlin.myapplication.test.Inviter this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.Inviter,com.rz.gms.invite.Invitation):99:99 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):101:101 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):106:107 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):105:105 -> onFailure
     1:1:void onSuccess(java.lang.Object):99:99 -> onSuccess
-com.rz.gmsdemo.test.LocalUser -> d.a.a.a.c:
+com.kotlin.myapplication.test.LocalUser -> d.a.a.a.c:
     java.lang.String TAG -> a
     com.rz.gms.client.GMSClient createInstance -> b
     java.lang.String userId -> c
@@ -17558,19 +17558,19 @@ com.rz.gmsdemo.test.LocalUser -> d.a.a.a.c:
     1:1:void testgetUserAttributes():52:52 -> g
     1:4:void testgetUserAttributesByKeys():30:33 -> h
     5:5:void testgetUserAttributesByKeys():30:30 -> h
-com.rz.gmsdemo.test.LocalUser$testSetLocalAtt$1 -> d.a.a.a.c$a:
-    com.rz.gmsdemo.test.LocalUser this$0 -> a
+com.kotlin.myapplication.test.LocalUser$testSetLocalAtt$1 -> d.a.a.a.c$a:
+    com.kotlin.myapplication.test.LocalUser this$0 -> a
     kotlin.jvm.internal.Ref$ObjectRef $list -> b
-    1:1:void <init>(com.rz.gmsdemo.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):145:145 -> <init>
+    1:1:void <init>(com.kotlin.myapplication.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):145:145 -> <init>
     1:3:void onSuccess(java.lang.Void):147:149 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):153:153 -> onFailure
     2:3:void onFailure(com.rz.gms.ErrorInfo):155:156 -> onFailure
     4:4:void onFailure(com.rz.gms.ErrorInfo):154:154 -> onFailure
     1:1:void onSuccess(java.lang.Object):145:145 -> onSuccess
-com.rz.gmsdemo.test.LocalUser$testaddOrUpdateLocalUserAttributes$1 -> d.a.a.a.c$b:
-    com.rz.gmsdemo.test.LocalUser this$0 -> a
+com.kotlin.myapplication.test.LocalUser$testaddOrUpdateLocalUserAttributes$1 -> d.a.a.a.c$b:
+    com.kotlin.myapplication.test.LocalUser this$0 -> a
     kotlin.jvm.internal.Ref$ObjectRef $list -> b
-    1:1:void <init>(com.rz.gmsdemo.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):116:116 -> <init>
+    1:1:void <init>(com.kotlin.myapplication.test.LocalUser,kotlin.jvm.internal.Ref$ObjectRef):116:116 -> <init>
     1:2:void onSuccess(java.lang.Void):119:120 -> a
     3:3:void onSuccess(java.lang.Void):118:118 -> a
     4:5:void onSuccess(java.lang.Void):122:123 -> a
@@ -17578,39 +17578,39 @@ com.rz.gmsdemo.test.LocalUser$testaddOrUpdateLocalUserAttributes$1 -> d.a.a.a.c$
     2:3:void onFailure(com.rz.gms.ErrorInfo):129:130 -> onFailure
     4:4:void onFailure(com.rz.gms.ErrorInfo):128:128 -> onFailure
     1:1:void onSuccess(java.lang.Object):116:116 -> onSuccess
-com.rz.gmsdemo.test.LocalUser$testclearLocalUserAttributes$1 -> d.a.a.a.c$c:
-    com.rz.gmsdemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):71:71 -> <init>
+com.kotlin.myapplication.test.LocalUser$testclearLocalUserAttributes$1 -> d.a.a.a.c$c:
+    com.kotlin.myapplication.test.LocalUser this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.LocalUser):71:71 -> <init>
     1:2:void onSuccess(java.lang.Void):74:75 -> a
     3:3:void onSuccess(java.lang.Void):73:73 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):81:82 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):80:80 -> onFailure
     1:1:void onSuccess(java.lang.Object):71:71 -> onSuccess
-com.rz.gmsdemo.test.LocalUser$testdeleteLocalUserAttributesByKeys$1 -> d.a.a.a.c$d:
-    com.rz.gmsdemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):92:92 -> <init>
+com.kotlin.myapplication.test.LocalUser$testdeleteLocalUserAttributesByKeys$1 -> d.a.a.a.c$d:
+    com.kotlin.myapplication.test.LocalUser this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.LocalUser):92:92 -> <init>
     1:2:void onSuccess(java.lang.Void):95:96 -> a
     3:3:void onSuccess(java.lang.Void):94:94 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):102:103 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):101:101 -> onFailure
     1:1:void onSuccess(java.lang.Object):92:92 -> onSuccess
-com.rz.gmsdemo.test.LocalUser$testgetUserAttributes$1 -> d.a.a.a.c$e:
-    com.rz.gmsdemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):52:52 -> <init>
+com.kotlin.myapplication.test.LocalUser$testgetUserAttributes$1 -> d.a.a.a.c$e:
+    com.kotlin.myapplication.test.LocalUser this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.LocalUser):52:52 -> <init>
     1:2:void onSuccess(java.util.List):55:56 -> a
     3:3:void onSuccess(java.util.List):54:54 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):62:63 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):61:61 -> onFailure
     1:1:void onSuccess(java.lang.Object):52:52 -> onSuccess
-com.rz.gmsdemo.test.LocalUser$testgetUserAttributesByKeys$1 -> d.a.a.a.c$f:
-    com.rz.gmsdemo.test.LocalUser this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.LocalUser):33:33 -> <init>
+com.kotlin.myapplication.test.LocalUser$testgetUserAttributesByKeys$1 -> d.a.a.a.c$f:
+    com.kotlin.myapplication.test.LocalUser this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.LocalUser):33:33 -> <init>
     1:2:void onSuccess(java.util.List):36:37 -> a
     3:3:void onSuccess(java.util.List):35:35 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):43:44 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):42:42 -> onFailure
     1:1:void onSuccess(java.lang.Object):33:33 -> onSuccess
-com.rz.gmsdemo.test.PeerMsg -> d.a.a.a.d:
+com.kotlin.myapplication.test.PeerMsg -> d.a.a.a.d:
     java.lang.String TAG -> a
     com.rz.gms.client.GMSClient createInstance -> b
     1:2:void <init>(com.rz.gms.client.GMSClient,java.lang.String):17:18 -> <init>
@@ -17630,62 +17630,62 @@ com.rz.gmsdemo.test.PeerMsg -> d.a.a.a.d:
     1:3:void testunsubscribePeersOnlineStatus():69:71 -> g
     4:4:void testunsubscribePeersOnlineStatus():73:73 -> g
     5:5:void testunsubscribePeersOnlineStatus():71:71 -> g
-com.rz.gmsdemo.test.PeerMsg$testqueryPeersBySubscriptionOption$1 -> d.a.a.a.d$a:
-    com.rz.gmsdemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):30:30 -> <init>
+com.kotlin.myapplication.test.PeerMsg$testqueryPeersBySubscriptionOption$1 -> d.a.a.a.d$a:
+    com.kotlin.myapplication.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.PeerMsg):30:30 -> <init>
     1:1:void onSuccess(java.util.Set):32:32 -> a
     2:2:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1):1648:1648 -> a
     2:2:void onSuccess(java.util.Set):136 -> a
     3:3:void onSuccess(java.util.Set):34:34 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):40:41 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):39:39 -> onFailure
-    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):30:30 -> onSuccess
+    1:1:void <init>(com.kotlin.myapplication.test.PeerMsg):30:30 -> onSuccess
     1:1:void onSuccess(java.lang.Object):30 -> onSuccess
-com.rz.gmsdemo.test.PeerMsg$testqueryPeersOnlineStatus$1 -> d.a.a.a.d$b:
-    com.rz.gmsdemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):122:122 -> <init>
+com.kotlin.myapplication.test.PeerMsg$testqueryPeersOnlineStatus$1 -> d.a.a.a.d$b:
+    com.kotlin.myapplication.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.PeerMsg):122:122 -> <init>
     1:1:void onSuccess(java.util.Map):124:124 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):129:130 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):128:128 -> onFailure
     1:1:void onSuccess(java.lang.Object):122:122 -> onSuccess
-com.rz.gmsdemo.test.PeerMsg$testsendMessageToPeer$1 -> d.a.a.a.d$c:
-    com.rz.gmsdemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):56:56 -> <init>
+com.kotlin.myapplication.test.PeerMsg$testsendMessageToPeer$1 -> d.a.a.a.d$c:
+    com.kotlin.myapplication.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.PeerMsg):56:56 -> <init>
     1:1:void onSuccess(java.lang.Void):58:58 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):62:62 -> onFailure
     1:1:void onSuccess(java.lang.Object):56:56 -> onSuccess
-com.rz.gmsdemo.test.PeerMsg$testsubscribePeersOnlineStatus$1 -> d.a.a.a.d$d:
-    com.rz.gmsdemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):100:100 -> <init>
+com.kotlin.myapplication.test.PeerMsg$testsubscribePeersOnlineStatus$1 -> d.a.a.a.d$d:
+    com.kotlin.myapplication.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.PeerMsg):100:100 -> <init>
     1:1:void onSuccess(java.lang.Void):102:102 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):107:108 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):106:106 -> onFailure
     1:1:void onSuccess(java.lang.Object):100:100 -> onSuccess
-com.rz.gmsdemo.test.PeerMsg$testunsubscribePeersOnlineStatus$1 -> d.a.a.a.d$e:
-    com.rz.gmsdemo.test.PeerMsg this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.PeerMsg):73:73 -> <init>
+com.kotlin.myapplication.test.PeerMsg$testunsubscribePeersOnlineStatus$1 -> d.a.a.a.d$e:
+    com.kotlin.myapplication.test.PeerMsg this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.PeerMsg):73:73 -> <init>
     1:2:void onSuccess(java.lang.Void):76:77 -> a
     3:3:void onSuccess(java.lang.Void):75:75 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):83:84 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):82:82 -> onFailure
     1:1:void onSuccess(java.lang.Object):73:73 -> onSuccess
-com.rz.gmsdemo.test.TestManager -> d.a.a.a.e:
+com.kotlin.myapplication.test.TestManager -> d.a.a.a.e:
     boolean TestAsInviter -> j
     com.rz.gms.client.GMSClient createInstance -> k
-    com.rz.gmsdemo.test.LocalUser localAttr -> f
-    com.rz.gmsdemo.test.Inviter inviter -> h
+    com.kotlin.myapplication.test.LocalUser localAttr -> f
+    com.kotlin.myapplication.test.Inviter inviter -> h
     java.lang.String userId -> l
-    com.rz.gmsdemo.test.PeerMsg peerMsg -> g
+    com.kotlin.myapplication.test.PeerMsg peerMsg -> g
     java.lang.Long timestamp -> d
-    com.rz.gmsdemo.test.Chanel chanel -> e
+    com.kotlin.myapplication.test.Chanel chanel -> e
     android.content.Context context -> m
     java.lang.String TEST_APPID -> a
     java.lang.String token -> c
     java.lang.String TEST_APPKEY -> b
-    com.rz.gmsdemo.test.invitee.Invitee invitee -> i
+    com.kotlin.myapplication.test.invitee.Invitee invitee -> i
     1:3:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):30:32 -> <init>
     4:4:void <init>(com.rz.gms.client.GMSClient,java.lang.String,android.content.Context):60:60 -> <init>
-    1:1:void access$allTestCases(com.rz.gmsdemo.test.TestManager):30:30 -> a
+    1:1:void access$allTestCases(com.kotlin.myapplication.test.TestManager):30:30 -> a
     1:1:void allTestCases():73:73 -> b
     2:2:void allTestCases():75:75 -> b
     3:3:void allTestCases():77:77 -> b
@@ -17705,27 +17705,27 @@ com.rz.gmsdemo.test.TestManager -> d.a.a.a.e:
     3:4:void testLogin():39:40 -> f
     5:5:void testLogin():39:39 -> f
     6:6:void testLogin():37:37 -> f
-com.rz.gmsdemo.test.TestManager$testLogin$1 -> d.a.a.a.e$a:
-    com.rz.gmsdemo.test.TestManager this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.TestManager):40:40 -> <init>
+com.kotlin.myapplication.test.TestManager$testLogin$1 -> d.a.a.a.e$a:
+    com.kotlin.myapplication.test.TestManager this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.TestManager):40:40 -> <init>
     1:3:void onSuccess(java.lang.Void):42:44 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):49:50 -> onFailure
     1:1:void onSuccess(java.lang.Object):40:40 -> onSuccess
-com.rz.gmsdemo.test.WifiTest -> d.a.a.a.f:
+com.kotlin.myapplication.test.WifiTest -> d.a.a.a.f:
     1:1:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String):13:13 -> <init>
     2:2:void <init>(com.rz.gms.client.GMSClient,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):13:13 -> <init>
     void beginTest() -> a
-com.rz.gmsdemo.test.invitee.Invitee -> d.a.a.a.g.a:
+com.kotlin.myapplication.test.invitee.Invitee -> d.a.a.a.g.a:
     com.rz.gms.client.GMSClient instance -> d
     com.rz.gms.invite.InvitationManager manager -> a
     java.lang.String Tag -> b
     int index -> c
     1:1:void <init>(android.content.Context,com.rz.gms.client.GMSClient):20:20 -> <init>
     2:2:void <init>(android.content.Context,com.rz.gms.client.GMSClient):22:22 -> <init>
-    1:1:int access$getIndex$p(com.rz.gmsdemo.test.invitee.Invitee):20:20 -> a
-    1:1:java.lang.String access$getTag$p(com.rz.gmsdemo.test.invitee.Invitee):20:20 -> b
-    1:1:void access$log(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation,java.lang.String):20:20 -> c
-    1:1:void access$setIndex$p(com.rz.gmsdemo.test.invitee.Invitee,int):20:20 -> d
+    1:1:int access$getIndex$p(com.kotlin.myapplication.test.invitee.Invitee):20:20 -> a
+    1:1:java.lang.String access$getTag$p(com.kotlin.myapplication.test.invitee.Invitee):20:20 -> b
+    1:1:void access$log(com.kotlin.myapplication.test.invitee.Invitee,com.rz.gms.invite.Invitation,java.lang.String):20:20 -> c
+    1:1:void access$setIndex$p(com.kotlin.myapplication.test.invitee.Invitee,int):20:20 -> d
     1:2:void beginTest():25:26 -> e
     1:2:void log(com.rz.gms.invite.Invitation,java.lang.String):79:80 -> f
     3:3:void log(com.rz.gms.invite.Invitation,java.lang.String):78:78 -> f
@@ -17733,9 +17733,9 @@ com.rz.gmsdemo.test.invitee.Invitee -> d.a.a.a.g.a:
     1:1:void testAccept(com.rz.gms.invite.Invitation):46:46 -> h
     1:1:void testRefuse(com.rz.gms.invite.Invitation):30:30 -> i
     1:1:void testcancel(com.rz.gms.invite.Invitation):62:62 -> j
-com.rz.gmsdemo.test.invitee.Invitee$setTestListener$1 -> d.a.a.a.g.a$a:
-    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
-    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee):85:85 -> <init>
+com.kotlin.myapplication.test.invitee.Invitee$setTestListener$1 -> d.a.a.a.g.a$a:
+    com.kotlin.myapplication.test.invitee.Invitee this$0 -> a
+    1:1:void <init>(com.kotlin.myapplication.test.invitee.Invitee):85:85 -> <init>
     1:2:void onAccepted(com.rz.gms.invite.Invitation):120:121 -> onAccepted
     1:2:void onArrived(com.rz.gms.invite.Invitation):94:95 -> onArrived
     3:4:void onArrived(com.rz.gms.invite.Invitation):105:106 -> onArrived
@@ -17747,26 +17747,26 @@ com.rz.gmsdemo.test.invitee.Invitee$setTestListener$1 -> d.a.a.a.g.a$a:
     2:2:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):89:89 -> onFailure
     3:3:void onFailure(com.rz.gms.invite.Invitation,com.rz.gms.invite.InvitationFailureReason):88:88 -> onFailure
     1:1:void onRefused(com.rz.gms.invite.Invitation):125:125 -> onRefused
-com.rz.gmsdemo.test.invitee.Invitee$testAccept$1 -> d.a.a.a.g.a$b:
-    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+com.kotlin.myapplication.test.invitee.Invitee$testAccept$1 -> d.a.a.a.g.a$b:
+    com.kotlin.myapplication.test.invitee.Invitee this$0 -> a
     com.rz.gms.invite.Invitation $invitation2 -> b
-    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation):46:46 -> <init>
+    1:1:void <init>(com.kotlin.myapplication.test.invitee.Invitee,com.rz.gms.invite.Invitation):46:46 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):48:48 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):54:54 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):52:52 -> onFailure
     1:1:void onSuccess(java.lang.Object):46:46 -> onSuccess
-com.rz.gmsdemo.test.invitee.Invitee$testRefuse$1 -> d.a.a.a.g.a$c:
-    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+com.kotlin.myapplication.test.invitee.Invitee$testRefuse$1 -> d.a.a.a.g.a$c:
+    com.kotlin.myapplication.test.invitee.Invitee this$0 -> a
     com.rz.gms.invite.Invitation $invitation2 -> b
-    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation):30:30 -> <init>
+    1:1:void <init>(com.kotlin.myapplication.test.invitee.Invitee,com.rz.gms.invite.Invitation):30:30 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):32:32 -> a
     1:1:void onFailure(com.rz.gms.ErrorInfo):38:38 -> onFailure
     2:2:void onFailure(com.rz.gms.ErrorInfo):36:36 -> onFailure
     1:1:void onSuccess(java.lang.Object):30:30 -> onSuccess
-com.rz.gmsdemo.test.invitee.Invitee$testcancel$1 -> d.a.a.a.g.a$d:
-    com.rz.gmsdemo.test.invitee.Invitee this$0 -> a
+com.kotlin.myapplication.test.invitee.Invitee$testcancel$1 -> d.a.a.a.g.a$d:
+    com.kotlin.myapplication.test.invitee.Invitee this$0 -> a
     com.rz.gms.invite.Invitation $invitation -> b
-    1:1:void <init>(com.rz.gmsdemo.test.invitee.Invitee,com.rz.gms.invite.Invitation):62:62 -> <init>
+    1:1:void <init>(com.kotlin.myapplication.test.invitee.Invitee,com.rz.gms.invite.Invitation):62:62 -> <init>
     1:1:void onSuccess(com.rz.gms.invite.Invitation):64:64 -> a
     1:2:void onFailure(com.rz.gms.ErrorInfo):69:70 -> onFailure
     3:3:void onFailure(com.rz.gms.ErrorInfo):68:68 -> onFailure
@@ -20248,7 +20248,7 @@ com.google.gson.stream.MalformedJsonException -> d.b.a.u.d:
     1:1:void <init>(java.lang.String):29:29 -> <init>
 com.kotlin.myapplication.MainActivity -> com.kotlin.myapplication.MainActivity:
     java.lang.String TEST_APPID -> w
-    com.rz.gmsdemo.test.TestManager testManger -> y
+    com.kotlin.myapplication.test.TestManager testManger -> y
     java.lang.String userId -> v
     java.lang.String TEST_APPKEY -> x
     com.rz.gms.channel.GMSChannel createChannel999 -> t

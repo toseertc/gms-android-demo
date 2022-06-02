@@ -1,14 +1,14 @@
-package com.rz.gmsdemo.test
+package com.kotlin.myapplication.test
 
 import android.content.Context
 import android.util.Log
-import com.rz.gms.ErrorInfo
-import com.rz.gms.ResultCallback
-import com.rz.gms.client.GMSClient
-import com.rz.gms.invite.GMSInvitationEventListener
-import com.rz.gms.invite.Invitation
-import com.rz.gms.invite.InvitationFailureReason
-import com.rz.gms.invite.InvitationManager
+import cn.tosee.gms.ErrorInfo
+import cn.tosee.gms.ResultCallback
+import cn.tosee.gms.client.GMSClient
+import cn.tosee.gms.invite.GMSInvitationEventListener
+import cn.tosee.gms.invite.Invitation
+import cn.tosee.gms.invite.InvitationFailureReason
+import cn.tosee.gms.invite.InvitationManager
 
 /*
  * Author: cqr

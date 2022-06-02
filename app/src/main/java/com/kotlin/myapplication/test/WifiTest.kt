@@ -1,7 +1,7 @@
-package com.rz.gmsdemo.test
+package com.kotlin.myapplication.test
 
-import com.rz.gms.channel.GMSChannel
-import com.rz.gms.client.GMSClient
+import cn.tosee.gms.channel.GMSChannel
+import cn.tosee.gms.client.GMSClient
 
 /*
  * Author: cqr

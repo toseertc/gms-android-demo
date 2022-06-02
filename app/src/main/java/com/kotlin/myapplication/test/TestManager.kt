@@ -1,13 +1,13 @@
-package com.rz.gmsdemo.test
+package com.kotlin.myapplication.test
 
 import android.content.Context
 import android.util.Log
-import com.rz.gmsdemo.test.invitee.Invitee
-import com.rz.gms.ErrorInfo
-import com.rz.gms.ResultCallback
-import com.rz.gms.bean.LoginParams
-import com.rz.gms.client.GMSClient
-import com.rz.gms.utils.TokenUtils
+import com.kotlin.myapplication.test.invitee.Invitee
+import cn.tosee.gms.ErrorInfo
+import cn.tosee.gms.ResultCallback
+import cn.tosee.gms.bean.LoginParams
+import cn.tosee.gms.client.GMSClient
+import cn.tosee.gms.utils.TokenUtils
 
 /*
  * Author: cqr
@@ -34,7 +34,7 @@ class TestManager(var createInstance: GMSClient, var userId: String, var context
     var timestamp: Long? = null
     private fun testLogin() {
         timestamp = System.currentTimeMillis();
-        token = TokenUtils.createToke(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
+        token = TokenUtils.createToken(TEST_APPID, userId, timestamp!!, TEST_APPKEY);
 
         createInstance?.login(
             LoginParams(token!!, userId!!, timestamp!!),

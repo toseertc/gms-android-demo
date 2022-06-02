@@ -1,11 +1,11 @@
-package com.rz.gmsdemo.test
+package com.kotlin.myapplication.test
 
 import android.util.Log
-import com.rz.gms.ErrorInfo
-import com.rz.gms.PeerSubscriptionOption
-import com.rz.gms.ResultCallback
-import com.rz.gms.client.GMSClient
-import com.rz.gms.connect.bean.GMSMessage
+import cn.tosee.gms.ErrorInfo
+import cn.tosee.gms.PeerSubscriptionOption
+import cn.tosee.gms.ResultCallback
+import cn.tosee.gms.client.GMSClient
+import cn.tosee.gms.connect.bean.GMSMessage
 
 /*
  * Author: cqr
